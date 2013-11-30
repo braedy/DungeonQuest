@@ -454,12 +454,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_ZHCpMFoIEeOEJOtzZXoAfg" name="" memberEnd="_ZHDQQFoIEeOEJOtzZXoAfg _ZHD3UFoIEeOEJOtzZXoAfg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_B5sG4FoKEeOEJOtzZXoAfg" clientDependency="_n8PCMFoQEeOEJOtzZXoAfg" name="DungeonChamber">
-      <ownedAttribute xmi:id="_tsuFAFoOEeOEJOtzZXoAfg" name="searchIcon">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_WFVSEFoQEeOEJOtzZXoAfg" name="timesSearched">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </ownedAttribute>
       <interfaceRealization xmi:id="_n8PCMFoQEeOEJOtzZXoAfg" client="_B5sG4FoKEeOEJOtzZXoAfg" supplier="_yMp0AFoOEeOEJOtzZXoAfg" contract="_yMp0AFoOEeOEJOtzZXoAfg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_F1tQgFoKEeOEJOtzZXoAfg" clientDependency="_nJ0GwFoQEeOEJOtzZXoAfg" name="TrapChamber">
@@ -491,6 +485,15 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_jpWfcFoKEeOEJOtzZXoAfg" name="exitWest">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tsuFAFoOEeOEJOtzZXoAfg" name="searchIcon">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J9-UIFoPEeOEJOtzZXoAfg" name="door">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MJDEkFoPEeOEJOtzZXoAfg" name="portcullis">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Y-GEYFoPEeOEJOtzZXoAfg" name="door">
