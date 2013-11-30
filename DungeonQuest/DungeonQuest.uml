@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
   <uml:Model xmi:id="_NxDnAFnJEeOEJOtzZXoAfg" name="DungeonQuest">
+    <eAnnotations xmi:id="_5iAwcFnsEeOEJOtzZXoAfg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_5iAwcVnsEeOEJOtzZXoAfg" source="dangling-refs">
+        <contents xmi:type="uml:InterfaceRealization" xmi:id="_cR3QIFnsEeOEJOtzZXoAfg" client="_3Zb6YFnsEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+      </contents>
+    </eAnnotations>
     <elementImport xmi:id="_RbkCgFnMEeOEJOtzZXoAfg">
       <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
     </elementImport>
@@ -35,6 +40,22 @@
       <ownedAttribute xmi:id="_f57wkFnMEeOEJOtzZXoAfg" name="cardInfo">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_Krt1oVnoEeOEJOtzZXoAfg" name="gameEngine" type="__esq8FnkEeOEJOtzZXoAfg" association="_Krt1oFnoEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KrucsFnoEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KrucsVnoEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_WqFkwFnrEeOEJOtzZXoAfg" name="getCardName">
+        <ownedParameter xmi:id="_WqFkwVnrEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_WqFkwlnrEeOEJOtzZXoAfg" name="Cards"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Y2z7AFnrEeOEJOtzZXoAfg" name="getCardInfo">
+        <ownedParameter xmi:id="_Y2z7AVnrEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Y20iEFnrEeOEJOtzZXoAfg" name="Cards"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xAjIsFnLEeOEJOtzZXoAfg" clientDependency="_SzOjkFnNEeOEJOtzZXoAfg" name="HeroCard" visibility="private">
       <ownedRule xmi:id="_-TC5gFnLEeOEJOtzZXoAfg" name="constraint1">
@@ -70,6 +91,24 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_SzOjkFnNEeOEJOtzZXoAfg" client="_xAjIsFnLEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_2WzDkFnqEeOEJOtzZXoAfg" name="updateLifeValue">
+        <ownedParameter xmi:id="_2WzDkVnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4NITEFnqEeOEJOtzZXoAfg" name="updateStrength">
+        <ownedParameter xmi:id="_4NITEVnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_6M39QFnqEeOEJOtzZXoAfg" name="updateAgility">
+        <ownedParameter xmi:id="_6M39QVnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8G4y4FnqEeOEJOtzZXoAfg" name="updateArmour">
+        <ownedParameter xmi:id="_8G4y4VnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9uMH4FnqEeOEJOtzZXoAfg" name="updateLuck">
+        <ownedParameter xmi:id="_9uMH4VnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AcZakFnrEeOEJOtzZXoAfg" name="updateLoot">
+        <ownedParameter xmi:id="_AcaBoFnrEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_I9RAgFnMEeOEJOtzZXoAfg" clientDependency="_TZAKIFnNEeOEJOtzZXoAfg" name="RuneCard">
       <ownedAttribute xmi:id="_wEYMoFnREeOEJOtzZXoAfg" name="spellName">
@@ -186,6 +225,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jhe8UlnWEeOEJOtzZXoAfg" value="1"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_d5IEgFnOEeOEJOtzZXoAfg" client="_Wz01wFnOEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_QziFQFnkEeOEJOtzZXoAfg" name="boostAttribute"/>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_GtTBoFnPEeOEJOtzZXoAfg" name="cardType"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_H8jqEFnPEeOEJOtzZXoAfg" name="Object"/>
@@ -198,6 +238,123 @@
     <packagedElement xmi:type="uml:DataType" xmi:id="_wNBgYFnTEeOEJOtzZXoAfg" name="List&lt;Token>"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_cIaGEFnUEeOEJOtzZXoAfg" name="" memberEnd="_cIaGEVnUEeOEJOtzZXoAfg _cIatIVnUEeOEJOtzZXoAfg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_JheVQFnWEeOEJOtzZXoAfg" name="" memberEnd="_Jhe8UFnWEeOEJOtzZXoAfg _Jhe8U1nWEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PVDHUFnfEeOEJOtzZXoAfg" name="Die">
+      <ownedAttribute xmi:id="_jyapwFnnEeOEJOtzZXoAfg" name="gameEngine" type="__esq8FnkEeOEJOtzZXoAfg" association="_jyaCsFnnEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jyapwVnnEeOEJOtzZXoAfg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyapwlnnEeOEJOtzZXoAfg" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_RHJ-IFnfEeOEJOtzZXoAfg" name="rollDie">
+        <ownedParameter xmi:id="_RHJ-IVnfEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bFBVcFnfEeOEJOtzZXoAfg" name="Player">
+      <ownedAttribute xmi:id="_p7rnsFnfEeOEJOtzZXoAfg" name="hero" type="_xAjIsFnLEeOEJOtzZXoAfg"/>
+      <ownedAttribute xmi:id="_6-NUkFnfEeOEJOtzZXoAfg" name="playerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_-CXCEFnfEeOEJOtzZXoAfg" name="gamerTag">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_9roHoFngEeOEJOtzZXoAfg" name="rune" type="_I9RAgFnMEeOEJOtzZXoAfg"/>
+      <ownedAttribute xmi:id="_tESoUFnoEeOEJOtzZXoAfg" name="gameEngine" type="__esq8FnkEeOEJOtzZXoAfg" association="_tESBQFnoEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tESoUVnoEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tESoUlnoEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5nHaQFnpEeOEJOtzZXoAfg" name="personalDeck">
+        <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Q6YFYFnqEeOEJOtzZXoAfg" name="inCatacombs">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MfYEQFnrEeOEJOtzZXoAfg" name="dead">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_GSwpoFnuEeOEJOtzZXoAfg" name="getPlayerNo">
+        <ownedParameter xmi:id="_GSwpoVnuEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__esq8FnkEeOEJOtzZXoAfg" name="GameEngine">
+      <ownedAttribute xmi:id="_jyapw1nnEeOEJOtzZXoAfg" name="die" type="_PVDHUFnfEeOEJOtzZXoAfg" aggregation="shared" association="_jyaCsFnnEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jybQ0FnnEeOEJOtzZXoAfg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jybQ0VnnEeOEJOtzZXoAfg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KrucslnoEeOEJOtzZXoAfg" name="cards" type="_D_CocFnLEeOEJOtzZXoAfg" aggregation="composite" association="_Krt1oFnoEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Krucs1noEeOEJOtzZXoAfg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KructFnoEeOEJOtzZXoAfg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tETPYFnoEeOEJOtzZXoAfg" name="player" type="_bFBVcFnfEeOEJOtzZXoAfg" aggregation="composite" association="_tESBQFnoEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tETPYVnoEeOEJOtzZXoAfg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tETPYlnoEeOEJOtzZXoAfg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1Z6IElnrEeOEJOtzZXoAfg" name="tokens" type="_z09jgFnrEeOEJOtzZXoAfg" aggregation="composite" association="_1Z5hAFnrEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Z6IE1nrEeOEJOtzZXoAfg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Z6vIFnrEeOEJOtzZXoAfg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CypY4FnuEeOEJOtzZXoAfg" name="currentTurn" type="_bFBVcFnfEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_42drUFnnEeOEJOtzZXoAfg" name="drawCard"/>
+      <ownedOperation xmi:id="_YiaDMFnpEeOEJOtzZXoAfg" name="updatePlayer">
+        <ownedParameter xmi:id="_YiaDMVnpEeOEJOtzZXoAfg" name="Player"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_fI-ukFnpEeOEJOtzZXoAfg" name="playerDeath">
+        <ownedParameter xmi:id="_fI-ukVnpEeOEJOtzZXoAfg" name="Player"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_dmqx0FnqEeOEJOtzZXoAfg" name="dealDamage">
+        <ownedParameter xmi:id="_dmrY4FnqEeOEJOtzZXoAfg" name="String"/>
+        <ownedParameter xmi:id="_dmrY4VnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_iGKb8FnqEeOEJOtzZXoAfg" name="receiveDamage">
+        <ownedParameter xmi:id="_iGKb8VnqEeOEJOtzZXoAfg" name="String"/>
+        <ownedParameter xmi:id="_iGKb8lnqEeOEJOtzZXoAfg" name="int"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_zgTQMFntEeOEJOtzZXoAfg" name="addPlayerToken">
+        <ownedParameter xmi:id="_zgT3QFntEeOEJOtzZXoAfg" name="Player"/>
+        <ownedParameter xmi:id="_zgT3QVntEeOEJOtzZXoAfg" name="Tokens"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_3yEnYFntEeOEJOtzZXoAfg" name="removePlayerToken">
+        <ownedParameter xmi:id="_3yEnYVntEeOEJOtzZXoAfg" name="Player"/>
+        <ownedParameter xmi:id="_3yEnYlntEeOEJOtzZXoAfg" name="Tokens"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_fBgbUFnuEeOEJOtzZXoAfg" name="nextTurn"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jyaCsFnnEeOEJOtzZXoAfg" name="" memberEnd="_jyapwFnnEeOEJOtzZXoAfg _jyapw1nnEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Krt1oFnoEeOEJOtzZXoAfg" name="" memberEnd="_Krt1oVnoEeOEJOtzZXoAfg _KrucslnoEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tESBQFnoEeOEJOtzZXoAfg" name="" memberEnd="_tESoUFnoEeOEJOtzZXoAfg _tETPYFnoEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_z09jgFnrEeOEJOtzZXoAfg" name="Tokens">
+      <ownedAttribute xmi:id="_DzWaMFnpEeOEJOtzZXoAfg" name="tokenType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1Z5hAVnrEeOEJOtzZXoAfg" name="gameEngine" type="__esq8FnkEeOEJOtzZXoAfg" association="_1Z5hAFnrEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Z6IEFnrEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Z6IEVnrEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Hoc_UFnwEeOEJOtzZXoAfg" name="tokenInfo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1Z5hAFnrEeOEJOtzZXoAfg" name="" memberEnd="_1Z5hAVnrEeOEJOtzZXoAfg _1Z6IElnrEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_R1q-EFnsEeOEJOtzZXoAfg" clientDependency="_c-g6wFnsEeOEJOtzZXoAfg" name="WoundToken">
+      <interfaceRealization xmi:id="_c-g6wFnsEeOEJOtzZXoAfg" client="_R1q-EFnsEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3Zb6YFnsEeOEJOtzZXoAfg" clientDependency="_cR3QIFnsEeOEJOtzZXoAfg _EXfsQFntEeOEJOtzZXoAfg" name="DeterminationToken">
+      <interfaceRealization xmi:id="_EXfsQFntEeOEJOtzZXoAfg" client="_3Zb6YFnsEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RrZgYFnvEeOEJOtzZXoAfg" clientDependency="_reJswFnvEeOEJOtzZXoAfg" name="MonsterToken">
+      <ownedAttribute xmi:id="_XLIfgFnvEeOEJOtzZXoAfg" name="monsterType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_reJswFnvEeOEJOtzZXoAfg" client="_RrZgYFnvEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cWyFAFnvEeOEJOtzZXoAfg" clientDependency="_sdN9EFnvEeOEJOtzZXoAfg" name="CatacombEntrance">
+      <interfaceRealization xmi:id="_sdN9EFnvEeOEJOtzZXoAfg" client="_cWyFAFnvEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jrSNYFnvEeOEJOtzZXoAfg" clientDependency="_tYIGIFnvEeOEJOtzZXoAfg" name="TravelMarker">
+      <ownedAttribute xmi:id="_pGFCIFnvEeOEJOtzZXoAfg" name="traveller" type="_bFBVcFnfEeOEJOtzZXoAfg"/>
+      <interfaceRealization xmi:id="_tYIGIFnvEeOEJOtzZXoAfg" client="_jrSNYFnvEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
+    </packagedElement>
     <profileApplication xmi:id="_Gt2bQFnPEeOEJOtzZXoAfg">
       <eAnnotations xmi:id="_Gt4QcFnPEeOEJOtzZXoAfg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
