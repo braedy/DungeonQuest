@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_NxDnAFnJEeOEJOtzZXoAfg" name="DungeonQuest">
+    <elementImport xmi:id="_RbkCgFnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkpkFnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkpkVnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkpklnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Rbkpk1nMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkplFnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkplVnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_RbkpllnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Rbl3sFnMEeOEJOtzZXoAfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_D_CocFnLEeOEJOtzZXoAfg" name="Cards">
+      <ownedAttribute xmi:id="_c5OYoFnMEeOEJOtzZXoAfg" name="cardName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_f57wkFnMEeOEJOtzZXoAfg" name="cardInfo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xAjIsFnLEeOEJOtzZXoAfg" clientDependency="_SzOjkFnNEeOEJOtzZXoAfg" name="HeroCard" visibility="private">
+      <ownedRule xmi:id="_-TC5gFnLEeOEJOtzZXoAfg" name="constraint1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_-TC5gVnLEeOEJOtzZXoAfg"/>
+      </ownedRule>
+      <ownedAttribute xmi:id="_v5KQkFnQEeOEJOtzZXoAfg" name="lifeValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_y2x4QFnQEeOEJOtzZXoAfg" name="strength">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8i4KIFnQEeOEJOtzZXoAfg" name="agility">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_94fSMFnQEeOEJOtzZXoAfg" name="armour">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="__9AHoFnQEeOEJOtzZXoAfg" name="luck">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_cIatIVnUEeOEJOtzZXoAfg" name="runeCard" type="_I9RAgFnMEeOEJOtzZXoAfg" aggregation="shared" association="_cIaGEFnUEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cIatIlnUEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cIatI1nUEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_uIFXsFnUEeOEJOtzZXoAfg" name="activeTokens">
+        <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Jhe8U1nWEeOEJOtzZXoAfg" name="powerCard" type="_Wz01wFnOEeOEJOtzZXoAfg" aggregation="shared" association="_JheVQFnWEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JhfjYFnWEeOEJOtzZXoAfg" value="4"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JhfjYVnWEeOEJOtzZXoAfg" value="4"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zkaZUFnbEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_SzOjkFnNEeOEJOtzZXoAfg" client="_xAjIsFnLEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_I9RAgFnMEeOEJOtzZXoAfg" clientDependency="_TZAKIFnNEeOEJOtzZXoAfg" name="RuneCard">
+      <ownedAttribute xmi:id="_wEYMoFnREeOEJOtzZXoAfg" name="spellName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_cIaGEVnUEeOEJOtzZXoAfg" name="heroCard" type="_xAjIsFnLEeOEJOtzZXoAfg" association="_cIaGEFnUEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cIaGElnUEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cIatIFnUEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_TZAKIFnNEeOEJOtzZXoAfg" client="_I9RAgFnMEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_G9bA8FnSEeOEJOtzZXoAfg" name="spell"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZaoVYFnNEeOEJOtzZXoAfg" clientDependency="_cwVs8FnNEeOEJOtzZXoAfg" name="DungeonCard">
+      <interfaceRealization xmi:id="_cwVs8FnNEeOEJOtzZXoAfg" client="_ZaoVYFnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_BQHGkFnXEeOEJOtzZXoAfg" name="drawCard"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ieZb8FnNEeOEJOtzZXoAfg" clientDependency="_lXGHYFnNEeOEJOtzZXoAfg" name="DragonCard">
+      <ownedAttribute xmi:id="_uuW_cFnSEeOEJOtzZXoAfg" name="wakeDragon">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_rBak4FnYEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_lXGHYFnNEeOEJOtzZXoAfg" client="_ieZb8FnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_en978FnYEeOEJOtzZXoAfg" name="dragonDamage">
+        <ownedParameter xmi:id="_en-jAFnYEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_en-jAVnYEeOEJOtzZXoAfg" name="wakeDragon"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pVmkUFnNEeOEJOtzZXoAfg" clientDependency="_ivZP4FnOEeOEJOtzZXoAfg" name="TreasureCard">
+      <ownedAttribute xmi:id="_ijJ3wFnbEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_ivZP4FnOEeOEJOtzZXoAfg" client="_pVmkUFnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sQC8MFnNEeOEJOtzZXoAfg" clientDependency="_lHwOYFnOEeOEJOtzZXoAfg" name="TrapCard">
+      <ownedAttribute xmi:id="_7Aa0sFnXEeOEJOtzZXoAfg" name="testValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_W2RhQFnYEeOEJOtzZXoAfg" name="attributeTested">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_lHwOYFnOEeOEJOtzZXoAfg" client="_sQC8MFnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2A3WAFnNEeOEJOtzZXoAfg" clientDependency="_c_ft0FnOEeOEJOtzZXoAfg" name="DoorCard">
+      <ownedAttribute xmi:id="_XitYMFnSEeOEJOtzZXoAfg" name="success">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_c_ft0FnOEeOEJOtzZXoAfg" client="_2A3WAFnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4LZ68FnNEeOEJOtzZXoAfg" clientDependency="_cNSNwFnOEeOEJOtzZXoAfg" name="CryptCard">
+      <ownedAttribute xmi:id="_USfLUFnXEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1XqnAFnYEeOEJOtzZXoAfg" name="cryptGuardian">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_cNSNwFnOEeOEJOtzZXoAfg" client="_4LZ68FnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_5Rf_UFnYEeOEJOtzZXoAfg" name="guardianDamage">
+        <ownedParameter xmi:id="_5Rf_UVnYEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_5RgmYFnYEeOEJOtzZXoAfg" name="cryptGuardian"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6adzgFnNEeOEJOtzZXoAfg" clientDependency="_kdnsQFnOEeOEJOtzZXoAfg" name="CorpseCard">
+      <ownedAttribute xmi:id="_gRCoAFnXEeOEJOtzZXoAfg" name="scorpions">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hctw8FnXEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_kdnsQFnOEeOEJOtzZXoAfg" client="_6adzgFnNEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_pNMqsFnXEeOEJOtzZXoAfg" name="scorpionDamage">
+        <ownedParameter xmi:id="_pNMqsVnXEeOEJOtzZXoAfg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pNMqslnXEeOEJOtzZXoAfg" name="scorpions"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KyGJQFnOEeOEJOtzZXoAfg" clientDependency="_jxZfcFnOEeOEJOtzZXoAfg" name="SearchCard">
+      <interfaceRealization xmi:id="_jxZfcFnOEeOEJOtzZXoAfg" client="_KyGJQFnOEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+      <ownedOperation xmi:id="_fbBpMFnbEeOEJOtzZXoAfg" name="drawCard"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OwlYEFnOEeOEJOtzZXoAfg" clientDependency="_iHW_gFnOEeOEJOtzZXoAfg" name="CatacombCard">
+      <ownedAttribute xmi:id="_QXKd4FnaEeOEJOtzZXoAfg" name="loot">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_vRdy4FnaEeOEJOtzZXoAfg" name="attributeTest">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_iHW_gFnOEeOEJOtzZXoAfg" client="_OwlYEFnOEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RWBJQFnOEeOEJOtzZXoAfg" clientDependency="_hhM-cFnOEeOEJOtzZXoAfg" name="CombatCard">
+      <ownedAttribute xmi:id="_l3N7cFnZEeOEJOtzZXoAfg" name="attackType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_olQPAFnZEeOEJOtzZXoAfg" name="attackValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_hhM-cFnOEeOEJOtzZXoAfg" client="_RWBJQFnOEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wz01wFnOEeOEJOtzZXoAfg" clientDependency="_d5IEgFnOEeOEJOtzZXoAfg" name="PowerCard">
+      <ownedAttribute xmi:id="_JcUk8FnVEeOEJOtzZXoAfg" name="escapeValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KxKQ8FnVEeOEJOtzZXoAfg" name="damageValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Jhe8UFnWEeOEJOtzZXoAfg" name="heroCard" type="_xAjIsFnLEeOEJOtzZXoAfg" association="_JheVQFnWEeOEJOtzZXoAfg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jhe8UVnWEeOEJOtzZXoAfg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jhe8UlnWEeOEJOtzZXoAfg" value="1"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_d5IEgFnOEeOEJOtzZXoAfg" client="_Wz01wFnOEeOEJOtzZXoAfg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_GtTBoFnPEeOEJOtzZXoAfg" name="cardType"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_H8jqEFnPEeOEJOtzZXoAfg" name="Object"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_MgLpcFnTEeOEJOtzZXoAfg" name="activeTokens"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_PvihYFnTEeOEJOtzZXoAfg" name="Object[]"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_Qrz8YFnTEeOEJOtzZXoAfg" name="Object[ ]"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_SllhcFnTEeOEJOtzZXoAfg" name="[Object]"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_kcR2MFnTEeOEJOtzZXoAfg" name="List"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mr8ywFnTEeOEJOtzZXoAfg" name="List&lt;Object>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_wNBgYFnTEeOEJOtzZXoAfg" name="List&lt;Token>"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_cIaGEFnUEeOEJOtzZXoAfg" name="" memberEnd="_cIaGEVnUEeOEJOtzZXoAfg _cIatIVnUEeOEJOtzZXoAfg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_JheVQFnWEeOEJOtzZXoAfg" name="" memberEnd="_Jhe8UFnWEeOEJOtzZXoAfg _Jhe8U1nWEeOEJOtzZXoAfg"/>
+    <profileApplication xmi:id="_Gt2bQFnPEeOEJOtzZXoAfg">
+      <eAnnotations xmi:id="_Gt4QcFnPEeOEJOtzZXoAfg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:UnresolvedElement xmi:id="_Gt8h4FnPEeOEJOtzZXoAfg" base_Element="_GtTBoFnPEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_H8mGUFnPEeOEJOtzZXoAfg" base_Element="_H8jqEFnPEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_MgM3kFnTEeOEJOtzZXoAfg" base_Element="_MgLpcFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_PvjvgFnTEeOEJOtzZXoAfg" base_Element="_PvihYFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_Qr1xkFnTEeOEJOtzZXoAfg" base_Element="_Qrz8YFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_SlnWoFnTEeOEJOtzZXoAfg" base_Element="_SllhcFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_kcTrYFnTEeOEJOtzZXoAfg" base_Element="_kcR2MFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_mr-A4FnTEeOEJOtzZXoAfg" base_Element="_mr8ywFnTEeOEJOtzZXoAfg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_wNCugFnTEeOEJOtzZXoAfg" base_Element="_wNBgYFnTEeOEJOtzZXoAfg"/>
+</xmi:XMI>
