@@ -415,6 +415,9 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xkISkFtaEeOmZ9VcqiNTzg" value="4"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xkISkVtaEeOmZ9VcqiNTzg" value="4"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_nxxVwFtcEeOmZ9VcqiNTzg" name="lifeValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
       <interfaceRealization xmi:id="_reJswFnvEeOEJOtzZXoAfg" client="_RrZgYFnvEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cWyFAFnvEeOEJOtzZXoAfg" clientDependency="_sdN9EFnvEeOEJOtzZXoAfg" name="CatacombEntrance">
