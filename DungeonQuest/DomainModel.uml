@@ -50,10 +50,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lfFAwV3VEeOmZ9VcqiNTzg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lfFAwl3VEeOmZ9VcqiNTzg" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_R28xUF3aEeOmZ9VcqiNTzg" name="chamber" type="_IIRFgF3aEeOmZ9VcqiNTzg" aggregation="composite" association="_R27jMF3aEeOmZ9VcqiNTzg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R28xUV3aEeOmZ9VcqiNTzg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R28xUl3aEeOmZ9VcqiNTzg" value="*"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_vZllQF3ZEeOmZ9VcqiNTzg" name="playerInteraction"/>
       <ownedOperation xmi:id="_9G1YYF3ZEeOmZ9VcqiNTzg" name="rollDice"/>
       <ownedOperation xmi:id="__DrfkF3ZEeOmZ9VcqiNTzg" name="startTimer"/>
@@ -112,14 +108,9 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_cPz_YF3WEeOmZ9VcqiNTzg" name="is assigned" memberEnd="_cP1NgF3WEeOmZ9VcqiNTzg _cP10kF3WEeOmZ9VcqiNTzg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_HWuT0F3aEeOmZ9VcqiNTzg" name="NewClass3"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_IIRFgF3aEeOmZ9VcqiNTzg" name="Chamber">
-      <ownedAttribute xmi:id="_J3-IkF3aEeOmZ9VcqiNTzg" name="chamberType"/>
-      <ownedAttribute xmi:id="_LxEYMF3aEeOmZ9VcqiNTzg" name="chamberInfo"/>
-      <ownedAttribute xmi:id="_R28KQF3aEeOmZ9VcqiNTzg" name="gameboard" type="_idke8F3SEeOmZ9VcqiNTzg" association="_R27jMF3aEeOmZ9VcqiNTzg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R28KQV3aEeOmZ9VcqiNTzg" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R28KQl3aEeOmZ9VcqiNTzg" value="1"/>
-      </ownedAttribute>
+      <ownedAttribute xmi:id="_J3-IkF3aEeOmZ9VcqiNTzg" name="chamberType" type="_iYe4sF3UEeOmZ9VcqiNTzg"/>
+      <ownedAttribute xmi:id="_LxEYMF3aEeOmZ9VcqiNTzg" name="chamberInfo" type="_iYe4sF3UEeOmZ9VcqiNTzg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_R27jMF3aEeOmZ9VcqiNTzg" name="composed of" memberEnd="_R28KQF3aEeOmZ9VcqiNTzg _R28xUF3aEeOmZ9VcqiNTzg"/>
     <profileApplication xmi:id="_iYe4sV3UEeOmZ9VcqiNTzg">
       <eAnnotations xmi:id="_iYhU8F3UEeOmZ9VcqiNTzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
