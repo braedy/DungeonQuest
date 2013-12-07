@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1vKGsF7KEeOmZ9VcqiNTzg">
+  <modelElement href="gameboard.uml#_1lt20F7KEeOmZ9VcqiNTzg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zFk_4F7LEeOmZ9VcqiNTzg" sourceAnchor="297.0,79.0" targetAnchor="284.0,60.0" target="_YuxrQF7LEeOmZ9VcqiNTzg" source="_E8EVwF7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_zFjKsF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_zFk_4V7LEeOmZ9VcqiNTzg"/>
+    <bendpoints xmi:id="_Hb-b0F7NEeOmZ9VcqiNTzg" sourceX="264" sourceY="1" targetX="273" targetY="-211"/>
+    <bendpoints xmi:id="_Hb-b0V7NEeOmZ9VcqiNTzg" sourceX="264" sourceY="212" targetX="273"/>
+    <nameVisual xmi:id="_zFk_4l7LEeOmZ9VcqiNTzg" text="">
+      <visualProperties xmi:id="_zNqk4V7LEeOmZ9VcqiNTzg" position="-17.0,-64.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zFk_417LEeOmZ9VcqiNTzg" aggregationKind="NONE" name="gameBoard" navigable="true">
+      <modelElement href="gameboard.uml#_zFjKsV7LEeOmZ9VcqiNTzg"/>
+      <visualProperties xmi:id="_zNqk4F7LEeOmZ9VcqiNTzg" position="48.0,2.0"/>
+      <visibility xmi:id="_zFk_5F7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_zFk_5V7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zFk_5l7LEeOmZ9VcqiNTzg" aggregationKind="NONE" name="abstractChamberFactory" navigable="true">
+      <modelElement href="gameboard.uml#_zFjxwl7LEeOmZ9VcqiNTzg"/>
+      <visualProperties xmi:id="_zNrL8F7LEeOmZ9VcqiNTzg" position="43.0,7.0"/>
+      <visibility xmi:id="_zFk_517LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_zFk_6F7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_60sAoF7LEeOmZ9VcqiNTzg" sourceAnchor="138.0,0.0" targetAnchor="140.0,122.0" superClass="_YuxrQF7LEeOmZ9VcqiNTzg" subClass="_4L-R8F7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_60rZkF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_60sAoV7LEeOmZ9VcqiNTzg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RsJgkF7MEeOmZ9VcqiNTzg" sourceAnchor="243.0,50.0" targetAnchor="0.0,135.0" dashed="true" superClass="_Rt2wwF7MEeOmZ9VcqiNTzg" subClass="_-nFUMF7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_Rn4roF7MEeOmZ9VcqiNTzg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_U-rBQF7MEeOmZ9VcqiNTzg" sourceAnchor="121.0,0.0" targetAnchor="137.0,63.0" target="_4L-R8F7LEeOmZ9VcqiNTzg" source="_-nFUMF7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_U-pzIF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_U-rBQV7MEeOmZ9VcqiNTzg"/>
+    <nameVisual xmi:id="_U-rBQl7MEeOmZ9VcqiNTzg" text="">
+      <visualProperties xmi:id="_VHe_AF7MEeOmZ9VcqiNTzg" position="-18.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_U-rBQ17MEeOmZ9VcqiNTzg" aggregationKind="NONE" name="chamber" navigable="true">
+      <modelElement href="gameboard.uml#_U-pzIV7MEeOmZ9VcqiNTzg"/>
+      <visualProperties xmi:id="_VHeX8F7MEeOmZ9VcqiNTzg" position="-104.0,-42.0"/>
+      <visibility xmi:id="_U-rBRF7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_U-rBRV7MEeOmZ9VcqiNTzg" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_U-rBRl7MEeOmZ9VcqiNTzg" aggregationKind="NONE" name="chamberFactory" navigable="true">
+      <modelElement href="gameboard.uml#_U-pzJF7MEeOmZ9VcqiNTzg"/>
+      <visualProperties xmi:id="_VHe_AV7MEeOmZ9VcqiNTzg" position="2.0,13.0"/>
+      <visibility xmi:id="_U-rBR17MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_U-rBSF7MEeOmZ9VcqiNTzg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_l4hTQF7MEeOmZ9VcqiNTzg" sourceAnchor="188.0,18.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_i3NeYF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_l4gFIF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_l4hTQV7MEeOmZ9VcqiNTzg"/>
+    <bendpoints xmi:id="_Hb_C617NEeOmZ9VcqiNTzg" sourceX="45" targetX="-137" targetY="35"/>
+    <bendpoints xmi:id="_Hb_p8F7NEeOmZ9VcqiNTzg" sourceX="45" sourceY="-35" targetX="-137"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_maFIMF7MEeOmZ9VcqiNTzg" sourceAnchor="133.0,25.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_gvwCoF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_maEhIF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_maFIMV7MEeOmZ9VcqiNTzg"/>
+    <bendpoints xmi:id="_Hb_C5l7NEeOmZ9VcqiNTzg" sourceX="100" targetX="-137" targetY="-30"/>
+    <bendpoints xmi:id="_Hb_C517NEeOmZ9VcqiNTzg" sourceX="100" sourceY="30" targetX="-137"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nEQtoF7MEeOmZ9VcqiNTzg" sourceAnchor="173.0,27.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_d17V0V7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_nEQGkF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_nEQtoV7MEeOmZ9VcqiNTzg"/>
+    <bendpoints xmi:id="_Hb_C4l7NEeOmZ9VcqiNTzg" sourceX="60" targetX="-137" targetY="-98"/>
+    <bendpoints xmi:id="_Hb_C417NEeOmZ9VcqiNTzg" sourceX="60" sourceY="98" targetX="-137"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nwHuEF7MEeOmZ9VcqiNTzg" sourceAnchor="164.0,39.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_bHQJEF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_nwHHAF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_nwHuEV7MEeOmZ9VcqiNTzg"/>
+    <bendpoints xmi:id="_Hb_p9l7NEeOmZ9VcqiNTzg" sourceX="30" targetX="-137" targetY="-164"/>
+    <bendpoints xmi:id="_Hb_p917NEeOmZ9VcqiNTzg" sourceX="30" sourceY="164" targetX="-137"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_r69W0F7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,88.0" targetAnchor="313.0,114.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_E8EVwF7LEeOmZ9VcqiNTzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_sabhEF7MEeOmZ9VcqiNTzg" sourceAnchor="142.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_YuxrQF7LEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb_p9F7NEeOmZ9VcqiNTzg" sourceY="-13" targetX="362" targetY="13"/>
+    <bendpoints xmi:id="_Hb_p9V7NEeOmZ9VcqiNTzg" sourceX="-362" sourceY="-13" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_tKVUAF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_4L-R8F7LEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb-b0l7NEeOmZ9VcqiNTzg" sourceX="-49" targetX="173" targetY="230"/>
+    <bendpoints xmi:id="_Hb-b017NEeOmZ9VcqiNTzg" sourceX="-49" sourceY="-217" targetX="173" targetY="13"/>
+    <bendpoints xmi:id="_Hb-b1F7NEeOmZ9VcqiNTzg" sourceX="-222" sourceY="-217" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_tvnyYF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,20.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_-nFUMF7LEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb-b1V7NEeOmZ9VcqiNTzg" sourceX="-115" targetX="123" targetY="364"/>
+    <bendpoints xmi:id="_Hb-b1l7NEeOmZ9VcqiNTzg" sourceX="-115" sourceY="-351" targetX="123" targetY="13"/>
+    <bendpoints xmi:id="_Hb-b117NEeOmZ9VcqiNTzg" sourceX="-238" sourceY="-351" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_wYKh8F7MEeOmZ9VcqiNTzg" sourceAnchor="97.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_Rt2wwF7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb_C4F7NEeOmZ9VcqiNTzg" sourceY="-246" targetX="667" targetY="13"/>
+    <bendpoints xmi:id="_Hb_C4V7NEeOmZ9VcqiNTzg" sourceX="-667" sourceY="-246" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xZHooF7MEeOmZ9VcqiNTzg" sourceAnchor="93.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_bHQJEF7MEeOmZ9VcqiNTzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xw4BUF7MEeOmZ9VcqiNTzg" sourceAnchor="24.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_d17V0V7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb_C5F7NEeOmZ9VcqiNTzg" sourceY="-256" targetX="-108" targetY="13"/>
+    <bendpoints xmi:id="_Hb_C5V7NEeOmZ9VcqiNTzg" sourceX="108" sourceY="-256" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_yNcokF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_gvwCoF7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb_C6F7NEeOmZ9VcqiNTzg" sourceX="-40" targetX="-172" targetY="366"/>
+    <bendpoints xmi:id="_Hb_C6V7NEeOmZ9VcqiNTzg" sourceX="-40" sourceY="-353" targetX="-172" targetY="13"/>
+    <bendpoints xmi:id="_Hb_C6l7NEeOmZ9VcqiNTzg" sourceX="132" sourceY="-353" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_yvYQ8F7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_i3NeYF7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_Hb_p8V7NEeOmZ9VcqiNTzg" sourceX="-70" targetX="-202" targetY="438"/>
+    <bendpoints xmi:id="_Hb_p8l7NEeOmZ9VcqiNTzg" sourceX="-70" sourceY="-425" targetX="-202" targetY="13"/>
+    <bendpoints xmi:id="_Hb_p817NEeOmZ9VcqiNTzg" sourceX="132" sourceY="-425" targetY="13"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E8EVwF7LEeOmZ9VcqiNTzg" containment="_r69W0F7MEeOmZ9VcqiNTzg" name="GameBoard" package="_3L2uMV7KEeOmZ9VcqiNTzg" associationsOut="_zFk_4F7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_E8DusF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_E8EVwV7LEeOmZ9VcqiNTzg" position="365.0,33.0" size="297.0,164.0"/>
+    <visibility xmi:id="_E8EVwl7LEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_HCIDUF7LEeOmZ9VcqiNTzg" name="dungeonGrid" staticAttribute="true">
+      <modelElement href="gameboard.uml#_HCG1MF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_HCIDUV7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_HCIDUl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_JCUZcF7LEeOmZ9VcqiNTzg" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmOAF7LEeOmZ9VcqiNTzg" name="abstractChamberFactory">
+      <modelElement href="gameboard.uml#_zFjxwl7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_zFmOAV7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_zFmOAl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmOA17LEeOmZ9VcqiNTzg" name="AbstractChamberFactory">
+        <modelElement href="gameboard.uml#_YuxEMF7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OD0kcF7LEeOmZ9VcqiNTzg" name="init">
+      <modelElement href="gameboard.uml#_ODz9YF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_OD0kcV7LEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_OstJYF7LEeOmZ9VcqiNTzg" name="addChamber">
+      <modelElement href="gameboard.uml#_OssiUF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_OstJYV7LEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_RP1Nc17LEeOmZ9VcqiNTzg" name="currentChamber">
+      <modelElement href="gameboard.uml#_RP1NcF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_RP1NdF7LEeOmZ9VcqiNTzg" label="+"/>
+      <outParameters xmi:id="_RP1NdV7LEeOmZ9VcqiNTzg">
+        <modelElement href="gameboard.uml#_RP1NcV7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_9Q_mYF9MEeOmZ9VcqiNTzg" name="Chamber">
+          <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RP1Nd17LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_RP1Ncl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TnExoF7LEeOmZ9VcqiNTzg" name="addBoardTokens">
+      <modelElement href="gameboard.uml#_TnEKkF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_TnExoV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_TnExol7LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_TnEKkV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_TnExo17LEeOmZ9VcqiNTzg" name="Token">
+        <modelElement href="gameboard.uml#_TnEKkl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VMf3UF7LEeOmZ9VcqiNTzg" name="removeBoardTokens">
+      <modelElement href="gameboard.uml#_VMfQQF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_VMf3UV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_VMf3Ul7LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_VMfQQV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_VMf3U17LEeOmZ9VcqiNTzg" name="Token">
+        <modelElement href="gameboard.uml#_VMfQQl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4L-R8F7LEeOmZ9VcqiNTzg" containment="_tKVUAF7MEeOmZ9VcqiNTzg" name="ChamberFactory" package="_3L2uMV7KEeOmZ9VcqiNTzg" associationsIn="_U-rBQF7MEeOmZ9VcqiNTzg" generalizations="_60sAoF7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_4L9q4F7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_4L-R8V7LEeOmZ9VcqiNTzg" position="371.0,441.0" size="281.0,62.0"/>
+    <visibility xmi:id="_4L-R8l7LEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_U-roUF7MEeOmZ9VcqiNTzg" name="chamber">
+      <modelElement href="gameboard.uml#_U-pzIV7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_U-roUV7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_U-roUl7MEeOmZ9VcqiNTzg" label="*" max="-1"/>
+      <type xmi:id="_U-roU17MEeOmZ9VcqiNTzg" name="Chamber">
+        <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rt2wwF7MEeOmZ9VcqiNTzg" containment="_wYKh8F7MEeOmZ9VcqiNTzg" name="ChamberInterface" package="_3L2uMV7KEeOmZ9VcqiNTzg" subclassedBy="_RsJgkF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_Rn2PYF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_CDctYV7MEeOmZ9VcqiNTzg" position="719.0,497.0" size="194.0,188.0"/>
+    <visibility xmi:id="_Rt2wwl7MEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_Rt2ww17MEeOmZ9VcqiNTzg" name="exitNorth">
+      <modelElement href="gameboard.uml#_FB0jAF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2wxF7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2wxV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2wxl7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2wx17MEeOmZ9VcqiNTzg" name="exitSouth">
+      <modelElement href="gameboard.uml#_F5gY8F7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2wyF7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2wyV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2wyl7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2wy17MEeOmZ9VcqiNTzg" name="exitEast">
+      <modelElement href="gameboard.uml#_GxjbQF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2wzF7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2wzV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2wzl7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2wz17MEeOmZ9VcqiNTzg" name="exitWest">
+      <modelElement href="gameboard.uml#_Hsjq8F7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2w0F7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2w0V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2w0l7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2w017MEeOmZ9VcqiNTzg" name="searchIcon">
+      <modelElement href="gameboard.uml#_Iu9jIF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2w1F7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2w1V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2w1l7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2w117MEeOmZ9VcqiNTzg" name="door">
+      <modelElement href="gameboard.uml#_Ke0XMF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2w2F7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2w2V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2w2l7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rt2w217MEeOmZ9VcqiNTzg" name="portcullis">
+      <modelElement href="gameboard.uml#_O9PDQF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2w3F7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2w3V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2w3l7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_d17V0V7MEeOmZ9VcqiNTzg" containment="_xw4BUF7MEeOmZ9VcqiNTzg" name="TrapChamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_nEQtoF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_d17V0F7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_d17V0l7MEeOmZ9VcqiNTzg" position="17.0,507.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_d17V017MEeOmZ9VcqiNTzg" label="+"/>
+    <operations xmi:id="_fzsDAF7MEeOmZ9VcqiNTzg" name="drawCard">
+      <modelElement href="gameboard.uml#_fzrb8F7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_fzsDAV7MEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_fzsDAl7MEeOmZ9VcqiNTzg" name="TrapCard">
+        <modelElement href="gameboard.uml#_fzrb8V7MEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gvwCoF7MEeOmZ9VcqiNTzg" containment="_yNcokF7MEeOmZ9VcqiNTzg" name="TowerRoom" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_maFIMF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_gvvbkF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_gvwCoV7MEeOmZ9VcqiNTzg" position="17.0,577.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gvwCol7MEeOmZ9VcqiNTzg" label="+"/>
+    <operations xmi:id="_iR05YF7MEeOmZ9VcqiNTzg" name="finish">
+      <modelElement href="gameboard.uml#_iR0SUF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_iR05YV7MEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_iR05Yl7MEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_iR0SUV7MEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i3NeYF7MEeOmZ9VcqiNTzg" containment="_yvYQ8F7MEeOmZ9VcqiNTzg" name="TreasureChamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_l4hTQF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_i3M3UF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_i3NeYV7MEeOmZ9VcqiNTzg" position="17.0,649.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i3NeYl7MEeOmZ9VcqiNTzg" label="+"/>
+    <operations xmi:id="_k_EiwV7MEeOmZ9VcqiNTzg" name="drawCard">
+      <modelElement href="gameboard.uml#_k_D7sF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_k_Eiwl7MEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_k_Eiw17MEeOmZ9VcqiNTzg" name="DragonCard">
+        <modelElement href="gameboard.uml#_k_EiwF7MEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YuxrQF7LEeOmZ9VcqiNTzg" containment="_sabhEF7MEeOmZ9VcqiNTzg" name="AbstractChamberFactory" package="_3L2uMV7KEeOmZ9VcqiNTzg" abstractClass="true" associationsIn="_zFk_4F7LEeOmZ9VcqiNTzg" subclassedBy="_60sAoF7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_YuxEMF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_YuxrQV7LEeOmZ9VcqiNTzg" position="369.0,264.0" size="284.0,122.0"/>
+    <visibility xmi:id="_YuxrQl7LEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_zFlm8F7LEeOmZ9VcqiNTzg" name="gameBoard">
+      <modelElement href="gameboard.uml#_zFjKsV7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_zFlm8V7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_zFlm8l7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_zFlm817LEeOmZ9VcqiNTzg" name="GameBoard">
+        <modelElement href="gameboard.uml#_E8DusF7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lhfIwF7LEeOmZ9VcqiNTzg" abstractOperation="true" name="createDungeonChamber">
+      <modelElement href="gameboard.uml#_lhd6oF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_lhfIwV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_lhfIwl7LEeOmZ9VcqiNTzg" name="x">
+        <modelElement href="gameboard.uml#_lhd6oV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_lhfIw17LEeOmZ9VcqiNTzg" name="y">
+        <modelElement href="gameboard.uml#_lhehsF7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_lhfIxF7LEeOmZ9VcqiNTzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lhfIxV7LEeOmZ9VcqiNTzg" name="int">
+        <modelElement href="gameboard.uml#_lhehsV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pHwr4F7LEeOmZ9VcqiNTzg" abstractOperation="true" name="createTrapChamber">
+      <modelElement href="gameboard.uml#_pHwE0F7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_pHwr4V7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_pHwr4l7LEeOmZ9VcqiNTzg" name="x">
+        <modelElement href="gameboard.uml#_pHwE0V7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_pHwr417LEeOmZ9VcqiNTzg" name="y">
+        <modelElement href="gameboard.uml#_pHwE0l7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_pHwr5F7LEeOmZ9VcqiNTzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pHwr5V7LEeOmZ9VcqiNTzg" name="int">
+        <modelElement href="gameboard.uml#_pHwE017LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rTjOAF7LEeOmZ9VcqiNTzg" abstractOperation="true" name="createTowerToom">
+      <modelElement href="gameboard.uml#_rTim8F7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_rTjOAV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_rTjOAl7LEeOmZ9VcqiNTzg" name="x">
+        <modelElement href="gameboard.uml#_rTim8V7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_rTjOA17LEeOmZ9VcqiNTzg" name="y">
+        <modelElement href="gameboard.uml#_rTim8l7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_rTjOBF7LEeOmZ9VcqiNTzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rTjOBV7LEeOmZ9VcqiNTzg" name="int">
+        <modelElement href="gameboard.uml#_rTim817LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uD09QF7LEeOmZ9VcqiNTzg" abstractOperation="true" name="createTreasureChamber">
+      <modelElement href="gameboard.uml#_uD0WMF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_uD09QV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_uD09Ql7LEeOmZ9VcqiNTzg" name="x">
+        <modelElement href="gameboard.uml#_uD0WMV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_uD09Q17LEeOmZ9VcqiNTzg" name="y">
+        <modelElement href="gameboard.uml#_uD0WMl7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_uD09RF7LEeOmZ9VcqiNTzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uD09RV7LEeOmZ9VcqiNTzg" name="int">
+        <modelElement href="gameboard.uml#_uD0WM17LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_3L2uMV7KEeOmZ9VcqiNTzg" containments="_r69W0F7MEeOmZ9VcqiNTzg _sabhEF7MEeOmZ9VcqiNTzg _tKVUAF7MEeOmZ9VcqiNTzg _tvnyYF7MEeOmZ9VcqiNTzg _wYKh8F7MEeOmZ9VcqiNTzg _xZHooF7MEeOmZ9VcqiNTzg _xw4BUF7MEeOmZ9VcqiNTzg _yNcokF7MEeOmZ9VcqiNTzg _yvYQ8F7MEeOmZ9VcqiNTzg" classes="_E8EVwF7LEeOmZ9VcqiNTzg _YuxrQF7LEeOmZ9VcqiNTzg _4L-R8F7LEeOmZ9VcqiNTzg _-nFUMF7LEeOmZ9VcqiNTzg _Rt2wwF7MEeOmZ9VcqiNTzg _bHQJEF7MEeOmZ9VcqiNTzg _d17V0V7MEeOmZ9VcqiNTzg _gvwCoF7MEeOmZ9VcqiNTzg _i3NeYF7MEeOmZ9VcqiNTzg" name="gameboard">
+    <modelElement href="gameboard.uml#_3L2uMF7KEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_3L2uMl7KEeOmZ9VcqiNTzg" position="-8.0,7.0" size="315.0,231.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHQJEF7MEeOmZ9VcqiNTzg" containment="_xZHooF7MEeOmZ9VcqiNTzg" name="DungeonChamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_nwHuEF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_bHPiAF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_bHQJEV7MEeOmZ9VcqiNTzg" position="56.0,429.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bHQJEl7MEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_c3jpEF7MEeOmZ9VcqiNTzg" name="activeTokens">
+      <modelElement href="gameboard.uml#_c3jCAF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_c3jpEV7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_c3jpEl7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_c3jpE17MEeOmZ9VcqiNTzg" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-nFUMF7LEeOmZ9VcqiNTzg" containment="_tvnyYF7MEeOmZ9VcqiNTzg" name="Chamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" abstractClass="true" associationsOut="_U-rBQF7MEeOmZ9VcqiNTzg" generalizations="_RsJgkF7MEeOmZ9VcqiNTzg" subclassedBy="_l4hTQF7MEeOmZ9VcqiNTzg _maFIMF7MEeOmZ9VcqiNTzg _nEQtoF7MEeOmZ9VcqiNTzg _nwHuEF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_-nFUMV7LEeOmZ9VcqiNTzg" position="387.0,582.0" size="243.0,100.0"/>
+    <visibility xmi:id="_-nFUMl7LEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_U-sPYF7MEeOmZ9VcqiNTzg" name="chamberFactory">
+      <modelElement href="gameboard.uml#_U-pzJF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_U-sPYV7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_U-sPYl7MEeOmZ9VcqiNTzg" label="*" max="-1"/>
+      <type xmi:id="_U-sPY17MEeOmZ9VcqiNTzg" name="ChamberFactory">
+        <modelElement href="gameboard.uml#_4L9q4F7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

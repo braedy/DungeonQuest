@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_DdXpEF9NEeOmZ9VcqiNTzg" name="tokens">
+    <elementImport xmi:id="_WIE0sF9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WIE0sV9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbwF9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbwV9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbwl9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbw19NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbxF9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WIFbxV9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WQlQcF9NEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_N5MuwF9NEeOmZ9VcqiNTzg" name="tokens">
+      <packagedElement xmi:type="uml:Class" xmi:id="_SCCzcF9NEeOmZ9VcqiNTzg" name="AbstractTokenFactory" isAbstract="true">
+        <ownedOperation xmi:id="_WxQ7oF9NEeOmZ9VcqiNTzg" name="createHeroFigure" isAbstract="true">
+          <ownedParameter xmi:id="_WxSJwV9NEeOmZ9VcqiNTzg" name="hero" type="_WxQ7oV9NEeOmZ9VcqiNTzg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hnDZcF9NEeOmZ9VcqiNTzg" name="createTravelMarker" isAbstract="true">
+          <ownedParameter xmi:id="_hnEnkV9NEeOmZ9VcqiNTzg" name="traveller" type="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_m64qkF9NEeOmZ9VcqiNTzg" name="createCatacombEntrance" isAbstract="true"/>
+        <ownedOperation xmi:id="_n9NDMF9NEeOmZ9VcqiNTzg" name="createWoundToken" isAbstract="true"/>
+        <ownedOperation xmi:id="_qCiYAF9NEeOmZ9VcqiNTzg" name="createMonsterToken" isAbstract="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sYMn0F9NEeOmZ9VcqiNTzg" name="TokenFactory">
+        <generalization xmi:id="_uuIkcF9NEeOmZ9VcqiNTzg" general="_SCCzcF9NEeOmZ9VcqiNTzg"/>
+        <ownedAttribute xmi:id="_aHaio19OEeOmZ9VcqiNTzg" name="token" type="_L7cMIF9OEeOmZ9VcqiNTzg" association="_aHZ7kF9OEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHaipF9OEeOmZ9VcqiNTzg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHaipV9OEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_aHZ7kF9OEeOmZ9VcqiNTzg" name="" memberEnd="_aHaioF9OEeOmZ9VcqiNTzg _aHaio19OEeOmZ9VcqiNTzg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L7cMIF9OEeOmZ9VcqiNTzg" clientDependency="_YBQHYF9OEeOmZ9VcqiNTzg" name="Token" isAbstract="true">
+        <ownedAttribute xmi:id="_aHaioF9OEeOmZ9VcqiNTzg" name="tokenFactory" type="_sYMn0F9NEeOmZ9VcqiNTzg" association="_aHZ7kF9OEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHaioV9OEeOmZ9VcqiNTzg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHaiol9OEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_YBQHYF9OEeOmZ9VcqiNTzg" client="_L7cMIF9OEeOmZ9VcqiNTzg" supplier="_WZPnwF9OEeOmZ9VcqiNTzg" contract="_WZPnwF9OEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_WZPnwF9OEeOmZ9VcqiNTzg" name="TokenInterface">
+        <ownedAttribute xmi:id="_UXSXEF9OEeOmZ9VcqiNTzg" name="tokenType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VbbUoF9OEeOmZ9VcqiNTzg" name="tokenInfo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fALoYF9OEeOmZ9VcqiNTzg" name="HeroFigure">
+        <generalization xmi:id="_zMfwsF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+        <ownedAttribute xmi:id="_ghxW8F9OEeOmZ9VcqiNTzg" name="hero" type="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hMwNoF9OEeOmZ9VcqiNTzg" name="TravelMarker">
+        <generalization xmi:id="_z4CBAF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+        <ownedAttribute xmi:id="_iuV8MF9OEeOmZ9VcqiNTzg" name="traveller" type="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jVJdgF9OEeOmZ9VcqiNTzg" name="CatacombEntrance">
+        <generalization xmi:id="_0fhe0F9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kb-isF9OEeOmZ9VcqiNTzg" name="WoundToken">
+        <generalization xmi:id="_2b32wF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_orAu8F9OEeOmZ9VcqiNTzg" name="DeterminationToken">
+        <generalization xmi:id="_3chbcF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rvZF8F9OEeOmZ9VcqiNTzg" name="MonsterToken">
+        <generalization xmi:id="_4QNiMF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
+        <ownedAttribute xmi:id="_uouqkF9OEeOmZ9VcqiNTzg" name="monsterType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_v_C9QF9OEeOmZ9VcqiNTzg" name="lifeValue">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_WxQ7oV9NEeOmZ9VcqiNTzg" name="HeroCard"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_hnEAgF9NEeOmZ9VcqiNTzg" name="Player"/>
+    <profileApplication xmi:id="_WxQ7ol9NEeOmZ9VcqiNTzg">
+      <eAnnotations xmi:id="_WxRisF9NEeOmZ9VcqiNTzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:UnresolvedElement xmi:id="_WxSJwF9NEeOmZ9VcqiNTzg" base_Element="_WxQ7oV9NEeOmZ9VcqiNTzg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_hnEnkF9NEeOmZ9VcqiNTzg" base_Element="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+</xmi:XMI>

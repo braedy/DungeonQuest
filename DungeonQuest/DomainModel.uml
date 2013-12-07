@@ -108,8 +108,8 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_cPz_YF3WEeOmZ9VcqiNTzg" name="is assigned" memberEnd="_cP1NgF3WEeOmZ9VcqiNTzg _cP10kF3WEeOmZ9VcqiNTzg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_HWuT0F3aEeOmZ9VcqiNTzg" name="NewClass3"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_IIRFgF3aEeOmZ9VcqiNTzg" name="Chamber">
-      <ownedAttribute xmi:id="_J3-IkF3aEeOmZ9VcqiNTzg" name="chamberType" type="_iYe4sF3UEeOmZ9VcqiNTzg"/>
-      <ownedAttribute xmi:id="_LxEYMF3aEeOmZ9VcqiNTzg" name="chamberInfo" type="_iYe4sF3UEeOmZ9VcqiNTzg"/>
+      <ownedAttribute xmi:id="_J3-IkF3aEeOmZ9VcqiNTzg" name="chamberType"/>
+      <ownedAttribute xmi:id="_LxEYMF3aEeOmZ9VcqiNTzg" name="chamberInfo"/>
     </packagedElement>
     <profileApplication xmi:id="_iYe4sV3UEeOmZ9VcqiNTzg">
       <eAnnotations xmi:id="_iYhU8F3UEeOmZ9VcqiNTzg" source="http://www.eclipse.org/uml2/2.0.0/UML">

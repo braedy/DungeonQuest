@@ -314,13 +314,11 @@
       <modelElement href="DomainModel.uml#_J3-IkF3aEeOmZ9VcqiNTzg"/>
       <visibility xmi:id="_J3-voV3aEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_J3-vol3aEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_J3-vo13aEeOmZ9VcqiNTzg"/>
     </attributes>
     <attributes xmi:id="_LxFmUF3aEeOmZ9VcqiNTzg" name="chamberInfo">
       <modelElement href="DomainModel.uml#_LxEYMF3aEeOmZ9VcqiNTzg"/>
       <visibility xmi:id="_LxFmUV3aEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_LxFmUl3aEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_LxFmU13aEeOmZ9VcqiNTzg"/>
     </attributes>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

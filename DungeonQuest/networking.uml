@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Nw4OUF9PEeOmZ9VcqiNTzg" name="networking">
+    <elementImport xmi:id="_jAxTgF9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jAxTgV9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jAxTgl9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jAxTg19PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jAxThF9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jAx6kF9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jAx6kV9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jAx6kl9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jI8_IF9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_jJYc8F9PEeOmZ9VcqiNTzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RUW8IF9PEeOmZ9VcqiNTzg" name="networking">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gdCLcF9PEeOmZ9VcqiNTzg" name="NetworkInterface">
+        <ownedAttribute xmi:id="_jjowAF9PEeOmZ9VcqiNTzg" name="ip_address" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_S3OAkV9QEeOmZ9VcqiNTzg" name="server" type="_qXkh8F9PEeOmZ9VcqiNTzg" association="_S3OAkF9QEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S3OnoF9QEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S3OnoV9QEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_hZi9YF9XEeOmZ9VcqiNTzg" name="client" type="_8ENUEF9VEeOmZ9VcqiNTzg" association="_hZiWUF9XEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hZi9YV9XEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hZi9Yl9XEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_ktpsEF9PEeOmZ9VcqiNTzg" name="join">
+          <ownedParameter xmi:id="_ktqTIF9PEeOmZ9VcqiNTzg" name="String"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lbMHgF9PEeOmZ9VcqiNTzg" name="play"/>
+        <ownedOperation xmi:id="_mITsMF9PEeOmZ9VcqiNTzg" name="observe"/>
+        <ownedOperation xmi:id="_mj8fUF9PEeOmZ9VcqiNTzg" name="main" isStatic="true"/>
+        <ownedOperation xmi:id="_nub8gF9PEeOmZ9VcqiNTzg" name="createServer">
+          <ownedParameter xmi:id="_nub8gV9PEeOmZ9VcqiNTzg" name="String"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qXkh8F9PEeOmZ9VcqiNTzg" name="Server">
+        <ownedAttribute xmi:id="_tDRTMF9PEeOmZ9VcqiNTzg" name="connectedPlayers" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_wM6ksF9PEeOmZ9VcqiNTzg" name="clients" visibility="private">
+          <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Kjf24F9QEeOmZ9VcqiNTzg" name="ip_address" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_S3Onol9QEeOmZ9VcqiNTzg" name="networkInterface" type="_gdCLcF9PEeOmZ9VcqiNTzg" aggregation="shared" association="_S3OAkF9QEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S3Ono19QEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S3OnpF9QEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_D1NLNF9WEeOmZ9VcqiNTzg" name="client" type="_8ENUEF9VEeOmZ9VcqiNTzg" aggregation="composite" association="_D1NLMF9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D1NyQF9WEeOmZ9VcqiNTzg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D1NyQV9WEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Lc0EgF9QEeOmZ9VcqiNTzg" name="init"/>
+        <ownedOperation xmi:id="_LsQOsF9QEeOmZ9VcqiNTzg" name="close"/>
+        <ownedOperation xmi:id="_M-47QF9QEeOmZ9VcqiNTzg" name="getConnectedPlayers"/>
+        <ownedOperation xmi:id="_NhuikF9QEeOmZ9VcqiNTzg" name="getIP"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_D1NLMF9WEeOmZ9VcqiNTzg" name="" memberEnd="_D1NLMV9WEeOmZ9VcqiNTzg _D1NLNF9WEeOmZ9VcqiNTzg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8ENUEF9VEeOmZ9VcqiNTzg" name="Client">
+        <ownedAttribute xmi:id="_9PMggF9VEeOmZ9VcqiNTzg" name="gamerTag">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-PmNkF9VEeOmZ9VcqiNTzg" name="ip_address" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_D1NLMV9WEeOmZ9VcqiNTzg" name="server" type="_qXkh8F9PEeOmZ9VcqiNTzg" association="_D1NLMF9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D1NLMl9WEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D1NLM19WEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_5f688V9WEeOmZ9VcqiNTzg" name="viewer" type="_0a_DcF9WEeOmZ9VcqiNTzg" aggregation="shared" association="_5f6V4F9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5f688l9WEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5f68819WEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_hZi9Y19XEeOmZ9VcqiNTzg" name="networkInterface" type="_gdCLcF9PEeOmZ9VcqiNTzg" association="_hZiWUF9XEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hZi9ZF9XEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hZjkcF9XEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_-2TBMF9VEeOmZ9VcqiNTzg" name="disconnect"/>
+        <ownedOperation xmi:id="_APEK8F9WEeOmZ9VcqiNTzg" name="setGamerTag">
+          <ownedParameter xmi:id="_APEK8V9WEeOmZ9VcqiNTzg" name="String"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RfKZwF9WEeOmZ9VcqiNTzg" name="ServerViewer">
+        <generalization xmi:id="_W8Sw0F9WEeOmZ9VcqiNTzg" general="_qXkh8F9PEeOmZ9VcqiNTzg"/>
+        <ownedAttribute xmi:id="_16hjkV9WEeOmZ9VcqiNTzg" name="viewer" type="_0a_DcF9WEeOmZ9VcqiNTzg" association="_16g8gF9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16hjkl9WEeOmZ9VcqiNTzg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16hjk19WEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_T0wYIF9WEeOmZ9VcqiNTzg" name="updateDisplay"/>
+        <ownedOperation xmi:id="_UmJ_4F9WEeOmZ9VcqiNTzg" name="updateOptions"/>
+        <ownedOperation xmi:id="_VSorYF9WEeOmZ9VcqiNTzg" name="displayContent"/>
+        <ownedOperation xmi:id="_WLzIAF9WEeOmZ9VcqiNTzg" name="displayOptions"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_16g8gF9WEeOmZ9VcqiNTzg" name="" memberEnd="_16g8gV9WEeOmZ9VcqiNTzg _16hjkV9WEeOmZ9VcqiNTzg">
+        <ownedEnd xmi:id="_16g8gV9WEeOmZ9VcqiNTzg" name="serverViewer" type="_RfKZwF9WEeOmZ9VcqiNTzg" association="_16g8gF9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16g8gl9WEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16hjkF9WEeOmZ9VcqiNTzg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5f6V4F9WEeOmZ9VcqiNTzg" name="" memberEnd="_5f6V4V9WEeOmZ9VcqiNTzg _5f688V9WEeOmZ9VcqiNTzg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0a_DcF9WEeOmZ9VcqiNTzg" name="Viewer">
+        <ownedAttribute xmi:id="_5f6V4V9WEeOmZ9VcqiNTzg" name="client" type="_8ENUEF9VEeOmZ9VcqiNTzg" association="_5f6V4F9WEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5f6V4l9WEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5f688F9WEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OaItE19XEeOmZ9VcqiNTzg" name="controller" type="_GIV2AF9XEeOmZ9VcqiNTzg" aggregation="composite" association="_OaIGAF9XEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaItFF9XEeOmZ9VcqiNTzg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaJUIF9XEeOmZ9VcqiNTzg" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_C2bZUF9XEeOmZ9VcqiNTzg" name="displayContent"/>
+        <ownedOperation xmi:id="_DuKSkF9XEeOmZ9VcqiNTzg" name="displayOptions"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OaIGAF9XEeOmZ9VcqiNTzg" name="" memberEnd="_OaItEF9XEeOmZ9VcqiNTzg _OaItE19XEeOmZ9VcqiNTzg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GIV2AF9XEeOmZ9VcqiNTzg" name="Controller">
+        <ownedAttribute xmi:id="_HsRt8F9XEeOmZ9VcqiNTzg" name="gamerTag">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OaItEF9XEeOmZ9VcqiNTzg" name="viewer" type="_0a_DcF9WEeOmZ9VcqiNTzg" association="_OaIGAF9XEeOmZ9VcqiNTzg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OaItEV9XEeOmZ9VcqiNTzg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OaItEl9XEeOmZ9VcqiNTzg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_IsU1sF9XEeOmZ9VcqiNTzg" name="interaction"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hZiWUF9XEeOmZ9VcqiNTzg" name="" memberEnd="_hZi9YF9XEeOmZ9VcqiNTzg _hZi9Y19XEeOmZ9VcqiNTzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_wM6ksV9PEeOmZ9VcqiNTzg" name="Array"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_w-ekgF9PEeOmZ9VcqiNTzg" name="clients"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_0rJqkF9PEeOmZ9VcqiNTzg" name="Arra"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_S3OAkF9QEeOmZ9VcqiNTzg" name="" memberEnd="_S3OAkV9QEeOmZ9VcqiNTzg _S3Onol9QEeOmZ9VcqiNTzg"/>
+    <profileApplication xmi:id="_wM7LwF9PEeOmZ9VcqiNTzg">
+      <eAnnotations xmi:id="_wM7LwV9PEeOmZ9VcqiNTzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:UnresolvedElement xmi:id="_wM7y0F9PEeOmZ9VcqiNTzg" base_Element="_wM6ksV9PEeOmZ9VcqiNTzg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_w-fLkF9PEeOmZ9VcqiNTzg" base_Element="_w-ekgF9PEeOmZ9VcqiNTzg"/>
+  <UMLLabProfile:UnresolvedElement xmi:id="_0rKRoF9PEeOmZ9VcqiNTzg" base_Element="_0rJqkF9PEeOmZ9VcqiNTzg"/>
+</xmi:XMI>

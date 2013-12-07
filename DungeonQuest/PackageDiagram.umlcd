@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_90O3wF7HEeOmZ9VcqiNTzg">
+  <modelElement href="PackageDiagram.uml#_9o3VQF7HEeOmZ9VcqiNTzg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_CFjjAF7IEeOmZ9VcqiNTzg" name="gameboard">
+    <modelElement href="PackageDiagram.uml#_CFi78F7IEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_CFjjAV7IEeOmZ9VcqiNTzg" position="28.0,231.0" size="236.0,131.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_LCUCoF7IEeOmZ9VcqiNTzg" name="tokens">
+    <modelElement href="PackageDiagram.uml#_LCTbkF7IEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_LCUCoV7IEeOmZ9VcqiNTzg" position="31.0,401.0" size="229.0,125.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Ncx58F7IEeOmZ9VcqiNTzg" name="cards">
+    <modelElement href="PackageDiagram.uml#_NcxS4F7IEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_Ncx58V7IEeOmZ9VcqiNTzg" position="432.0,389.0" size="259.0,141.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_oPnqUF7IEeOmZ9VcqiNTzg" name="gameplay">
+    <modelElement href="PackageDiagram.uml#_oPnDQF7IEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_oPnqUV7IEeOmZ9VcqiNTzg" position="581.0,135.0" size="219.0,141.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_WxHMEF7IEeOmZ9VcqiNTzg" name="player">
+    <modelElement href="PackageDiagram.uml#_WxGlAF7IEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_WxHMEV7IEeOmZ9VcqiNTzg" position="320.0,203.0" size="228.0,164.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_-7jsMV7HEeOmZ9VcqiNTzg" name="networking">
+    <modelElement href="PackageDiagram.uml#_-7jsMF7HEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_-7jsMl7HEeOmZ9VcqiNTzg" position="152.0,12.0" size="270.0,139.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
