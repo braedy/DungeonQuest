@@ -451,9 +451,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3bnssl7DEeOmZ9VcqiNTzg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3bnss17DEeOmZ9VcqiNTzg" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_W3lVcGBSEeORY4I6G9PfUA" name="currentChamber" visibility="private" type="_zeiDgF6sEeOmZ9VcqiNTzg"/>
       <ownedOperation xmi:id="_v80cMFoKEeOEJOtzZXoAfg" name="init"/>
       <ownedOperation xmi:id="_ivtFMFoLEeOEJOtzZXoAfg" name="addChamber"/>
-      <ownedOperation xmi:id="_rme4oFoLEeOEJOtzZXoAfg" name="currentChamber">
+      <ownedOperation xmi:id="_rme4oFoLEeOEJOtzZXoAfg" name="getCurrentChamber">
         <ownedParameter xmi:id="_rme4oVoLEeOEJOtzZXoAfg" type="_zeiDgF6sEeOmZ9VcqiNTzg" direction="return"/>
         <ownedParameter xmi:id="_rme4oloLEeOEJOtzZXoAfg" name="Player"/>
       </ownedOperation>
@@ -475,6 +476,11 @@
       <ownedAttribute xmi:id="_hkfqQFtTEeOmZ9VcqiNTzg" name="activeTokens">
         <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
       </ownedAttribute>
+      <ownedOperation xmi:id="_kwwZ0GBUEeORY4I6G9PfUA" name="getActiveTokens">
+        <ownedParameter xmi:id="_kwxA4GBUEeORY4I6G9PfUA" direction="return">
+          <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_F1tQgFoKEeOEJOtzZXoAfg" name="TrapChamber">
       <generalization xmi:id="_FLPgYF6uEeOmZ9VcqiNTzg" general="_zeiDgF6sEeOmZ9VcqiNTzg"/>
@@ -495,33 +501,14 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_yMp0AFoOEeOEJOtzZXoAfg" name="ChamberInterface">
-      <ownedAttribute xmi:id="_gEVgkFoKEeOEJOtzZXoAfg" name="exitNorth">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_hagCQFoKEeOEJOtzZXoAfg" name="exitSouth">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_iklPwFoKEeOEJOtzZXoAfg" name="exitEast">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_jpWfcFoKEeOEJOtzZXoAfg" name="exitWest">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
       <ownedAttribute xmi:id="_tsuFAFoOEeOEJOtzZXoAfg" name="searchIcon">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_J9-UIFoPEeOEJOtzZXoAfg" name="door">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_MJDEkFoPEeOEJOtzZXoAfg" name="portcullis">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Y-GEYFoPEeOEJOtzZXoAfg" name="door">
+      <ownedAttribute xmi:id="_5lDIIGBUEeORY4I6G9PfUA" name="exits">
         <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_ajTusFoPEeOEJOtzZXoAfg" name="portcullis">
-        <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-      </ownedAttribute>
+      <ownedOperation xmi:id="_WKp2oGBVEeORY4I6G9PfUA" name="getExits"/>
+      <ownedOperation xmi:id="_Xt81YGBVEeORY4I6G9PfUA" name="getSearchIcon"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vXX-EFoQEeOEJOtzZXoAfg" name="Controller">
       <ownedAttribute xmi:id="__khvYFtTEeOmZ9VcqiNTzg" name="gamerTag">

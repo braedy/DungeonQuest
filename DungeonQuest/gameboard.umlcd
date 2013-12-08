@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1vKGsF7KEeOmZ9VcqiNTzg">
   <modelElement href="gameboard.uml#_1lt20F7KEeOmZ9VcqiNTzg"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zFk_4F7LEeOmZ9VcqiNTzg" sourceAnchor="297.0,79.0" targetAnchor="284.0,60.0" target="_YuxrQF7LEeOmZ9VcqiNTzg" source="_E8EVwF7LEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zFk_4F7LEeOmZ9VcqiNTzg" sourceAnchor="297.0,89.0" targetAnchor="284.0,61.0" target="_YuxrQF7LEeOmZ9VcqiNTzg" source="_E8EVwF7LEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_zFjKsF7LEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_zFk_4V7LEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Hb-b0F7NEeOmZ9VcqiNTzg" sourceX="264" sourceY="1" targetX="273" targetY="-211"/>
-    <bendpoints xmi:id="_Hb-b0V7NEeOmZ9VcqiNTzg" sourceX="264" sourceY="212" targetX="273"/>
+    <bendpoints xmi:id="_uf5jNGBVEeORY4I6G9PfUA" sourceX="254" targetX="275" targetY="-206"/>
+    <bendpoints xmi:id="_uf6KQGBVEeORY4I6G9PfUA" sourceX="254" sourceY="206" targetX="275"/>
     <nameVisual xmi:id="_zFk_4l7LEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_zNqk4V7LEeOmZ9VcqiNTzg" position="-17.0,-64.0"/>
+      <visualProperties xmi:id="_zNqk4V7LEeOmZ9VcqiNTzg" position="-17.0,-61.5"/>
     </nameVisual>
     <sourceRole xmi:id="_zFk_417LEeOmZ9VcqiNTzg" aggregationKind="NONE" name="gameBoard" navigable="true">
       <modelElement href="gameboard.uml#_zFjKsV7LEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_zNqk4F7LEeOmZ9VcqiNTzg" position="48.0,2.0"/>
+      <visualProperties xmi:id="_zNqk4F7LEeOmZ9VcqiNTzg" position="45.0,2.5"/>
       <visibility xmi:id="_zFk_5F7LEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_zFk_5V7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_zFk_5l7LEeOmZ9VcqiNTzg" aggregationKind="NONE" name="abstractChamberFactory" navigable="true">
       <modelElement href="gameboard.uml#_zFjxwl7LEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_zNrL8F7LEeOmZ9VcqiNTzg" position="43.0,7.0"/>
+      <visualProperties xmi:id="_zNrL8F7LEeOmZ9VcqiNTzg" position="43.0,-43.0"/>
       <visibility xmi:id="_zFk_517LEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_zFk_6F7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </targetRole>
@@ -26,10 +26,10 @@
     <modelElement href="gameboard.uml#_60rZkF7LEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_60sAoV7LEeOmZ9VcqiNTzg"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RsJgkF7MEeOmZ9VcqiNTzg" sourceAnchor="243.0,50.0" targetAnchor="0.0,135.0" dashed="true" superClass="_Rt2wwF7MEeOmZ9VcqiNTzg" subClass="_-nFUMF7LEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RsJgkF7MEeOmZ9VcqiNTzg" sourceAnchor="243.0,35.0" targetAnchor="0.0,120.0" dashed="true" superClass="_Rt2wwF7MEeOmZ9VcqiNTzg" subClass="_-nFUMF7LEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_Rn4roF7MEeOmZ9VcqiNTzg"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_U-rBQF7MEeOmZ9VcqiNTzg" sourceAnchor="121.0,0.0" targetAnchor="137.0,63.0" target="_4L-R8F7LEeOmZ9VcqiNTzg" source="_-nFUMF7LEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_U-rBQF7MEeOmZ9VcqiNTzg" sourceAnchor="121.0,0.0" targetAnchor="137.0,62.0" target="_4L-R8F7LEeOmZ9VcqiNTzg" source="_-nFUMF7LEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_U-pzIF7MEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_U-rBQV7MEeOmZ9VcqiNTzg"/>
     <nameVisual xmi:id="_U-rBQl7MEeOmZ9VcqiNTzg" text="">
@@ -51,123 +51,65 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_l4hTQF7MEeOmZ9VcqiNTzg" sourceAnchor="188.0,18.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_i3NeYF7MEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_l4gFIF7MEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_l4hTQV7MEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Hb_C617NEeOmZ9VcqiNTzg" sourceX="45" targetX="-137" targetY="35"/>
-    <bendpoints xmi:id="_Hb_p8F7NEeOmZ9VcqiNTzg" sourceX="45" sourceY="-35" targetX="-137"/>
+    <bendpoints xmi:id="_uf3G82BVEeORY4I6G9PfUA" sourceX="45" targetX="-137" targetY="35"/>
+    <bendpoints xmi:id="_uf3G9GBVEeORY4I6G9PfUA" sourceX="45" sourceY="-35" targetX="-137"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_maFIMF7MEeOmZ9VcqiNTzg" sourceAnchor="133.0,25.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_gvwCoF7MEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_maEhIF7MEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_maFIMV7MEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Hb_C5l7NEeOmZ9VcqiNTzg" sourceX="100" targetX="-137" targetY="-30"/>
-    <bendpoints xmi:id="_Hb_C517NEeOmZ9VcqiNTzg" sourceX="100" sourceY="30" targetX="-137"/>
+    <bendpoints xmi:id="_uf2f42BVEeORY4I6G9PfUA" sourceX="100" targetX="-137" targetY="-30"/>
+    <bendpoints xmi:id="_uf2f5GBVEeORY4I6G9PfUA" sourceX="100" sourceY="30" targetX="-137"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nEQtoF7MEeOmZ9VcqiNTzg" sourceAnchor="173.0,27.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_d17V0V7MEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_nEQGkF7MEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_nEQtoV7MEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Hb_C4l7NEeOmZ9VcqiNTzg" sourceX="60" targetX="-137" targetY="-98"/>
-    <bendpoints xmi:id="_Hb_C417NEeOmZ9VcqiNTzg" sourceX="60" sourceY="98" targetX="-137"/>
+    <bendpoints xmi:id="_uf140mBVEeORY4I6G9PfUA" sourceX="60" targetX="-137" targetY="-98"/>
+    <bendpoints xmi:id="_uf1402BVEeORY4I6G9PfUA" sourceX="60" sourceY="98" targetX="-137"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nwHuEF7MEeOmZ9VcqiNTzg" sourceAnchor="164.0,39.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_bHQJEF7MEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nwHuEF7MEeOmZ9VcqiNTzg" sourceAnchor="207.0,34.0" targetAnchor="0.0,50.0" superClass="_-nFUMF7LEeOmZ9VcqiNTzg" subClass="_bHQJEF7MEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_nwHHAF7MEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_nwHuEV7MEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Hb_p9l7NEeOmZ9VcqiNTzg" sourceX="30" targetX="-137" targetY="-164"/>
-    <bendpoints xmi:id="_Hb_p917NEeOmZ9VcqiNTzg" sourceX="30" sourceY="164" targetX="-137"/>
+    <bendpoints xmi:id="_uf48IWBVEeORY4I6G9PfUA" sourceX="30" targetX="-137" targetY="-206"/>
+    <bendpoints xmi:id="_uf48ImBVEeORY4I6G9PfUA" sourceX="30" sourceY="206" targetX="-137"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_r69W0F7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,88.0" targetAnchor="313.0,114.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_E8EVwF7LEeOmZ9VcqiNTzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_r69W0F7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,92.0" targetAnchor="315.0,115.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_E8EVwF7LEeOmZ9VcqiNTzg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_sabhEF7MEeOmZ9VcqiNTzg" sourceAnchor="142.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_YuxrQF7LEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb_p9F7NEeOmZ9VcqiNTzg" sourceY="-13" targetX="362" targetY="13"/>
-    <bendpoints xmi:id="_Hb_p9V7NEeOmZ9VcqiNTzg" sourceX="-362" sourceY="-13" targetY="13"/>
+    <bendpoints xmi:id="_uf3uA2BVEeORY4I6G9PfUA" sourceY="-13" targetX="362" targetY="13"/>
+    <bendpoints xmi:id="_uf3uBGBVEeORY4I6G9PfUA" sourceX="-362" sourceY="-13" targetY="13"/>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_tKVUAF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_4L-R8F7LEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb-b0l7NEeOmZ9VcqiNTzg" sourceX="-49" targetX="173" targetY="230"/>
-    <bendpoints xmi:id="_Hb-b017NEeOmZ9VcqiNTzg" sourceX="-49" sourceY="-217" targetX="173" targetY="13"/>
-    <bendpoints xmi:id="_Hb-b1F7NEeOmZ9VcqiNTzg" sourceX="-222" sourceY="-217" targetY="13"/>
+    <bendpoints xmi:id="_uf1RwGBVEeORY4I6G9PfUA" sourceX="-19" targetX="203" targetY="230"/>
+    <bendpoints xmi:id="_uf140GBVEeORY4I6G9PfUA" sourceX="-19" sourceY="-217" targetX="203" targetY="13"/>
+    <bendpoints xmi:id="_uf140WBVEeORY4I6G9PfUA" sourceX="-222" sourceY="-217" targetY="13"/>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_tvnyYF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,20.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_-nFUMF7LEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb-b1V7NEeOmZ9VcqiNTzg" sourceX="-115" targetX="123" targetY="364"/>
-    <bendpoints xmi:id="_Hb-b1l7NEeOmZ9VcqiNTzg" sourceX="-115" sourceY="-351" targetX="123" targetY="13"/>
-    <bendpoints xmi:id="_Hb-b117NEeOmZ9VcqiNTzg" sourceX="-238" sourceY="-351" targetY="13"/>
+    <bendpoints xmi:id="_uf4VEGBVEeORY4I6G9PfUA" sourceX="-107" targetX="131" targetY="364"/>
+    <bendpoints xmi:id="_uf4VEWBVEeORY4I6G9PfUA" sourceX="-107" sourceY="-351" targetX="131" targetY="13"/>
+    <bendpoints xmi:id="_uf48IGBVEeORY4I6G9PfUA" sourceX="-238" sourceY="-351" targetY="13"/>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_wYKh8F7MEeOmZ9VcqiNTzg" sourceAnchor="97.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_Rt2wwF7MEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb_C4F7NEeOmZ9VcqiNTzg" sourceY="-246" targetX="667" targetY="13"/>
-    <bendpoints xmi:id="_Hb_C4V7NEeOmZ9VcqiNTzg" sourceX="-667" sourceY="-246" targetY="13"/>
+    <bendpoints xmi:id="_uf5jMmBVEeORY4I6G9PfUA" sourceY="-246" targetX="667" targetY="13"/>
+    <bendpoints xmi:id="_uf5jM2BVEeORY4I6G9PfUA" sourceX="-667" sourceY="-246" targetY="13"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xZHooF7MEeOmZ9VcqiNTzg" sourceAnchor="93.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_bHQJEF7MEeOmZ9VcqiNTzg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xw4BUF7MEeOmZ9VcqiNTzg" sourceAnchor="24.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_d17V0V7MEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb_C5F7NEeOmZ9VcqiNTzg" sourceY="-256" targetX="-108" targetY="13"/>
-    <bendpoints xmi:id="_Hb_C5V7NEeOmZ9VcqiNTzg" sourceX="108" sourceY="-256" targetY="13"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xZHooF7MEeOmZ9VcqiNTzg" sourceAnchor="103.0,0.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_bHQJEF7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_uf5jMGBVEeORY4I6G9PfUA" sourceY="-141" targetX="-33" targetY="13"/>
+    <bendpoints xmi:id="_uf5jMWBVEeORY4I6G9PfUA" sourceX="33" sourceY="-141" targetY="13"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_xw4BUF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_d17V0V7MEeOmZ9VcqiNTzg">
+    <bendpoints xmi:id="_uf2f4GBVEeORY4I6G9PfUA" sourceX="-40" targetX="-172" targetY="296"/>
+    <bendpoints xmi:id="_uf2f4WBVEeORY4I6G9PfUA" sourceX="-40" sourceY="-283" targetX="-172" targetY="13"/>
+    <bendpoints xmi:id="_uf2f4mBVEeORY4I6G9PfUA" sourceX="132" sourceY="-283" targetY="13"/>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_yNcokF7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_gvwCoF7MEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb_C6F7NEeOmZ9VcqiNTzg" sourceX="-40" targetX="-172" targetY="366"/>
-    <bendpoints xmi:id="_Hb_C6V7NEeOmZ9VcqiNTzg" sourceX="-40" sourceY="-353" targetX="-172" targetY="13"/>
-    <bendpoints xmi:id="_Hb_C6l7NEeOmZ9VcqiNTzg" sourceX="132" sourceY="-353" targetY="13"/>
+    <bendpoints xmi:id="_uf3G8GBVEeORY4I6G9PfUA" sourceX="-70" targetX="-202" targetY="366"/>
+    <bendpoints xmi:id="_uf3G8WBVEeORY4I6G9PfUA" sourceX="-70" sourceY="-353" targetX="-202" targetY="13"/>
+    <bendpoints xmi:id="_uf3G8mBVEeORY4I6G9PfUA" sourceX="132" sourceY="-353" targetY="13"/>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_yvYQ8F7MEeOmZ9VcqiNTzg" sourceAnchor="0.0,27.0" targetAnchor="157.0,231.0" enclosingItem="_3L2uMV7KEeOmZ9VcqiNTzg" containedItem="_i3NeYF7MEeOmZ9VcqiNTzg">
-    <bendpoints xmi:id="_Hb_p8V7NEeOmZ9VcqiNTzg" sourceX="-70" targetX="-202" targetY="438"/>
-    <bendpoints xmi:id="_Hb_p8l7NEeOmZ9VcqiNTzg" sourceX="-70" sourceY="-425" targetX="-202" targetY="13"/>
-    <bendpoints xmi:id="_Hb_p817NEeOmZ9VcqiNTzg" sourceX="132" sourceY="-425" targetY="13"/>
+    <bendpoints xmi:id="_uf3uAGBVEeORY4I6G9PfUA" sourceX="-100" targetX="-232" targetY="438"/>
+    <bendpoints xmi:id="_uf3uAWBVEeORY4I6G9PfUA" sourceX="-100" sourceY="-425" targetX="-232" targetY="13"/>
+    <bendpoints xmi:id="_uf3uAmBVEeORY4I6G9PfUA" sourceX="132" sourceY="-425" targetY="13"/>
   </edges>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E8EVwF7LEeOmZ9VcqiNTzg" containment="_r69W0F7MEeOmZ9VcqiNTzg" name="GameBoard" package="_3L2uMV7KEeOmZ9VcqiNTzg" associationsOut="_zFk_4F7LEeOmZ9VcqiNTzg">
-    <modelElement href="gameboard.uml#_E8DusF7LEeOmZ9VcqiNTzg"/>
-    <visualProperties xmi:id="_E8EVwV7LEeOmZ9VcqiNTzg" position="365.0,33.0" size="297.0,164.0"/>
-    <visibility xmi:id="_E8EVwl7LEeOmZ9VcqiNTzg" label="+"/>
-    <attributes xmi:id="_HCIDUF7LEeOmZ9VcqiNTzg" name="dungeonGrid" staticAttribute="true">
-      <modelElement href="gameboard.uml#_HCG1MF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_HCIDUV7LEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_HCIDUl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_JCUZcF7LEeOmZ9VcqiNTzg" name="Array">
-        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_zFmOAF7LEeOmZ9VcqiNTzg" name="abstractChamberFactory">
-      <modelElement href="gameboard.uml#_zFjxwl7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_zFmOAV7LEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_zFmOAl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_zFmOA17LEeOmZ9VcqiNTzg" name="AbstractChamberFactory">
-        <modelElement href="gameboard.uml#_YuxEMF7LEeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_OD0kcF7LEeOmZ9VcqiNTzg" name="init">
-      <modelElement href="gameboard.uml#_ODz9YF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_OD0kcV7LEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_OstJYF7LEeOmZ9VcqiNTzg" name="addChamber">
-      <modelElement href="gameboard.uml#_OssiUF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_OstJYV7LEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_RP1Nc17LEeOmZ9VcqiNTzg" name="currentChamber">
-      <modelElement href="gameboard.uml#_RP1NcF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_RP1NdF7LEeOmZ9VcqiNTzg" label="+"/>
-      <outParameters xmi:id="_RP1NdV7LEeOmZ9VcqiNTzg">
-        <modelElement href="gameboard.uml#_RP1NcV7LEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_9Q_mYF9MEeOmZ9VcqiNTzg" name="Chamber">
-          <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_RP1Nd17LEeOmZ9VcqiNTzg" name="Player">
-        <modelElement href="gameboard.uml#_RP1Ncl7LEeOmZ9VcqiNTzg"/>
-      </parameters>
-    </operations>
-    <operations xmi:id="_TnExoF7LEeOmZ9VcqiNTzg" name="addBoardTokens">
-      <modelElement href="gameboard.uml#_TnEKkF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_TnExoV7LEeOmZ9VcqiNTzg" label="+"/>
-      <parameters xmi:id="_TnExol7LEeOmZ9VcqiNTzg" name="Player">
-        <modelElement href="gameboard.uml#_TnEKkV7LEeOmZ9VcqiNTzg"/>
-      </parameters>
-      <parameters xmi:id="_TnExo17LEeOmZ9VcqiNTzg" name="Token">
-        <modelElement href="gameboard.uml#_TnEKkl7LEeOmZ9VcqiNTzg"/>
-      </parameters>
-    </operations>
-    <operations xmi:id="_VMf3UF7LEeOmZ9VcqiNTzg" name="removeBoardTokens">
-      <modelElement href="gameboard.uml#_VMfQQF7LEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_VMf3UV7LEeOmZ9VcqiNTzg" label="+"/>
-      <parameters xmi:id="_VMf3Ul7LEeOmZ9VcqiNTzg" name="Player">
-        <modelElement href="gameboard.uml#_VMfQQV7LEeOmZ9VcqiNTzg"/>
-      </parameters>
-      <parameters xmi:id="_VMf3U17LEeOmZ9VcqiNTzg" name="Token">
-        <modelElement href="gameboard.uml#_VMfQQl7LEeOmZ9VcqiNTzg"/>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4L-R8F7LEeOmZ9VcqiNTzg" containment="_tKVUAF7MEeOmZ9VcqiNTzg" name="ChamberFactory" package="_3L2uMV7KEeOmZ9VcqiNTzg" associationsIn="_U-rBQF7MEeOmZ9VcqiNTzg" generalizations="_60sAoF7LEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_4L9q4F7LEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_4L-R8V7LEeOmZ9VcqiNTzg" position="371.0,441.0" size="281.0,62.0"/>
@@ -178,67 +120,6 @@
       <cardinality xmi:id="_U-roUl7MEeOmZ9VcqiNTzg" label="*" max="-1"/>
       <type xmi:id="_U-roU17MEeOmZ9VcqiNTzg" name="Chamber">
         <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rt2wwF7MEeOmZ9VcqiNTzg" containment="_wYKh8F7MEeOmZ9VcqiNTzg" name="ChamberInterface" package="_3L2uMV7KEeOmZ9VcqiNTzg" subclassedBy="_RsJgkF7MEeOmZ9VcqiNTzg">
-    <modelElement href="gameboard.uml#_Rn2PYF7MEeOmZ9VcqiNTzg"/>
-    <visualProperties xmi:id="_CDctYV7MEeOmZ9VcqiNTzg" position="719.0,497.0" size="194.0,188.0"/>
-    <visibility xmi:id="_Rt2wwl7MEeOmZ9VcqiNTzg" label="+"/>
-    <attributes xmi:id="_Rt2ww17MEeOmZ9VcqiNTzg" name="exitNorth">
-      <modelElement href="gameboard.uml#_FB0jAF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2wxF7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2wxV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2wxl7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2wx17MEeOmZ9VcqiNTzg" name="exitSouth">
-      <modelElement href="gameboard.uml#_F5gY8F7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2wyF7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2wyV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2wyl7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2wy17MEeOmZ9VcqiNTzg" name="exitEast">
-      <modelElement href="gameboard.uml#_GxjbQF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2wzF7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2wzV7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2wzl7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2wz17MEeOmZ9VcqiNTzg" name="exitWest">
-      <modelElement href="gameboard.uml#_Hsjq8F7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2w0F7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2w0V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2w0l7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2w017MEeOmZ9VcqiNTzg" name="searchIcon">
-      <modelElement href="gameboard.uml#_Iu9jIF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2w1F7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2w1V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2w1l7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2w117MEeOmZ9VcqiNTzg" name="door">
-      <modelElement href="gameboard.uml#_Ke0XMF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2w2F7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2w2V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2w2l7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Rt2w217MEeOmZ9VcqiNTzg" name="portcullis">
-      <modelElement href="gameboard.uml#_O9PDQF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_Rt2w3F7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_Rt2w3V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_Rt2w3l7MEeOmZ9VcqiNTzg" name="boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </type>
     </attributes>
   </nodes>
@@ -359,19 +240,6 @@
     <modelElement href="gameboard.uml#_3L2uMF7KEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_3L2uMl7KEeOmZ9VcqiNTzg" position="-8.0,7.0" size="315.0,231.0"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHQJEF7MEeOmZ9VcqiNTzg" containment="_xZHooF7MEeOmZ9VcqiNTzg" name="DungeonChamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_nwHuEF7MEeOmZ9VcqiNTzg">
-    <modelElement href="gameboard.uml#_bHPiAF7MEeOmZ9VcqiNTzg"/>
-    <visualProperties xmi:id="_bHQJEV7MEeOmZ9VcqiNTzg" position="56.0,429.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_bHQJEl7MEeOmZ9VcqiNTzg" label="+"/>
-    <attributes xmi:id="_c3jpEF7MEeOmZ9VcqiNTzg" name="activeTokens">
-      <modelElement href="gameboard.uml#_c3jCAF7MEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_c3jpEV7MEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_c3jpEl7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_c3jpE17MEeOmZ9VcqiNTzg" name="Array">
-        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-      </type>
-    </attributes>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-nFUMF7LEeOmZ9VcqiNTzg" containment="_tvnyYF7MEeOmZ9VcqiNTzg" name="Chamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" abstractClass="true" associationsOut="_U-rBQF7MEeOmZ9VcqiNTzg" generalizations="_RsJgkF7MEeOmZ9VcqiNTzg" subclassedBy="_l4hTQF7MEeOmZ9VcqiNTzg _maFIMF7MEeOmZ9VcqiNTzg _nEQtoF7MEeOmZ9VcqiNTzg _nwHuEF7MEeOmZ9VcqiNTzg">
     <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_-nFUMV7LEeOmZ9VcqiNTzg" position="387.0,582.0" size="243.0,100.0"/>
@@ -384,5 +252,127 @@
         <modelElement href="gameboard.uml#_4L9q4F7LEeOmZ9VcqiNTzg"/>
       </type>
     </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHQJEF7MEeOmZ9VcqiNTzg" containment="_xZHooF7MEeOmZ9VcqiNTzg" name="DungeonChamber" package="_3L2uMV7KEeOmZ9VcqiNTzg" generalizations="_nwHuEF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_bHPiAF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_bHQJEV7MEeOmZ9VcqiNTzg" position="13.0,392.0" size="207.0,91.0"/>
+    <visibility xmi:id="_bHQJEl7MEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_c3jpEF7MEeOmZ9VcqiNTzg" name="activeTokens">
+      <modelElement href="gameboard.uml#_c3jCAF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_c3jpEV7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_c3jpEl7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_c3jpE17MEeOmZ9VcqiNTzg" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fUAAwGBVEeORY4I6G9PfUA" name="getActiveTokens">
+      <modelElement href="gameboard.uml#_fT-LkGBVEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_fUAAwWBVEeORY4I6G9PfUA" label="+"/>
+      <outParameters xmi:id="_fUAAwmBVEeORY4I6G9PfUA">
+        <modelElement href="gameboard.uml#_fT-LkWBVEeORY4I6G9PfUA"/>
+        <type xmi:id="_fUAAw2BVEeORY4I6G9PfUA" name="Array">
+          <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rt2wwF7MEeOmZ9VcqiNTzg" containment="_wYKh8F7MEeOmZ9VcqiNTzg" name="ChamberInterface" package="_3L2uMV7KEeOmZ9VcqiNTzg" subclassedBy="_RsJgkF7MEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_Rn2PYF7MEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_CDctYV7MEeOmZ9VcqiNTzg" position="719.0,497.0" size="194.0,135.0"/>
+    <visibility xmi:id="_Rt2wwl7MEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_Rt2w017MEeOmZ9VcqiNTzg" name="searchIcon">
+      <modelElement href="gameboard.uml#_Iu9jIF7MEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_Rt2w1F7MEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_Rt2w1V7MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt2w1l7MEeOmZ9VcqiNTzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lCvFMGBVEeORY4I6G9PfUA" name="exits">
+      <modelElement href="gameboard.uml#_lCt3EGBVEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_lCvFMWBVEeORY4I6G9PfUA" label="+"/>
+      <cardinality xmi:id="_lCvFMmBVEeORY4I6G9PfUA" label="1" max="1" min="1"/>
+      <type xmi:id="_lCvFM2BVEeORY4I6G9PfUA" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nVDtIGBVEeORY4I6G9PfUA" name="getExits">
+      <modelElement href="gameboard.uml#_nVCfAGBVEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_nVDtIWBVEeORY4I6G9PfUA" label="+"/>
+    </operations>
+    <operations xmi:id="_oSp90GBVEeORY4I6G9PfUA" name="getSearchIcon">
+      <modelElement href="gameboard.uml#_oSpWwGBVEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_oSp90WBVEeORY4I6G9PfUA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_E8EVwF7LEeOmZ9VcqiNTzg" containment="_r69W0F7MEeOmZ9VcqiNTzg" name="GameBoard" package="_3L2uMV7KEeOmZ9VcqiNTzg" associationsOut="_zFk_4F7LEeOmZ9VcqiNTzg">
+    <modelElement href="gameboard.uml#_E8DusF7LEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_E8EVwV7LEeOmZ9VcqiNTzg" position="377.0,30.0" size="297.0,179.0"/>
+    <visibility xmi:id="_E8EVwl7LEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_HCIDUF7LEeOmZ9VcqiNTzg" name="dungeonGrid" staticAttribute="true">
+      <modelElement href="gameboard.uml#_HCG1MF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_HCIDUV7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_HCIDUl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_JCUZcF7LEeOmZ9VcqiNTzg" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmOAF7LEeOmZ9VcqiNTzg" name="abstractChamberFactory">
+      <modelElement href="gameboard.uml#_zFjxwl7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_zFmOAV7LEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_zFmOAl7LEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmOA17LEeOmZ9VcqiNTzg" name="AbstractChamberFactory">
+        <modelElement href="gameboard.uml#_YuxEMF7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s_qfgGBVEeORY4I6G9PfUA" name="currentChamber">
+      <modelElement href="gameboard.uml#_s_pRYGBVEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_s_qfgWBVEeORY4I6G9PfUA" label="-"/>
+      <cardinality xmi:id="_s_qfgmBVEeORY4I6G9PfUA" label="1" max="1" min="1"/>
+      <type xmi:id="_s_qfg2BVEeORY4I6G9PfUA" name="Chamber">
+        <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OD0kcF7LEeOmZ9VcqiNTzg" name="init">
+      <modelElement href="gameboard.uml#_ODz9YF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_OD0kcV7LEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_OstJYF7LEeOmZ9VcqiNTzg" name="addChamber">
+      <modelElement href="gameboard.uml#_OssiUF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_OstJYV7LEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_RP1Nc17LEeOmZ9VcqiNTzg" name="getCurrentChamber">
+      <modelElement href="gameboard.uml#_RP1NcF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_RP1NdF7LEeOmZ9VcqiNTzg" label="+"/>
+      <outParameters xmi:id="_RP1NdV7LEeOmZ9VcqiNTzg">
+        <modelElement href="gameboard.uml#_RP1NcV7LEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_9Q_mYF9MEeOmZ9VcqiNTzg" name="Chamber">
+          <modelElement href="gameboard.uml#_-nEtIF7LEeOmZ9VcqiNTzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RP1Nd17LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_RP1Ncl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TnExoF7LEeOmZ9VcqiNTzg" name="addBoardTokens">
+      <modelElement href="gameboard.uml#_TnEKkF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_TnExoV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_TnExol7LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_TnEKkV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_TnExo17LEeOmZ9VcqiNTzg" name="Token">
+        <modelElement href="gameboard.uml#_TnEKkl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VMf3UF7LEeOmZ9VcqiNTzg" name="removeBoardTokens">
+      <modelElement href="gameboard.uml#_VMfQQF7LEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_VMf3UV7LEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_VMf3Ul7LEeOmZ9VcqiNTzg" name="Player">
+        <modelElement href="gameboard.uml#_VMfQQV7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_VMf3U17LEeOmZ9VcqiNTzg" name="Token">
+        <modelElement href="gameboard.uml#_VMfQQl7LEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

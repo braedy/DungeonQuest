@@ -40,9 +40,10 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zFjxw17LEeOmZ9VcqiNTzg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zFjxxF7LEeOmZ9VcqiNTzg" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_s_pRYGBVEeORY4I6G9PfUA" name="currentChamber" visibility="private" type="_-nEtIF7LEeOmZ9VcqiNTzg"/>
         <ownedOperation xmi:id="_ODz9YF7LEeOmZ9VcqiNTzg" name="init"/>
         <ownedOperation xmi:id="_OssiUF7LEeOmZ9VcqiNTzg" name="addChamber"/>
-        <ownedOperation xmi:id="_RP1NcF7LEeOmZ9VcqiNTzg" name="currentChamber">
+        <ownedOperation xmi:id="_RP1NcF7LEeOmZ9VcqiNTzg" name="getCurrentChamber">
           <ownedParameter xmi:id="_RP1NcV7LEeOmZ9VcqiNTzg" type="_-nEtIF7LEeOmZ9VcqiNTzg" direction="return"/>
           <ownedParameter xmi:id="_RP1Ncl7LEeOmZ9VcqiNTzg" name="Player"/>
         </ownedOperation>
@@ -104,33 +105,25 @@
         <interfaceRealization xmi:id="_Rn4roF7MEeOmZ9VcqiNTzg" client="_-nEtIF7LEeOmZ9VcqiNTzg" supplier="_Rn2PYF7MEeOmZ9VcqiNTzg" contract="_Rn2PYF7MEeOmZ9VcqiNTzg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_Rn2PYF7MEeOmZ9VcqiNTzg" name="ChamberInterface">
-        <ownedAttribute xmi:id="_FB0jAF7MEeOmZ9VcqiNTzg" name="exitNorth">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_F5gY8F7MEeOmZ9VcqiNTzg" name="exitSouth">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_GxjbQF7MEeOmZ9VcqiNTzg" name="exitEast">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_Hsjq8F7MEeOmZ9VcqiNTzg" name="exitWest">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_Iu9jIF7MEeOmZ9VcqiNTzg" name="searchIcon">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_Ke0XMF7MEeOmZ9VcqiNTzg" name="door">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <ownedAttribute xmi:id="_lCt3EGBVEeORY4I6G9PfUA" name="exits">
+          <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_O9PDQF7MEeOmZ9VcqiNTzg" name="portcullis">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedAttribute>
+        <ownedOperation xmi:id="_nVCfAGBVEeORY4I6G9PfUA" name="getExits"/>
+        <ownedOperation xmi:id="_oSpWwGBVEeORY4I6G9PfUA" name="getSearchIcon"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_bHPiAF7MEeOmZ9VcqiNTzg" name="DungeonChamber">
         <generalization xmi:id="_nwHHAF7MEeOmZ9VcqiNTzg" general="_-nEtIF7LEeOmZ9VcqiNTzg"/>
         <ownedAttribute xmi:id="_c3jCAF7MEeOmZ9VcqiNTzg" name="activeTokens">
           <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
         </ownedAttribute>
+        <ownedOperation xmi:id="_fT-LkGBVEeORY4I6G9PfUA" name="getActiveTokens">
+          <ownedParameter xmi:id="_fT-LkWBVEeORY4I6G9PfUA" direction="return">
+            <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_d17V0F7MEeOmZ9VcqiNTzg" name="TrapChamber">
         <generalization xmi:id="_nEQGkF7MEeOmZ9VcqiNTzg" general="_-nEtIF7LEeOmZ9VcqiNTzg"/>
