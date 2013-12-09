@@ -116,13 +116,16 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_bHPiAF7MEeOmZ9VcqiNTzg" name="DungeonChamber">
         <generalization xmi:id="_nwHHAF7MEeOmZ9VcqiNTzg" general="_-nEtIF7LEeOmZ9VcqiNTzg"/>
-        <ownedAttribute xmi:id="_c3jCAF7MEeOmZ9VcqiNTzg" name="activeTokens">
+        <ownedAttribute xmi:id="_c3jCAF7MEeOmZ9VcqiNTzg" name="activeTokens" visibility="private">
           <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_fT-LkGBVEeORY4I6G9PfUA" name="getActiveTokens">
           <ownedParameter xmi:id="_fT-LkWBVEeORY4I6G9PfUA" direction="return">
             <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
           </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_CUG50GDgEeORY4I6G9PfUA" name="setActiveTokens">
+          <ownedParameter xmi:id="_CUHg4GDgEeORY4I6G9PfUA" name="Array"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_d17V0F7MEeOmZ9VcqiNTzg" name="TrapChamber">

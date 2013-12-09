@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_9o3VQF7HEeOmZ9VcqiNTzg" name="PackageDiagram">
-  <packagedElement xmi:type="uml:Package" xmi:id="_-7jsMF7HEeOmZ9VcqiNTzg" name="networking"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_CFi78F7IEeOmZ9VcqiNTzg" name="gameboard"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_LCTbkF7IEeOmZ9VcqiNTzg" name="tokens"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_NcxS4F7IEeOmZ9VcqiNTzg" name="cards"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_WxGlAF7IEeOmZ9VcqiNTzg" name="player"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_oPnDQF7IEeOmZ9VcqiNTzg" name="gameplay"/>
-</uml:Model>

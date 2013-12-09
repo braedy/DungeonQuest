@@ -62,14 +62,22 @@
         <ownedAttribute xmi:id="_VbbUoF9OEeOmZ9VcqiNTzg" name="tokenInfo">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedOperation xmi:id="_-HoHwGDeEeORY4I6G9PfUA" name="getTokenType"/>
+        <ownedOperation xmi:id="__M2DYGDeEeORY4I6G9PfUA" name="getTokenInfo"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_fALoYF9OEeOmZ9VcqiNTzg" name="HeroFigure">
         <generalization xmi:id="_zMfwsF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
         <ownedAttribute xmi:id="_ghxW8F9OEeOmZ9VcqiNTzg" name="hero" type="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+        <ownedOperation xmi:id="_fRLYAGDeEeORY4I6G9PfUA" name="getHero">
+          <ownedParameter xmi:id="_fRLYAWDeEeORY4I6G9PfUA" type="_hnEAgF9NEeOmZ9VcqiNTzg" direction="return"/>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_hMwNoF9OEeOmZ9VcqiNTzg" name="TravelMarker">
         <generalization xmi:id="_z4CBAF9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
         <ownedAttribute xmi:id="_iuV8MF9OEeOmZ9VcqiNTzg" name="traveller" type="_hnEAgF9NEeOmZ9VcqiNTzg"/>
+        <ownedOperation xmi:id="_kcBsQGDeEeORY4I6G9PfUA" name="getTraveller">
+          <ownedParameter xmi:id="_kcBsQWDeEeORY4I6G9PfUA" type="_hnEAgF9NEeOmZ9VcqiNTzg" direction="return"/>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_jVJdgF9OEeOmZ9VcqiNTzg" name="CatacombEntrance">
         <generalization xmi:id="_0fhe0F9OEeOmZ9VcqiNTzg" general="_L7cMIF9OEeOmZ9VcqiNTzg"/>
@@ -88,6 +96,16 @@
         <ownedAttribute xmi:id="_v_C9QF9OEeOmZ9VcqiNTzg" name="lifeValue">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
+        <ownedOperation xmi:id="_nOz88GDeEeORY4I6G9PfUA" name="getMonsterType">
+          <ownedParameter xmi:id="_nOz88WDeEeORY4I6G9PfUA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ox45QGDeEeORY4I6G9PfUA" name="getLifeValue">
+          <ownedParameter xmi:id="_ox45QWDeEeORY4I6G9PfUA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_WxQ7oV9NEeOmZ9VcqiNTzg" name="HeroCard"/>
