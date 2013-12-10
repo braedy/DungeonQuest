@@ -137,6 +137,7 @@
       <ownedOperation xmi:id="_nZy9sF9ZEeOmZ9VcqiNTzg" name="updateActiveTokens">
         <ownedParameter xmi:id="_nZzkwF9ZEeOmZ9VcqiNTzg" name="Array"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_IKkFQGHwEeOoN-xWBfaGGw" name="setRune"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_I9RAgFnMEeOEJOtzZXoAfg" name="RuneCard">
       <generalization xmi:id="_1-AG4F69EeOmZ9VcqiNTzg" general="_WIE3IF69EeOmZ9VcqiNTzg"/>
