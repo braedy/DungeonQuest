@@ -208,6 +208,14 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_9me7IGHyEeOo6sOu_oBQYA" name="trapped">
+        <ownedParameter xmi:id="_9me7IWHyEeOo6sOu_oBQYA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_9mhXYGHyEeOo6sOu_oBQYA" name="dieValue">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2A3WAFnNEeOEJOtzZXoAfg" name="DoorCard">
       <generalization xmi:id="_-6KJkF69EeOmZ9VcqiNTzg" general="_WIE3IF69EeOmZ9VcqiNTzg"/>
@@ -785,6 +793,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kh9FMGEFEeOgk8BjAaYrqQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kh9FMWEFEeOgk8BjAaYrqQ" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_vNth8GH2EeOo6sOu_oBQYA" name="drawnCard" type="_WIE3IF69EeOmZ9VcqiNTzg"/>
+      <ownedAttribute xmi:id="_xH1sUGH2EeOo6sOu_oBQYA" name="die" type="_PVDHUFnfEeOEJOtzZXoAfg"/>
       <ownedOperation xmi:id="_TqRV8FnxEeOEJOtzZXoAfg" name="chooseHero"/>
       <ownedOperation xmi:id="_EU-14FoQEeOEJOtzZXoAfg" name="search"/>
       <ownedOperation xmi:id="__A338FoPEeOEJOtzZXoAfg" name="move"/>

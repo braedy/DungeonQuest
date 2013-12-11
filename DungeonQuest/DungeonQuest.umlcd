@@ -5,7 +5,7 @@
     <modelElement href="DungeonQuest.uml#_JheVQFnWEeOEJOtzZXoAfg"/>
     <visualProperties xmi:id="_Jhh_oVnWEeOEJOtzZXoAfg"/>
     <nameVisual xmi:id="_Jhh_olnWEeOEJOtzZXoAfg" text="">
-      <visualProperties xmi:id="_JmibcFnWEeOEJOtzZXoAfg" position="-30.63157894736844,-16.999999999999886"/>
+      <visualProperties xmi:id="_JmibcFnWEeOEJOtzZXoAfg" position="-31.0,-17.0"/>
     </nameVisual>
     <sourceRole xmi:id="_t4SvYF6OEeOmZ9VcqiNTzg" aggregationKind="NONE" name="heroCard" navigable="true">
       <modelElement href="DungeonQuest.uml#_Jhe8UFnWEeOEJOtzZXoAfg"/>
@@ -15,7 +15,7 @@
     </sourceRole>
     <targetRole xmi:id="_t4UkkF6OEeOmZ9VcqiNTzg" aggregationKind="SHARED" name="powerCard" navigable="true">
       <modelElement href="DungeonQuest.uml#_Jhe8U1nWEeOEJOtzZXoAfg"/>
-      <visualProperties xmi:id="_-mZrcV6OEeOmZ9VcqiNTzg" position="43.66666666666674,2.0"/>
+      <visualProperties xmi:id="_-mZrcV6OEeOmZ9VcqiNTzg" position="43.0,2.0"/>
       <visibility xmi:id="_t4VLoV6OEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_t4VLoF6OEeOmZ9VcqiNTzg" label="4" max="4" min="4"/>
     </targetRole>
@@ -29,7 +29,7 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MwKqQFtUEeOmZ9VcqiNTzg" sourceAnchor="123.0,113.0" targetAnchor="261.0,43.0" target="_vXYlIFoQEeOEJOtzZXoAfg" source="_lJxH0FtTEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_MwHm8FtUEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_MwKqQVtUEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc3aoGHwEeOoN-xWBfaGGw" sourceY="99" targetX="323"/>
+    <bendpoints xmi:id="_4NlnAGH2EeOo6sOu_oBQYA" sourceY="99" targetX="323"/>
     <nameVisual xmi:id="_MwKqQltUEeOmZ9VcqiNTzg" text="">
       <visualProperties xmi:id="_M4uwYFtUEeOmZ9VcqiNTzg" position="-167.0,2.0"/>
     </nameVisual>
@@ -68,7 +68,7 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xkKu0FtaEeOmZ9VcqiNTzg" sourceAnchor="187.0,97.0" targetAnchor="90.0,0.0" target="_Wz1c0FnOEeOEJOtzZXoAfg" source="_RraHcFnvEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_xkHEcFtaEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_xkKu0VtaEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdBLoGHwEeOoN-xWBfaGGw" sourceX="412" targetY="-56"/>
+    <bendpoints xmi:id="_4NvYAGH2EeOo6sOu_oBQYA" sourceX="412" targetY="-56"/>
     <nameVisual xmi:id="_xkKu0ltaEeOmZ9VcqiNTzg" text="">
       <visualProperties xmi:id="_xu1twFtaEeOmZ9VcqiNTzg" position="-18.0,20.0"/>
     </nameVisual>
@@ -165,36 +165,36 @@
     <modelElement href="DungeonQuest.uml#_UrQcAF6KEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_UrS4QV6KEeOmZ9VcqiNTzg"/>
     <nameVisual xmi:id="_UrS4Ql6KEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_U1MbIF6KEeOmZ9VcqiNTzg" position="-18.0,-35.0"/>
+      <visualProperties xmi:id="_U1MbIF6KEeOmZ9VcqiNTzg" position="-18.0,-2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_UrS4Q16KEeOmZ9VcqiNTzg" aggregationKind="NONE" name="controller">
       <modelElement href="DungeonQuest.uml#_UrRDEF6KEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_U1L0EF6KEeOmZ9VcqiNTzg" position="-70.0,35.0"/>
+      <visualProperties xmi:id="_U1L0EF6KEeOmZ9VcqiNTzg" position="7.0,45.0"/>
       <visibility xmi:id="_UrS4RF6KEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_UrS4RV6KEeOmZ9VcqiNTzg" label="1..*" max="-1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_UrS4Rl6KEeOmZ9VcqiNTzg" aggregationKind="NONE" name="manager" navigable="true">
       <modelElement href="DungeonQuest.uml#_UrRDE16KEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_U1MbIV6KEeOmZ9VcqiNTzg" position="2.0,-60.0"/>
+      <visualProperties xmi:id="_U1MbIV6KEeOmZ9VcqiNTzg" position="-104.0,-42.0"/>
       <visibility xmi:id="_UrS4R16KEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_UrS4SF6KEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uc2_kF6PEeOmZ9VcqiNTzg" sourceAnchor="0.0,279.0" targetAnchor="272.0,14.0" target="_-EE3UFn1EeOEJOtzZXoAfg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uc2_kF6PEeOmZ9VcqiNTzg" sourceAnchor="0.0,298.0" targetAnchor="272.0,33.0" target="_-EE3UFn1EeOEJOtzZXoAfg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_uc0jUF6PEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_uc2_kV6PEeOmZ9VcqiNTzg"/>
     <nameVisual xmi:id="_uc2_kl6PEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_unKyIF6PEeOmZ9VcqiNTzg" position="-38.0,2.0"/>
+      <visualProperties xmi:id="_unKyIF6PEeOmZ9VcqiNTzg" position="26.0,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_uc2_k16PEeOmZ9VcqiNTzg" aggregationKind="NONE" name="manager" navigable="true">
       <modelElement href="DungeonQuest.uml#_uc1KYF6PEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_unKLEF6PEeOmZ9VcqiNTzg" position="-81.0,2.0"/>
+      <visualProperties xmi:id="_unKLEF6PEeOmZ9VcqiNTzg" position="-97.0,2.0"/>
       <visibility xmi:id="_uc2_lF6PEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_uc2_lV6PEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_uc2_ll6PEeOmZ9VcqiNTzg" name="gameBoard" navigable="true">
       <modelElement href="DungeonQuest.uml#_uc1KY16PEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_unKyIV6PEeOmZ9VcqiNTzg" position="13.0,-43.0"/>
+      <visualProperties xmi:id="_unKyIV6PEeOmZ9VcqiNTzg" position="25.0,-43.0"/>
       <visibility xmi:id="_uc2_l16PEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_uc2_mF6PEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </targetRole>
@@ -222,7 +222,7 @@
     <modelElement href="DungeonQuest.uml#_EJegMF6UEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_EJgVYV6UEeOmZ9VcqiNTzg"/>
     <nameVisual xmi:id="_EJgVYl6UEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_ES9MUF6UEeOmZ9VcqiNTzg" position="2.0,-7.0"/>
+      <visualProperties xmi:id="_ES9MUF6UEeOmZ9VcqiNTzg" position="-18.0,-7.0"/>
     </nameVisual>
     <sourceRole xmi:id="_EJgVY16UEeOmZ9VcqiNTzg" aggregationKind="NONE" name="server" navigable="true">
       <modelElement href="DungeonQuest.uml#_EJegMV6UEeOmZ9VcqiNTzg"/>
@@ -244,8 +244,8 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__SDfcF6tEeOmZ9VcqiNTzg" sourceAnchor="232.0,43.0" targetAnchor="0.0,40.0" superClass="_zeiqkF6sEeOmZ9VcqiNTzg" subClass="_B5st8FoKEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#__SC4YF6tEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="__SDfcV6tEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdCZwWHwEeOoN-xWBfaGGw" sourceX="35" targetX="-41" targetY="-55"/>
-    <bendpoints xmi:id="_JdDA0GHwEeOoN-xWBfaGGw" sourceX="35" sourceY="55" targetX="-41"/>
+    <bendpoints xmi:id="_4Nv_EGH2EeOo6sOu_oBQYA" sourceX="35" targetX="-41" targetY="-55"/>
+    <bendpoints xmi:id="_4Nv_EWH2EeOo6sOu_oBQYA" sourceX="35" sourceY="55" targetX="-41"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_DvYmYF6uEeOmZ9VcqiNTzg" sourceAnchor="119.0,0.0" targetAnchor="110.0,137.0" dashed="true" superClass="_yR8jsFoOEeOEJOtzZXoAfg" subClass="_zeiqkF6sEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_DvX_UF6uEeOmZ9VcqiNTzg"/>
@@ -254,20 +254,20 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FLQHcF6uEeOmZ9VcqiNTzg" sourceAnchor="231.0,42.0" targetAnchor="0.0,40.0" superClass="_zeiqkF6sEeOmZ9VcqiNTzg" subClass="_F1ueoFoKEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_FLPgYF6uEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_FLQHcV6uEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc0-YGHwEeOoN-xWBfaGGw" sourceX="34" targetX="-41" targetY="54"/>
-    <bendpoints xmi:id="_Jc0-YWHwEeOoN-xWBfaGGw" sourceX="34" sourceY="-54" targetX="-41"/>
+    <bendpoints xmi:id="_4NjKwGH2EeOo6sOu_oBQYA" sourceX="34" targetX="-41" targetY="54"/>
+    <bendpoints xmi:id="_4NjKwWH2EeOo6sOu_oBQYA" sourceX="34" sourceY="-54" targetX="-41"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_F_PJIF6uEeOmZ9VcqiNTzg" sourceAnchor="231.0,17.0" targetAnchor="0.0,40.0" superClass="_zeiqkF6sEeOmZ9VcqiNTzg" subClass="_cR5z8FoOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_F_OiEF6uEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_F_PJIV6uEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc0XUGHwEeOoN-xWBfaGGw" sourceX="33" targetX="-41" targetY="105"/>
-    <bendpoints xmi:id="_Jc0XUWHwEeOoN-xWBfaGGw" sourceX="33" sourceY="-105" targetX="-41"/>
+    <bendpoints xmi:id="_4NijsmH2EeOo6sOu_oBQYA" sourceX="33" targetX="-41" targetY="105"/>
+    <bendpoints xmi:id="_4Nijs2H2EeOo6sOu_oBQYA" sourceX="33" sourceY="-105" targetX="-41"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Gy1JQF6uEeOmZ9VcqiNTzg" sourceAnchor="234.0,28.0" targetAnchor="0.0,40.0" superClass="_zeiqkF6sEeOmZ9VcqiNTzg" subClass="_j2bVUFoOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_Gy0iMF6uEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_Gy1JQV6uEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JczwQGHwEeOoN-xWBfaGGw" sourceX="30" targetX="-41" targetY="193"/>
-    <bendpoints xmi:id="_JczwQWHwEeOoN-xWBfaGGw" sourceX="30" sourceY="-193" targetX="-41"/>
+    <bendpoints xmi:id="_4NijsGH2EeOo6sOu_oBQYA" sourceX="30" targetX="-41" targetY="193"/>
+    <bendpoints xmi:id="_4NijsWH2EeOo6sOu_oBQYA" sourceX="30" sourceY="-193" targetX="-41"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oLuVsF6wEeOmZ9VcqiNTzg" sourceAnchor="112.0,79.0" targetAnchor="134.0,0.0" target="_1iamoF6HEeOmZ9VcqiNTzg" source="_zeiqkF6sEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_oLsggF6wEeOmZ9VcqiNTzg"/>
@@ -295,14 +295,14 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yMUbcF6xEeOmZ9VcqiNTzg" sourceAnchor="189.0,40.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_GDMk0FoIEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_yMT0YF6xEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_yMUbcV6xEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc_WcGHwEeOoN-xWBfaGGw" sourceX="33" targetX="-36" targetY="-207"/>
-    <bendpoints xmi:id="_Jc_WcWHwEeOoN-xWBfaGGw" sourceX="33" sourceY="207" targetX="-36"/>
+    <bendpoints xmi:id="_4Nti0GH2EeOo6sOu_oBQYA" sourceX="33" targetX="-36" targetY="-207"/>
+    <bendpoints xmi:id="_4Nti0WH2EeOo6sOu_oBQYA" sourceX="33" sourceY="207" targetX="-36"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zJU2QF6xEeOmZ9VcqiNTzg" sourceAnchor="188.0,41.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_jrS0cFnvEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_zJUPMF6xEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_zJU2QV6xEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc_9gGHwEeOoN-xWBfaGGw" sourceX="31" targetX="-36" targetY="-118"/>
-    <bendpoints xmi:id="_Jc_9gWHwEeOoN-xWBfaGGw" sourceX="31" sourceY="118" targetX="-36"/>
+    <bendpoints xmi:id="_4Nti0mH2EeOo6sOu_oBQYA" sourceX="31" targetX="-36" targetY="-118"/>
+    <bendpoints xmi:id="_4Nti02H2EeOo6sOu_oBQYA" sourceX="31" sourceY="118" targetX="-36"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_z6je4F6xEeOmZ9VcqiNTzg" sourceAnchor="188.0,34.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_cWysEFnvEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_z6i30F6xEeOmZ9VcqiNTzg"/>
@@ -311,20 +311,20 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0l3swV6xEeOmZ9VcqiNTzg" sourceAnchor="184.0,40.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_R1rlIFnsEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_0l3swF6xEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_0l3swl6xEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdAkkGHwEeOoN-xWBfaGGw" sourceX="30" targetX="-36" targetY="76"/>
-    <bendpoints xmi:id="_JdAkkWHwEeOoN-xWBfaGGw" sourceX="30" sourceY="-76" targetX="-36"/>
+    <bendpoints xmi:id="_4Nuw8GH2EeOo6sOu_oBQYA" sourceX="30" targetX="-36" targetY="76"/>
+    <bendpoints xmi:id="_4Nuw8WH2EeOo6sOu_oBQYA" sourceX="30" sourceY="-76" targetX="-36"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1TrN8F6xEeOmZ9VcqiNTzg" sourceAnchor="186.0,29.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_3cP90FnsEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_1Tqm4F6xEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_1TrN8V6xEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc_9gmHwEeOoN-xWBfaGGw" sourceX="30" targetX="-36" targetY="126"/>
-    <bendpoints xmi:id="_Jc_9g2HwEeOoN-xWBfaGGw" sourceX="30" sourceY="-126" targetX="-36"/>
+    <bendpoints xmi:id="_4NuJ4GH2EeOo6sOu_oBQYA" sourceX="30" targetX="-36" targetY="126"/>
+    <bendpoints xmi:id="_4NuJ4WH2EeOo6sOu_oBQYA" sourceX="30" sourceY="-126" targetX="-36"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_13Y_AF6xEeOmZ9VcqiNTzg" sourceAnchor="187.0,67.0" targetAnchor="0.0,60.0" superClass="_p3xSsF6uEeOmZ9VcqiNTzg" subClass="_RraHcFnvEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_13YX8F6xEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_13Y_AV6xEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdBysGHwEeOoN-xWBfaGGw" sourceX="32" targetX="-36" targetY="234"/>
-    <bendpoints xmi:id="_JdBysWHwEeOoN-xWBfaGGw" sourceX="32" sourceY="-234" targetX="-36"/>
+    <bendpoints xmi:id="_4NvYAWH2EeOo6sOu_oBQYA" sourceX="32" targetX="-36" targetY="234"/>
+    <bendpoints xmi:id="_4NvYAmH2EeOo6sOu_oBQYA" sourceX="32" sourceY="-234" targetX="-36"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4A7eYF6xEeOmZ9VcqiNTzg" sourceAnchor="184.0,89.0" targetAnchor="0.0,65.0" target="_489wMF6uEeOmZ9VcqiNTzg" source="_p3xSsF6uEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_4A5pMF6xEeOmZ9VcqiNTzg"/>
@@ -371,92 +371,92 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_udPEIF69EeOmZ9VcqiNTzg" sourceAnchor="132.0,141.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_6aeakFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_udOdEF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_udPEIV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc7FAGHwEeOoN-xWBfaGGw" sourceY="32" targetX="130" targetY="407"/>
-    <bendpoints xmi:id="_Jc7FAWHwEeOoN-xWBfaGGw" sourceX="563" sourceY="32" targetX="693" targetY="407"/>
-    <bendpoints xmi:id="_Jc7FAmHwEeOoN-xWBfaGGw" sourceX="563" sourceY="-351" targetX="693" targetY="24"/>
-    <bendpoints xmi:id="_Jc7FA2HwEeOoN-xWBfaGGw" sourceX="-130" sourceY="-351" targetY="24"/>
+    <bendpoints xmi:id="_4NoDQmH2EeOo6sOu_oBQYA" sourceY="32" targetX="130" targetY="407"/>
+    <bendpoints xmi:id="_4NoqUGH2EeOo6sOu_oBQYA" sourceX="459" sourceY="32" targetX="589" targetY="407"/>
+    <bendpoints xmi:id="_4NoqUWH2EeOo6sOu_oBQYA" sourceX="459" sourceY="-351" targetX="589" targetY="24"/>
+    <bendpoints xmi:id="_4NoqUmH2EeOo6sOu_oBQYA" sourceX="-130" sourceY="-351" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vHwn0F69EeOmZ9VcqiNTzg" sourceAnchor="121.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_sQDjQFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_vHwAwF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_vHwn0V69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdBysmHwEeOoN-xWBfaGGw" sourceY="-49" targetX="438" targetY="24"/>
-    <bendpoints xmi:id="_JdCZwGHwEeOoN-xWBfaGGw" sourceX="-438" sourceY="-49" targetY="24"/>
+    <bendpoints xmi:id="_4NzpcGH2EeOo6sOu_oBQYA" sourceY="-49" targetX="438" targetY="24"/>
+    <bendpoints xmi:id="_4NzpcWH2EeOo6sOu_oBQYA" sourceX="-438" sourceY="-49" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vv_sgF69EeOmZ9VcqiNTzg" sourceAnchor="135.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_Owl_IFnOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_vv-eYF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_vv_sgV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc86MGHwEeOoN-xWBfaGGw" sourceY="-47" targetX="-101" targetY="24"/>
-    <bendpoints xmi:id="_Jc86MWHwEeOoN-xWBfaGGw" sourceX="101" sourceY="-47" targetY="24"/>
+    <bendpoints xmi:id="_4NqfgGH2EeOo6sOu_oBQYA" sourceY="-47" targetX="-101" targetY="24"/>
+    <bendpoints xmi:id="_4NqfgWH2EeOo6sOu_oBQYA" sourceX="101" sourceY="-47" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wjyg8F69EeOmZ9VcqiNTzg" sourceAnchor="99.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_xAjvwFnLEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_wjxS0F69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_wjyg8V69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdJHcGHwEeOoN-xWBfaGGw" sourceY="-24" targetX="-556" targetY="24"/>
-    <bendpoints xmi:id="_JdJHcWHwEeOoN-xWBfaGGw" sourceX="556" sourceY="-24" targetY="24"/>
+    <bendpoints xmi:id="_4NybUGH2EeOo6sOu_oBQYA" sourceY="-24" targetX="-556" targetY="24"/>
+    <bendpoints xmi:id="_4NybUWH2EeOo6sOu_oBQYA" sourceX="556" sourceY="-24" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xmQqkF69EeOmZ9VcqiNTzg" sourceAnchor="89.0,60.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_ZapjgFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_xmQDgF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_xmQqkV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc2zkGHwEeOoN-xWBfaGGw" sourceY="7" targetX="-336" targetY="224"/>
-    <bendpoints xmi:id="_Jc2zkWHwEeOoN-xWBfaGGw" sourceX="1007" sourceY="7" targetX="671" targetY="224"/>
-    <bendpoints xmi:id="_Jc2zkmHwEeOoN-xWBfaGGw" sourceX="1007" sourceY="-193" targetX="671" targetY="24"/>
-    <bendpoints xmi:id="_Jc2zk2HwEeOoN-xWBfaGGw" sourceX="336" sourceY="-193" targetY="24"/>
+    <bendpoints xmi:id="_4NkY4GH2EeOo6sOu_oBQYA" sourceY="7" targetX="-336" targetY="224"/>
+    <bendpoints xmi:id="_4Nk_8GH2EeOo6sOu_oBQYA" sourceX="903" sourceY="7" targetX="567" targetY="224"/>
+    <bendpoints xmi:id="_4Nk_8WH2EeOo6sOu_oBQYA" sourceX="903" sourceY="-193" targetX="567" targetY="24"/>
+    <bendpoints xmi:id="_4Nk_8mH2EeOo6sOu_oBQYA" sourceX="336" sourceY="-193" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yaaEUF69EeOmZ9VcqiNTzg" sourceAnchor="156.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_KyGwUFnOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_yaZdQF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_yaaEUV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc2MgGHwEeOoN-xWBfaGGw" sourceY="-131" targetX="237" targetY="24"/>
-    <bendpoints xmi:id="_Jc2MgWHwEeOoN-xWBfaGGw" sourceX="-237" sourceY="-131" targetY="24"/>
+    <bendpoints xmi:id="_4Njx0GH2EeOo6sOu_oBQYA" sourceY="-131" targetX="237" targetY="24"/>
+    <bendpoints xmi:id="_4Njx0WH2EeOo6sOu_oBQYA" sourceX="-237" sourceY="-131" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zWNlQF69EeOmZ9VcqiNTzg" sourceAnchor="162.0,140.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_4LbJEFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_zWMXIF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_zWNlQV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc-IUGHwEeOoN-xWBfaGGw" sourceY="59" targetX="-265" targetY="591"/>
-    <bendpoints xmi:id="_Jc-IUWHwEeOoN-xWBfaGGw" sourceX="-435" sourceY="59" targetX="-700" targetY="591"/>
-    <bendpoints xmi:id="_Jc-IUmHwEeOoN-xWBfaGGw" sourceX="-435" sourceY="-508" targetX="-700" targetY="24"/>
-    <bendpoints xmi:id="_Jc-IU2HwEeOoN-xWBfaGGw" sourceX="265" sourceY="-508" targetY="24"/>
+    <bendpoints xmi:id="_4NrtoWH2EeOo6sOu_oBQYA" sourceY="59" targetX="-265" targetY="591"/>
+    <bendpoints xmi:id="_4NsUsGH2EeOo6sOu_oBQYA" sourceX="-435" sourceY="59" targetX="-700" targetY="591"/>
+    <bendpoints xmi:id="_4NsUsWH2EeOo6sOu_oBQYA" sourceX="-435" sourceY="-508" targetX="-700" targetY="24"/>
+    <bendpoints xmi:id="_4NsUsmH2EeOo6sOu_oBQYA" sourceX="265" sourceY="-508" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1-BVAF69EeOmZ9VcqiNTzg" sourceAnchor="0.0,62.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_I9RnkFnMEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_1-AG4F69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_1-BVAV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc8TIGHwEeOoN-xWBfaGGw" sourceX="-20" targetX="292" targetY="299"/>
-    <bendpoints xmi:id="_Jc8TIWHwEeOoN-xWBfaGGw" sourceX="-20" sourceY="-275" targetX="292" targetY="24"/>
-    <bendpoints xmi:id="_Jc8TImHwEeOoN-xWBfaGGw" sourceX="-312" sourceY="-275" targetY="24"/>
+    <bendpoints xmi:id="_4Np4cGH2EeOo6sOu_oBQYA" sourceX="-20" targetX="292" targetY="299"/>
+    <bendpoints xmi:id="_4Np4cWH2EeOo6sOu_oBQYA" sourceX="-20" sourceY="-275" targetX="292" targetY="24"/>
+    <bendpoints xmi:id="_4Np4cmH2EeOo6sOu_oBQYA" sourceX="-312" sourceY="-275" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_21nrYF69EeOmZ9VcqiNTzg" sourceAnchor="87.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_pVnLYFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_21nEUF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_21nrYV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc6d8GHwEeOoN-xWBfaGGw" sourceY="-47" targetX="134" targetY="24"/>
-    <bendpoints xmi:id="_Jc6d8WHwEeOoN-xWBfaGGw" sourceX="-134" sourceY="-47" targetY="24"/>
+    <bendpoints xmi:id="_4NoDQGH2EeOo6sOu_oBQYA" sourceY="-47" targetX="134" targetY="24"/>
+    <bendpoints xmi:id="_4NoDQWH2EeOo6sOu_oBQYA" sourceX="-134" sourceY="-47" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8cxhIF69EeOmZ9VcqiNTzg" sourceAnchor="331.0,68.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_ieaDAFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_8cw6EF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_8cxhIV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc86MmHwEeOoN-xWBfaGGw" sourceX="15" targetX="-82" targetY="303"/>
-    <bendpoints xmi:id="_Jc9hQGHwEeOoN-xWBfaGGw" sourceX="15" sourceY="258" targetX="-82" targetY="561"/>
-    <bendpoints xmi:id="_Jc9hQWHwEeOoN-xWBfaGGw" sourceX="-573" sourceY="258" targetX="-670" targetY="561"/>
-    <bendpoints xmi:id="_Jc9hQmHwEeOoN-xWBfaGGw" sourceX="-573" sourceY="-279" targetX="-670" targetY="24"/>
-    <bendpoints xmi:id="_Jc9hQ2HwEeOoN-xWBfaGGw" sourceX="97" sourceY="-279" targetY="24"/>
+    <bendpoints xmi:id="_4NrGkGH2EeOo6sOu_oBQYA" sourceX="15" targetX="-82" targetY="303"/>
+    <bendpoints xmi:id="_4NrGkWH2EeOo6sOu_oBQYA" sourceX="15" sourceY="258" targetX="-82" targetY="561"/>
+    <bendpoints xmi:id="_4NrGkmH2EeOo6sOu_oBQYA" sourceX="-573" sourceY="258" targetX="-670" targetY="561"/>
+    <bendpoints xmi:id="_4NrGk2H2EeOo6sOu_oBQYA" sourceX="-573" sourceY="-279" targetX="-670" targetY="24"/>
+    <bendpoints xmi:id="_4NrtoGH2EeOo6sOu_oBQYA" sourceX="97" sourceY="-279" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-INvQF69EeOmZ9VcqiNTzg" sourceAnchor="212.0,59.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_RWBwUFnOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_-INIMF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_-IOWUF69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc7sEGHwEeOoN-xWBfaGGw" sourceX="446" targetX="723" targetY="486"/>
-    <bendpoints xmi:id="_Jc7sEWHwEeOoN-xWBfaGGw" sourceX="446" sourceY="-462" targetX="723" targetY="24"/>
-    <bendpoints xmi:id="_Jc7sEmHwEeOoN-xWBfaGGw" sourceX="-277" sourceY="-462" targetY="24"/>
+    <bendpoints xmi:id="_4NpRYGH2EeOo6sOu_oBQYA" sourceX="342" targetX="619" targetY="486"/>
+    <bendpoints xmi:id="_4NpRYWH2EeOo6sOu_oBQYA" sourceX="342" sourceY="-462" targetX="619" targetY="24"/>
+    <bendpoints xmi:id="_4NpRYmH2EeOo6sOu_oBQYA" sourceX="-277" sourceY="-462" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-6LXsF69EeOmZ9VcqiNTzg" sourceAnchor="91.0,0.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_2A39EFnNEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_-6KJkF69EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_-6LXsV69EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc524GHwEeOoN-xWBfaGGw" sourceY="-38" targetX="-339" targetY="24"/>
-    <bendpoints xmi:id="_Jc524WHwEeOoN-xWBfaGGw" sourceX="339" sourceY="-38" targetY="24"/>
+    <bendpoints xmi:id="_4NncMGH2EeOo6sOu_oBQYA" sourceY="-38" targetX="-339" targetY="24"/>
+    <bendpoints xmi:id="_4NncMWH2EeOo6sOu_oBQYA" sourceX="339" sourceY="-38" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_whe-YF6-EeOmZ9VcqiNTzg" sourceAnchor="181.0,87.0" targetAnchor="116.0,123.0" superClass="_WIFeMF69EeOmZ9VcqiNTzg" subClass="_Wz1c0FnOEeOEJOtzZXoAfg">
     <modelElement href="DungeonQuest.uml#_wheXUF6-EeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_whe-YV6-EeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_Jc-vYGHwEeOoN-xWBfaGGw" sourceX="108" targetX="-751" targetY="456"/>
-    <bendpoints xmi:id="_Jc-vYWHwEeOoN-xWBfaGGw" sourceX="108" sourceY="-432" targetX="-751" targetY="24"/>
-    <bendpoints xmi:id="_Jc-vYmHwEeOoN-xWBfaGGw" sourceX="859" sourceY="-432" targetY="24"/>
+    <bendpoints xmi:id="_4Ns7wGH2EeOo6sOu_oBQYA" sourceX="108" targetX="-751" targetY="456"/>
+    <bendpoints xmi:id="_4Ns7wWH2EeOo6sOu_oBQYA" sourceX="108" sourceY="-432" targetX="-751" targetY="24"/>
+    <bendpoints xmi:id="_4Ns7wmH2EeOo6sOu_oBQYA" sourceX="859" sourceY="-432" targetY="24"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gMdl0F7AEeOmZ9VcqiNTzg" sourceAnchor="0.0,61.0" targetAnchor="305.0,250.0" target="_7hOpcF6-EeOmZ9VcqiNTzg" source="_WIFeMF69EeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_gMbwoF7AEeOmZ9VcqiNTzg"/>
@@ -477,44 +477,42 @@
       <cardinality xmi:id="_gMdl2F7AEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1TeJ4F7CEeOmZ9VcqiNTzg" sourceAnchor="92.0,280.0" targetAnchor="56.0,0.0" target="_7hOpcF6-EeOmZ9VcqiNTzg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1TeJ4F7CEeOmZ9VcqiNTzg" sourceAnchor="92.0,333.0" targetAnchor="62.0,0.0" target="_7hOpcF6-EeOmZ9VcqiNTzg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_1TcUsF7CEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_1TeJ4V7CEeOmZ9VcqiNTzg"/>
     <nameVisual xmi:id="_1TeJ4l7CEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_1fw5cF7CEeOmZ9VcqiNTzg" position="-18.0,-1.0"/>
+      <visualProperties xmi:id="_1fw5cF7CEeOmZ9VcqiNTzg" position="-17.5,-7.0"/>
     </nameVisual>
     <sourceRole xmi:id="_1TeJ417CEeOmZ9VcqiNTzg" aggregationKind="NONE" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_1TcUsV7CEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_1fwSYF7CEeOmZ9VcqiNTzg" position="2.0,33.0"/>
+      <visualProperties xmi:id="_1fwSYF7CEeOmZ9VcqiNTzg" position="2.5,93.57142857142856"/>
       <visibility xmi:id="_1TeJ5F7CEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_1TeJ5V7CEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </sourceRole>
     <targetRole xmi:id="_1TeJ5l7CEeOmZ9VcqiNTzg" aggregationKind="NONE" name="cardFactory" navigable="true">
       <modelElement href="DungeonQuest.uml#_1TcUtF7CEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_1fw5cV7CEeOmZ9VcqiNTzg" position="2.0,-75.0"/>
+      <visualProperties xmi:id="_1fw5cV7CEeOmZ9VcqiNTzg" position="2.5,-72.85714285714289"/>
       <visibility xmi:id="_1TeJ517CEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_1TeJ6F7CEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3bph4F7DEeOmZ9VcqiNTzg" sourceAnchor="185.0,208.0" targetAnchor="0.0,91.0" target="_-EE3UFn1EeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3bph4F7DEeOmZ9VcqiNTzg" sourceAnchor="0.0,197.0" targetAnchor="272.0,91.0" target="_-EE3UFn1EeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_3bnssF7DEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_3bph4V7DEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdE2AGHwEeOoN-xWBfaGGw" sourceX="981" targetX="1917" targetY="-150"/>
-    <bendpoints xmi:id="_JdE2AWHwEeOoN-xWBfaGGw" sourceX="981" sourceY="-802" targetX="1917" targetY="-952"/>
-    <bendpoints xmi:id="_JdE2AmHwEeOoN-xWBfaGGw" sourceX="-1265" sourceY="-802" targetX="-329" targetY="-952"/>
-    <bendpoints xmi:id="_JdE2A2HwEeOoN-xWBfaGGw" sourceX="-1265" sourceY="150" targetX="-329"/>
+    <bendpoints xmi:id="_4N0QgGH2EeOo6sOu_oBQYA" sourceX="-63" targetX="422" targetY="-171"/>
+    <bendpoints xmi:id="_4N0QgWH2EeOo6sOu_oBQYA" sourceX="-63" sourceY="171" targetX="422"/>
     <nameVisual xmi:id="_3bph4l7DEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_3opcEF7DEeOmZ9VcqiNTzg" position="154.0,-17.0"/>
+      <visualProperties xmi:id="_3opcEF7DEeOmZ9VcqiNTzg" position="1.0,-44.5"/>
     </nameVisual>
     <sourceRole xmi:id="_3bph417DEeOmZ9VcqiNTzg" aggregationKind="NONE" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_3bnssV7DEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_3oo1AF7DEeOmZ9VcqiNTzg" position="1.0,41.0"/>
+      <visualProperties xmi:id="_3oo1AF7DEeOmZ9VcqiNTzg" position="-147.0,150.5"/>
       <visibility xmi:id="_3bph5F7DEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_3bph5V7DEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </sourceRole>
     <targetRole xmi:id="_3bph5l7DEeOmZ9VcqiNTzg" aggregationKind="NONE" name="gameBoard" navigable="true">
       <modelElement href="DungeonQuest.uml#_3bnstF7DEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_3opcEV7DEeOmZ9VcqiNTzg" position="-128.0,-43.000000000000114"/>
+      <visualProperties xmi:id="_3opcEV7DEeOmZ9VcqiNTzg" position="58.33333333333337,1.9999999999999432"/>
       <visibility xmi:id="_3bph517DEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_3bph6F7DEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
     </targetRole>
@@ -531,12 +529,12 @@
     <modelElement href="DungeonQuest.uml#_ZSuxEF7EEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_ZSvYIV7EEeOmZ9VcqiNTzg"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dddsIF7EEeOmZ9VcqiNTzg" sourceAnchor="234.0,0.0" targetAnchor="0.0,37.0" target="_C8qEwF61EeOmZ9VcqiNTzg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dddsIF7EEeOmZ9VcqiNTzg" sourceAnchor="161.0,0.0" targetAnchor="0.0,37.0" target="_C8qEwF61EeOmZ9VcqiNTzg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_ddbP4F7EEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_dddsIV7EEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdGrMGHwEeOoN-xWBfaGGw" sourceY="-67" targetX="-726"/>
+    <bendpoints xmi:id="_4NzCYGH2EeOo6sOu_oBQYA" sourceY="-67" targetX="-799"/>
     <nameVisual xmi:id="_dddsIl7EEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_dpwbsV7EEeOmZ9VcqiNTzg" position="357.0,-17.0"/>
+      <visualProperties xmi:id="_dpwbsV7EEeOmZ9VcqiNTzg" position="394.0,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_dddsI17EEeOmZ9VcqiNTzg" aggregationKind="NONE" name="manager" navigable="true">
       <modelElement href="DungeonQuest.uml#_ddbP4V7EEeOmZ9VcqiNTzg"/>
@@ -546,27 +544,27 @@
     </sourceRole>
     <targetRole xmi:id="_dddsJl7EEeOmZ9VcqiNTzg" name="constraints" navigable="true">
       <modelElement href="DungeonQuest.uml#_ddb28l7EEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_dpwbsl7EEeOmZ9VcqiNTzg" position="-142.0,-43.0"/>
+      <visualProperties xmi:id="_dpwbsl7EEeOmZ9VcqiNTzg" position="-143.0,-43.0"/>
       <visibility xmi:id="_dddsJ17EEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_dddsKF7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sq44kF7EEeOmZ9VcqiNTzg" sourceAnchor="0.0,170.0" targetAnchor="319.0,0.0" target="__et5EFnkEeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sq44kF7EEeOmZ9VcqiNTzg" sourceAnchor="0.0,227.0" targetAnchor="379.0,0.0" target="__et5EFnkEeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_sq0AEF7EEeOmZ9VcqiNTzg"/>
     <visualProperties xmi:id="_sq44kV7EEeOmZ9VcqiNTzg"/>
-    <bendpoints xmi:id="_JdFdEGHwEeOoN-xWBfaGGw" sourceX="-87" targetY="-258"/>
+    <bendpoints xmi:id="_4N03kGH2EeOo6sOu_oBQYA" sourceX="-33" targetY="-211"/>
     <nameVisual xmi:id="_sq44kl7EEeOmZ9VcqiNTzg" text="">
-      <visualProperties xmi:id="_s3rXYV7EEeOmZ9VcqiNTzg" position="2.0,121.0"/>
+      <visualProperties xmi:id="_s3rXYV7EEeOmZ9VcqiNTzg" position="-18.0,91.26666666666665"/>
     </nameVisual>
     <sourceRole xmi:id="_sq44k17EEeOmZ9VcqiNTzg" aggregationKind="NONE" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_sq0AEV7EEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_s3rXYF7EEeOmZ9VcqiNTzg" position="-85.0,62.0"/>
+      <visualProperties xmi:id="_s3rXYF7EEeOmZ9VcqiNTzg" position="-152.0,169.0"/>
       <visibility xmi:id="_sq44lF7EEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_sq44lV7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </sourceRole>
     <targetRole xmi:id="_sq44ll7EEeOmZ9VcqiNTzg" aggregationKind="NONE" name="combat" navigable="true">
       <modelElement href="DungeonQuest.uml#_sq0nIV7EEeOmZ9VcqiNTzg"/>
-      <visualProperties xmi:id="_s3r-cF7EEeOmZ9VcqiNTzg" position="-58.0,-73.0"/>
+      <visualProperties xmi:id="_s3r-cF7EEeOmZ9VcqiNTzg" position="-28.0,-42.0"/>
       <visibility xmi:id="_sq44l17EEeOmZ9VcqiNTzg" label="+"/>
       <cardinality xmi:id="_sq44mF7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </targetRole>
@@ -590,80 +588,80 @@
       <cardinality xmi:id="_37tFiF7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bYc9sGEEEeOgk8BjAaYrqQ" sourceAnchor="263.0,138.0" targetAnchor="0.0,140.0" target="_mgG2UF6NEeOmZ9VcqiNTzg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bYc9sGEEEeOgk8BjAaYrqQ" sourceAnchor="263.0,155.0" targetAnchor="0.0,167.0" target="_mgG2UF6NEeOmZ9VcqiNTzg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_bYVo8GEEEeOgk8BjAaYrqQ"/>
     <visualProperties xmi:id="_bYc9sWEEEeOgk8BjAaYrqQ"/>
     <nameVisual xmi:id="_bYc9smEEEeOgk8BjAaYrqQ" text="">
-      <visualProperties xmi:id="_bj1uUGEEEeOgk8BjAaYrqQ" position="-6.0,2.0"/>
+      <visualProperties xmi:id="_bj1uUGEEEeOgk8BjAaYrqQ" position="-43.5,-17.5"/>
     </nameVisual>
     <sourceRole xmi:id="_bYc9s2EEEeOgk8BjAaYrqQ" aggregationKind="NONE" name="manager" navigable="true">
       <modelElement href="DungeonQuest.uml#_bYVo8WEEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_bj0gMGEEEeOgk8BjAaYrqQ" position="38.0,41.0"/>
+      <visualProperties xmi:id="_bj0gMGEEEeOgk8BjAaYrqQ" position="29.666666666666515,-43.5"/>
       <visibility xmi:id="_bYc9tGEEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_bYc9tWEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_bYc9tmEEEeOgk8BjAaYrqQ" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_bYYFMWEEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_bj1uUWEEEeOgk8BjAaYrqQ" position="-90.0,-43.0"/>
+      <visualProperties xmi:id="_bj1uUWEEEeOgk8BjAaYrqQ" position="-91.66666666666652,1.5"/>
       <visibility xmi:id="_bYc9t2EEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_bYc9uGEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_cfL8QGEEEeOgk8BjAaYrqQ" sourceAnchor="185.0,99.0" targetAnchor="0.0,94.0" target="_bFB8gFnfEeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_cfL8QGEEEeOgk8BjAaYrqQ" sourceAnchor="185.0,109.0" targetAnchor="0.0,94.0" target="_bFB8gFnfEeOEJOtzZXoAfg" source="_mgG2UF6NEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_cfIR4GEEEeOgk8BjAaYrqQ"/>
     <visualProperties xmi:id="_cfL8QWEEEeOgk8BjAaYrqQ"/>
     <nameVisual xmi:id="_cfL8QmEEEeOgk8BjAaYrqQ" text="">
-      <visualProperties xmi:id="_crWI8GEEEeOgk8BjAaYrqQ" position="-39.0,-17.0"/>
+      <visualProperties xmi:id="_crWI8GEEEeOgk8BjAaYrqQ" position="33.64285714285711,2.0"/>
     </nameVisual>
     <sourceRole xmi:id="_cfL8Q2EEEeOgk8BjAaYrqQ" aggregationKind="NONE" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_cfI48GEEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_crVh4GEEEeOgk8BjAaYrqQ" position="24.0,2.0"/>
+      <visualProperties xmi:id="_crVh4GEEEeOgk8BjAaYrqQ" position="22.666666666666742,2.0"/>
       <visibility xmi:id="_cfL8RGEEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_cfL8RWEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_cfL8RmEEEeOgk8BjAaYrqQ" name="playerInfo" navigable="true">
       <modelElement href="DungeonQuest.uml#_cfI482EEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_crWI8WEEEeOgk8BjAaYrqQ" position="-99.0,-43.0"/>
+      <visualProperties xmi:id="_crWI8WEEEeOgk8BjAaYrqQ" position="-97.0,-43.0"/>
       <visibility xmi:id="_cfL8R2EEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_cfL8SGEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7y4osGEEEeOgk8BjAaYrqQ" sourceAnchor="150.0,294.0" targetAnchor="191.0,0.0" target="__et5EFnkEeOEJOtzZXoAfg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7y4osGEEEeOgk8BjAaYrqQ" sourceAnchor="150.0,313.0" targetAnchor="191.0,0.0" target="__et5EFnkEeOEJOtzZXoAfg" source="_NrX4wF6KEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_7y2McGEEEeOgk8BjAaYrqQ"/>
     <visualProperties xmi:id="_7y4osWEEEeOgk8BjAaYrqQ"/>
     <nameVisual xmi:id="_7y4osmEEEeOgk8BjAaYrqQ" text="">
-      <visualProperties xmi:id="_79XaYGEEEeOgk8BjAaYrqQ" position="2.0,-2.0"/>
+      <visualProperties xmi:id="_79XaYGEEEeOgk8BjAaYrqQ" position="2.0,-31.0"/>
     </nameVisual>
     <sourceRole xmi:id="_7y4os2EEEeOgk8BjAaYrqQ" aggregationKind="NONE" name="manager" navigable="true">
       <modelElement href="DungeonQuest.uml#_7y2McWEEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_79WzUGEEEeOgk8BjAaYrqQ" position="2.0,23.0"/>
+      <visualProperties xmi:id="_79WzUGEEEeOgk8BjAaYrqQ" position="2.0,47.0"/>
       <visibility xmi:id="_7y4otGEEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_7y4otWEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_7y4otmEEEeOgk8BjAaYrqQ" aggregationKind="NONE" name="combat" navigable="true">
       <modelElement href="DungeonQuest.uml#_7y2zgmEEEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_79XaYWEEEeOgk8BjAaYrqQ" position="-58.0,-65.0"/>
+      <visualProperties xmi:id="_79XaYWEEEeOgk8BjAaYrqQ" position="-58.0,-66.0"/>
       <visibility xmi:id="_7y4ot2EEEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_7y4ouGEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Kh_hcGEFEeOgk8BjAaYrqQ" sourceAnchor="159.0,0.0" targetAnchor="21.0,280.0" target="_mgG2UF6NEeOmZ9VcqiNTzg" source="_489wMF6uEeOmZ9VcqiNTzg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Kh_hcGEFEeOgk8BjAaYrqQ" sourceAnchor="159.0,0.0" targetAnchor="15.0,333.0" target="_mgG2UF6NEeOmZ9VcqiNTzg" source="_489wMF6uEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_Kh8eIGEFEeOgk8BjAaYrqQ"/>
     <visualProperties xmi:id="_Kh_hcWEFEeOgk8BjAaYrqQ"/>
-    <bendpoints xmi:id="_JdH5UGHwEeOoN-xWBfaGGw" sourceY="-63" targetX="-370" targetY="564"/>
-    <bendpoints xmi:id="_JdH5UWHwEeOoN-xWBfaGGw" sourceX="370" sourceY="-63" targetY="564"/>
+    <bendpoints xmi:id="_4Nx0QGH2EeOo6sOu_oBQYA" sourceY="-63" targetX="-370" targetY="521"/>
+    <bendpoints xmi:id="_4Nx0QWH2EeOo6sOu_oBQYA" sourceX="370" sourceY="-63" targetY="521"/>
     <nameVisual xmi:id="_Kh_hcmEFEeOgk8BjAaYrqQ" text="">
       <visualProperties xmi:id="_Kr8usGEFEeOgk8BjAaYrqQ" position="-144.0,1.0"/>
     </nameVisual>
     <sourceRole xmi:id="_Kh_hc2EFEeOgk8BjAaYrqQ" aggregationKind="NONE" name="tokenFactory" navigable="true">
       <modelElement href="DungeonQuest.uml#_Kh8eIWEFEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_Kr8HoGEFEeOgk8BjAaYrqQ" position="114.0,-61.0"/>
+      <visualProperties xmi:id="_Kr8HoGEFEeOgk8BjAaYrqQ" position="114.20000000000005,-61.0"/>
       <visibility xmi:id="_Kh_hdGEFEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_Kh_hdWEFEeOgk8BjAaYrqQ" label="*" max="-1"/>
     </sourceRole>
     <targetRole xmi:id="_Kh_hdmEFEeOgk8BjAaYrqQ" aggregationKind="NONE" name="playerAction" navigable="true">
       <modelElement href="DungeonQuest.uml#_Kh9FMmEFEeOgk8BjAaYrqQ"/>
-      <visualProperties xmi:id="_Kr8usWEFEeOgk8BjAaYrqQ" position="-85.0,48.0"/>
+      <visualProperties xmi:id="_Kr8usWEFEeOgk8BjAaYrqQ" position="7.0,44.454545454545496"/>
       <visibility xmi:id="_Kh_hd2EFEeOgk8BjAaYrqQ" label="+"/>
       <cardinality xmi:id="_Kh_heGEFEeOgk8BjAaYrqQ" label="*" max="-1"/>
     </targetRole>
@@ -1554,47 +1552,6 @@
       </outParameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sQDjQFnNEeOEJOtzZXoAfg" name="TrapCard" generalizations="_vHwn0F69EeOmZ9VcqiNTzg">
-    <modelElement href="DungeonQuest.uml#_sQC8MFnNEeOEJOtzZXoAfg"/>
-    <visualProperties xmi:id="_sQDjQVnNEeOEJOtzZXoAfg" position="1908.0,264.0" size="243.0,129.0"/>
-    <visibility xmi:id="_sQDjQlnNEeOEJOtzZXoAfg" label="+"/>
-    <attributes xmi:id="_7AcC0FnXEeOEJOtzZXoAfg" name="testValue">
-      <modelElement href="DungeonQuest.uml#_7Aa0sFnXEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_7AcC0VnXEeOEJOtzZXoAfg" label="-"/>
-      <cardinality xmi:id="_7AcC0lnXEeOEJOtzZXoAfg" label="1" max="1" min="1"/>
-      <type xmi:id="_7AcC01nXEeOEJOtzZXoAfg" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_W2SIUFnYEeOEJOtzZXoAfg" name="attributeTested">
-      <modelElement href="DungeonQuest.uml#_W2RhQFnYEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_W2SIUVnYEeOEJOtzZXoAfg" label="-"/>
-      <cardinality xmi:id="_W2SIUlnYEeOEJOtzZXoAfg" label="1" max="1" min="1"/>
-      <type xmi:id="_W2SIU1nYEeOEJOtzZXoAfg" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_fDUuMGBaEeORY4I6G9PfUA" name="getTestValue">
-      <modelElement href="DungeonQuest.uml#_fDTgEGBaEeORY4I6G9PfUA"/>
-      <visibility xmi:id="_fDUuMWBaEeORY4I6G9PfUA" label="+"/>
-      <outParameters xmi:id="_fDUuMmBaEeORY4I6G9PfUA">
-        <modelElement href="DungeonQuest.uml#_fDTgEWBaEeORY4I6G9PfUA"/>
-        <type xmi:id="_fDUuM2BaEeORY4I6G9PfUA" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_hR8h4GBaEeORY4I6G9PfUA" name="getAttributeTested">
-      <modelElement href="DungeonQuest.uml#_hR760GBaEeORY4I6G9PfUA"/>
-      <visibility xmi:id="_hR8h4WBaEeORY4I6G9PfUA" label="+"/>
-      <outParameters xmi:id="_hR8h4mBaEeORY4I6G9PfUA">
-        <modelElement href="DungeonQuest.uml#_hR760WBaEeORY4I6G9PfUA"/>
-        <type xmi:id="_hR8h42BaEeORY4I6G9PfUA" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_B5st8FoKEeOEJOtzZXoAfg" name="DungeonChamber" generalizations="__SDfcF6tEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_B5sG4FoKEeOEJOtzZXoAfg"/>
     <visualProperties xmi:id="_B5st8VoKEeOEJOtzZXoAfg" position="9.0,-890.0" size="232.0,97.0"/>
@@ -1790,147 +1747,6 @@
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </type>
       </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mgG2UF6NEeOmZ9VcqiNTzg" name="PlayerAction" associationsIn="_bYc9sGEEEeOgk8BjAaYrqQ _Kh_hcGEFEeOgk8BjAaYrqQ" associationsOut="_1TeJ4F7CEeOmZ9VcqiNTzg _3bph4F7DEeOmZ9VcqiNTzg _sq44kF7EEeOmZ9VcqiNTzg _cfL8QGEEEeOgk8BjAaYrqQ">
-    <modelElement href="DungeonQuest.uml#_mgGPQF6NEeOmZ9VcqiNTzg"/>
-    <visualProperties xmi:id="_mgG2UV6NEeOmZ9VcqiNTzg" position="1074.0,-703.0" size="185.0,280.0"/>
-    <visibility xmi:id="_mgG2Ul6NEeOmZ9VcqiNTzg" label="+"/>
-    <attributes xmi:id="_1Tew8F7CEeOmZ9VcqiNTzg" name="cardFactory">
-      <modelElement href="DungeonQuest.uml#_1TcUtF7CEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_1Tew8V7CEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_1Tew8l7CEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_1Tew817CEeOmZ9VcqiNTzg" name="CardFactory">
-        <modelElement href="DungeonQuest.uml#_7hOCYF6-EeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_3bqwAF7DEeOmZ9VcqiNTzg" name="gameBoard">
-      <modelElement href="DungeonQuest.uml#_3bnstF7DEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_3bqwAV7DEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_3bqwAl7DEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_3brXEF7DEeOmZ9VcqiNTzg" name="GameBoard">
-        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_sq6GsF7EEeOmZ9VcqiNTzg" name="combat">
-      <modelElement href="DungeonQuest.uml#_sq0nIV7EEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_sq6GsV7EEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_sq6Gsl7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
-      <type xmi:id="_sq6Gs17EEeOmZ9VcqiNTzg" name="Combat">
-        <modelElement href="DungeonQuest.uml#__esq8FnkEeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_bYeL0GEEEeOgk8BjAaYrqQ" name="manager">
-      <modelElement href="DungeonQuest.uml#_bYVo8WEEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_bYeL0WEEEeOgk8BjAaYrqQ" label="+"/>
-      <cardinality xmi:id="_bYeL0mEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bYeL02EEEeOgk8BjAaYrqQ" name="Manager">
-        <modelElement href="DungeonQuest.uml#_NrXRsF6KEeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_cfNxcGEEEeOgk8BjAaYrqQ" name="playerInfo">
-      <modelElement href="DungeonQuest.uml#_cfI482EEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_cfNxcWEEEeOgk8BjAaYrqQ" label="+"/>
-      <cardinality xmi:id="_cfNxcmEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
-      <type xmi:id="_cfNxc2EEEeOgk8BjAaYrqQ" name="PlayerInfo">
-        <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_KiAIgGEFEeOgk8BjAaYrqQ" name="tokenFactory">
-      <modelElement href="DungeonQuest.uml#_Kh8eIWEFEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_KiAIgWEFEeOgk8BjAaYrqQ" label="+"/>
-      <cardinality xmi:id="_KiAIgmEFEeOgk8BjAaYrqQ" label="*" max="-1"/>
-      <type xmi:id="_KiAIg2EFEeOgk8BjAaYrqQ" name="TokenFactory">
-        <modelElement href="DungeonQuest.uml#_489JIF6uEeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_GKaaAF6QEeOmZ9VcqiNTzg" name="chooseHero">
-      <modelElement href="DungeonQuest.uml#_TqRV8FnxEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_GKaaAV6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_IOWnsF6QEeOmZ9VcqiNTzg" name="search">
-      <modelElement href="DungeonQuest.uml#_EU-14FoQEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_IOWnsV6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_JX8F8F6QEeOmZ9VcqiNTzg" name="move">
-      <modelElement href="DungeonQuest.uml#__A338FoPEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_JX8F8V6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_KPPhYF6QEeOmZ9VcqiNTzg" name="drawCard">
-      <modelElement href="DungeonQuest.uml#_42drUFnnEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_KPPhYV6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_PG7pEF6QEeOmZ9VcqiNTzg" name="enterCatacombs">
-      <modelElement href="DungeonQuest.uml#_vWprgFnzEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_PG7pEV6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_PG7pE16QEeOmZ9VcqiNTzg" name="exitCatacombs">
-      <modelElement href="DungeonQuest.uml#_1nTKMFnzEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_PG7pFF6QEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_inQ_sF6REeOmZ9VcqiNTzg" name="death">
-      <modelElement href="DungeonQuest.uml#_inQYoF6REeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_inQ_sV6REeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_PuUR0GEEEeOgk8BjAaYrqQ" name="getPlayerNo">
-      <modelElement href="DungeonQuest.uml#_GSwpoFnuEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_PuUR0WEEEeOgk8BjAaYrqQ" label="+"/>
-      <outParameters xmi:id="_PuUR0mEEEeOgk8BjAaYrqQ">
-        <modelElement href="DungeonQuest.uml#_GSwpoVnuEeOEJOtzZXoAfg"/>
-        <type xmi:id="_PuUR02EEEeOgk8BjAaYrqQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_QX3lIGEEEeOgk8BjAaYrqQ" name="addPlayerToken">
-      <modelElement href="DungeonQuest.uml#_zgTQMFntEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_QX3lIWEEEeOgk8BjAaYrqQ" label="+"/>
-      <parameters xmi:id="_QX3lImEEEeOgk8BjAaYrqQ" name="token">
-        <modelElement href="DungeonQuest.uml#_zgT3QVntEeOEJOtzZXoAfg"/>
-        <type xmi:id="_QX3lI2EEEeOgk8BjAaYrqQ" name="Token">
-          <modelElement href="DungeonQuest.uml#_p3wEkF6uEeOmZ9VcqiNTzg"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_RJIqAGEEEeOgk8BjAaYrqQ" name="removePlayerToken">
-      <modelElement href="DungeonQuest.uml#_3yEnYFntEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_RJIqAWEEEeOgk8BjAaYrqQ" label="+"/>
-      <parameters xmi:id="_RJIqAmEEEeOgk8BjAaYrqQ" name="token">
-        <modelElement href="DungeonQuest.uml#_3yEnYlntEeOEJOtzZXoAfg"/>
-        <type xmi:id="_RJIqA2EEEeOgk8BjAaYrqQ" name="Token">
-          <modelElement href="DungeonQuest.uml#_p3wEkF6uEeOmZ9VcqiNTzg"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_RzjgAGEEEeOgk8BjAaYrqQ" name="getLocation">
-      <modelElement href="DungeonQuest.uml#_sWjz4F6vEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_RzjgAWEEEeOgk8BjAaYrqQ" label="+"/>
-      <outParameters xmi:id="_RzjgAmEEEeOgk8BjAaYrqQ">
-        <modelElement href="DungeonQuest.uml#_sWjz4V6vEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_RzjgA2EEEeOgk8BjAaYrqQ" name="Array">
-          <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_SeViYGEEEeOgk8BjAaYrqQ" name="setLocation">
-      <modelElement href="DungeonQuest.uml#_0-0qMF6vEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_SeViYWEEEeOgk8BjAaYrqQ" label="+"/>
-      <parameters xmi:id="_SeViYmEEEeOgk8BjAaYrqQ" name="x">
-        <modelElement href="DungeonQuest.uml#_0-0qMV6vEeOmZ9VcqiNTzg"/>
-      </parameters>
-      <parameters xmi:id="_SeViY2EEEeOgk8BjAaYrqQ" name="y">
-        <modelElement href="DungeonQuest.uml#_0-0qMl6vEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_SeViZGEEEeOgk8BjAaYrqQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_SeViZWEEEeOgk8BjAaYrqQ" name="int">
-        <modelElement href="DungeonQuest.uml#_0-0qM16vEeOmZ9VcqiNTzg"/>
-      </parameters>
-    </operations>
-    <operations xmi:id="_aX3qcGEEEeOgk8BjAaYrqQ" name="encounterMonster">
-      <modelElement href="DungeonQuest.uml#_aX3DYGEEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_aX3qcWEEEeOgk8BjAaYrqQ" label="+"/>
     </operations>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7hOpcF6-EeOmZ9VcqiNTzg" name="CardFactory" associationsIn="_1TeJ4F7CEeOmZ9VcqiNTzg _gMdl0F7AEeOmZ9VcqiNTzg">
@@ -2282,145 +2098,6 @@
         <modelElement href="DungeonQuest.uml#_mgGPQF6NEeOmZ9VcqiNTzg"/>
       </type>
     </attributes>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NrX4wF6KEeOmZ9VcqiNTzg" name="Manager" associationsIn="_UrS4QF6KEeOmZ9VcqiNTzg _EJgVYF6UEeOmZ9VcqiNTzg" associationsOut="_uc2_kF6PEeOmZ9VcqiNTzg _dddsIF7EEeOmZ9VcqiNTzg _bYc9sGEEEeOgk8BjAaYrqQ _7y4osGEEEeOgk8BjAaYrqQ">
-    <modelElement href="DungeonQuest.uml#_NrXRsF6KEeOmZ9VcqiNTzg"/>
-    <visualProperties xmi:id="_NrX4wV6KEeOmZ9VcqiNTzg" position="709.0,-701.0" size="263.0,294.0"/>
-    <visibility xmi:id="_NrX4wl6KEeOmZ9VcqiNTzg" label="+"/>
-    <attributes xmi:id="_xs24EF6MEeOmZ9VcqiNTzg" name="board">
-      <modelElement href="DungeonQuest.uml#_rDrqYFoHEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_xs24EV6MEeOmZ9VcqiNTzg" label="-"/>
-      <cardinality xmi:id="_xs24El6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_xs24E16MEeOmZ9VcqiNTzg" name="GameBoard">
-        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_xs24FF6MEeOmZ9VcqiNTzg" name="players">
-      <modelElement href="DungeonQuest.uml#_ZhAf0FnxEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_xs24FV6MEeOmZ9VcqiNTzg" label="-"/>
-      <cardinality xmi:id="_xs24Fl6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_xs24F16MEeOmZ9VcqiNTzg" name="Array">
-        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_xs24GF6MEeOmZ9VcqiNTzg" name="currentTurn">
-      <modelElement href="DungeonQuest.uml#_CypY4FnuEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_xs24GV6MEeOmZ9VcqiNTzg" label="-"/>
-      <cardinality xmi:id="_xs24Gl6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_xs24G16MEeOmZ9VcqiNTzg" name="PlayerInfo">
-        <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_uc4NsF6PEeOmZ9VcqiNTzg" name="gameBoard">
-      <modelElement href="DungeonQuest.uml#_uc1KY16PEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_uc4NsV6PEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_uc4Nsl6PEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="_uc4Ns16PEeOmZ9VcqiNTzg" name="GameBoard">
-        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_EJg8cF6UEeOmZ9VcqiNTzg" name="server">
-      <modelElement href="DungeonQuest.uml#_EJegMV6UEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_EJg8cV6UEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_EJg8cl6UEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
-      <type xmi:id="__z9G4GEDEeOgk8BjAaYrqQ" name="Server">
-        <modelElement href="DungeonQuest.uml#_9TSX8FoTEeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_dde6QF7EEeOmZ9VcqiNTzg" name="constraints">
-      <modelElement href="DungeonQuest.uml#_ddb28l7EEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_dde6QV7EEeOmZ9VcqiNTzg" label="+"/>
-      <cardinality xmi:id="_dde6Ql7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
-      <type xmi:id="_dde6Q17EEeOmZ9VcqiNTzg" name="Constraints">
-        <modelElement href="DungeonQuest.uml#_C8pdsF61EeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_bYfZ8GEEEeOgk8BjAaYrqQ" name="playerAction">
-      <modelElement href="DungeonQuest.uml#_bYYFMWEEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_bYfZ8WEEEeOgk8BjAaYrqQ" label="+"/>
-      <cardinality xmi:id="_bYfZ8mEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
-      <type xmi:id="_bYfZ82EEEeOgk8BjAaYrqQ" name="PlayerAction">
-        <modelElement href="DungeonQuest.uml#_mgGPQF6NEeOmZ9VcqiNTzg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_7y7sAGEEEeOgk8BjAaYrqQ" name="combat">
-      <modelElement href="DungeonQuest.uml#_7y2zgmEEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_7y7sAWEEEeOgk8BjAaYrqQ" label="+"/>
-      <cardinality xmi:id="_7y7sAmEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
-      <type xmi:id="_7y7sA2EEEeOgk8BjAaYrqQ" name="Combat">
-        <modelElement href="DungeonQuest.uml#__esq8FnkEeOEJOtzZXoAfg"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_iDOisF6KEeOmZ9VcqiNTzg" name="startGame">
-      <modelElement href="DungeonQuest.uml#_iDN7oF6KEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_iDOisV6KEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_ix-fEF6KEeOmZ9VcqiNTzg" name="endGame">
-      <modelElement href="DungeonQuest.uml#_ix9Q8F6KEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_ix-fEV6KEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_lhDCgF6MEeOmZ9VcqiNTzg" name="newPlayer">
-      <modelElement href="DungeonQuest.uml#_MVkZQFnxEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_lhDCgV6MEeOmZ9VcqiNTzg" label="+"/>
-      <parameters xmi:id="_lhDCgl6MEeOmZ9VcqiNTzg" name="gamerTag">
-        <modelElement href="DungeonQuest.uml#_MVlAUFnxEeOEJOtzZXoAfg"/>
-        <type xmi:id="_UZxt0F6zEeOmZ9VcqiNTzg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_p-KHAF6MEeOmZ9VcqiNTzg" name="getPlayers">
-      <modelElement href="DungeonQuest.uml#__IfE4FtZEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_p-KHAV6MEeOmZ9VcqiNTzg" label="+"/>
-      <outParameters xmi:id="_p-KHAl6MEeOmZ9VcqiNTzg">
-        <modelElement href="DungeonQuest.uml#__IfE4VtZEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_p-KHA16MEeOmZ9VcqiNTzg" name="Array">
-          <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_p-KuEF6MEeOmZ9VcqiNTzg" name="getBoard">
-      <modelElement href="DungeonQuest.uml#_MSgPIFtaEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_p-KuEV6MEeOmZ9VcqiNTzg" label="+"/>
-      <outParameters xmi:id="_p-KuEl6MEeOmZ9VcqiNTzg">
-        <modelElement href="DungeonQuest.uml#_MSgPIVtaEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_p-KuE16MEeOmZ9VcqiNTzg" name="GameBoard">
-          <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_p-LVIF6MEeOmZ9VcqiNTzg" name="getCurrentTurn">
-      <modelElement href="DungeonQuest.uml#_8w7XoFtZEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_p-LVIV6MEeOmZ9VcqiNTzg" label="+"/>
-      <outParameters xmi:id="_p-LVIl6MEeOmZ9VcqiNTzg">
-        <modelElement href="DungeonQuest.uml#_8w7XoVtZEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_p-LVI16MEeOmZ9VcqiNTzg" name="PlayerInfo">
-          <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_P3xXgF6NEeOmZ9VcqiNTzg" name="nextTurn">
-      <modelElement href="DungeonQuest.uml#_fBgbUFnuEeOEJOtzZXoAfg"/>
-      <visibility xmi:id="_P3xXgV6NEeOmZ9VcqiNTzg" label="+"/>
-    </operations>
-    <operations xmi:id="_QY7ukV6zEeOmZ9VcqiNTzg" name="removePlayer">
-      <modelElement href="DungeonQuest.uml#_QY7HgF6zEeOmZ9VcqiNTzg"/>
-      <visibility xmi:id="_QY7ukl6zEeOmZ9VcqiNTzg" label="+"/>
-      <parameters xmi:id="_QY7uk16zEeOmZ9VcqiNTzg" name="player">
-        <modelElement href="DungeonQuest.uml#_QY7ukF6zEeOmZ9VcqiNTzg"/>
-        <type xmi:id="_RphMsF6zEeOmZ9VcqiNTzg" name="PlayerInfo">
-          <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_Hg16EGEEEeOgk8BjAaYrqQ" name="combatState">
-      <modelElement href="DungeonQuest.uml#_Hg1TAGEEEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_Hg16EWEEEeOgk8BjAaYrqQ" label="+"/>
-    </operations>
-    <operations xmi:id="_RaEMgGEFEeOgk8BjAaYrqQ" name="notify">
-      <modelElement href="DungeonQuest.uml#_RaDlcGEFEeOgk8BjAaYrqQ"/>
-      <visibility xmi:id="_RaEMgWEFEeOgk8BjAaYrqQ" label="+"/>
-    </operations>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vXYlIFoQEeOEJOtzZXoAfg" name="Controller" associationsIn="_MwKqQFtUEeOmZ9VcqiNTzg" associationsOut="_UrS4QF6KEeOmZ9VcqiNTzg">
     <modelElement href="DungeonQuest.uml#_vXX-EFoQEeOEJOtzZXoAfg"/>
@@ -2909,6 +2586,359 @@
     <operations xmi:id="_IKqy8GHwEeOoN-xWBfaGGw" name="setRune">
       <modelElement href="DungeonQuest.uml#_IKkFQGHwEeOoN-xWBfaGGw"/>
       <visibility xmi:id="_IKraAGHwEeOoN-xWBfaGGw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NrX4wF6KEeOmZ9VcqiNTzg" name="Manager" associationsIn="_UrS4QF6KEeOmZ9VcqiNTzg _EJgVYF6UEeOmZ9VcqiNTzg" associationsOut="_uc2_kF6PEeOmZ9VcqiNTzg _dddsIF7EEeOmZ9VcqiNTzg _bYc9sGEEEeOgk8BjAaYrqQ _7y4osGEEEeOgk8BjAaYrqQ">
+    <modelElement href="DungeonQuest.uml#_NrXRsF6KEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_NrX4wV6KEeOmZ9VcqiNTzg" position="709.0,-701.0" size="263.0,313.0"/>
+    <visibility xmi:id="_NrX4wl6KEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_xs24EF6MEeOmZ9VcqiNTzg" name="board">
+      <modelElement href="DungeonQuest.uml#_rDrqYFoHEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_xs24EV6MEeOmZ9VcqiNTzg" label="-"/>
+      <cardinality xmi:id="_xs24El6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_xs24E16MEeOmZ9VcqiNTzg" name="GameBoard">
+        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xs24FF6MEeOmZ9VcqiNTzg" name="players">
+      <modelElement href="DungeonQuest.uml#_ZhAf0FnxEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_xs24FV6MEeOmZ9VcqiNTzg" label="-"/>
+      <cardinality xmi:id="_xs24Fl6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_xs24F16MEeOmZ9VcqiNTzg" name="Array">
+        <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xs24GF6MEeOmZ9VcqiNTzg" name="currentTurn">
+      <modelElement href="DungeonQuest.uml#_CypY4FnuEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_xs24GV6MEeOmZ9VcqiNTzg" label="-"/>
+      <cardinality xmi:id="_xs24Gl6MEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_xs24G16MEeOmZ9VcqiNTzg" name="PlayerInfo">
+        <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uc4NsF6PEeOmZ9VcqiNTzg" name="gameBoard">
+      <modelElement href="DungeonQuest.uml#_uc1KY16PEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_uc4NsV6PEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_uc4Nsl6PEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_uc4Ns16PEeOmZ9VcqiNTzg" name="GameBoard">
+        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EJg8cF6UEeOmZ9VcqiNTzg" name="server">
+      <modelElement href="DungeonQuest.uml#_EJegMV6UEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_EJg8cV6UEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_EJg8cl6UEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="__z9G4GEDEeOgk8BjAaYrqQ" name="Server">
+        <modelElement href="DungeonQuest.uml#_9TSX8FoTEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dde6QF7EEeOmZ9VcqiNTzg" name="constraints">
+      <modelElement href="DungeonQuest.uml#_ddb28l7EEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_dde6QV7EEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_dde6Ql7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
+      <type xmi:id="_dde6Q17EEeOmZ9VcqiNTzg" name="Constraints">
+        <modelElement href="DungeonQuest.uml#_C8pdsF61EeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bYfZ8GEEEeOgk8BjAaYrqQ" name="playerAction">
+      <modelElement href="DungeonQuest.uml#_bYYFMWEEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_bYfZ8WEEEeOgk8BjAaYrqQ" label="+"/>
+      <cardinality xmi:id="_bYfZ8mEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
+      <type xmi:id="_bYfZ82EEEeOgk8BjAaYrqQ" name="PlayerAction">
+        <modelElement href="DungeonQuest.uml#_mgGPQF6NEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7y7sAGEEEeOgk8BjAaYrqQ" name="combat">
+      <modelElement href="DungeonQuest.uml#_7y2zgmEEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_7y7sAWEEEeOgk8BjAaYrqQ" label="+"/>
+      <cardinality xmi:id="_7y7sAmEEEeOgk8BjAaYrqQ" label="*" max="-1"/>
+      <type xmi:id="_7y7sA2EEEeOgk8BjAaYrqQ" name="Combat">
+        <modelElement href="DungeonQuest.uml#__esq8FnkEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iDOisF6KEeOmZ9VcqiNTzg" name="startGame">
+      <modelElement href="DungeonQuest.uml#_iDN7oF6KEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_iDOisV6KEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_ix-fEF6KEeOmZ9VcqiNTzg" name="endGame">
+      <modelElement href="DungeonQuest.uml#_ix9Q8F6KEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_ix-fEV6KEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_lhDCgF6MEeOmZ9VcqiNTzg" name="newPlayer">
+      <modelElement href="DungeonQuest.uml#_MVkZQFnxEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_lhDCgV6MEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_lhDCgl6MEeOmZ9VcqiNTzg" name="gamerTag">
+        <modelElement href="DungeonQuest.uml#_MVlAUFnxEeOEJOtzZXoAfg"/>
+        <type xmi:id="_UZxt0F6zEeOmZ9VcqiNTzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_p-KHAF6MEeOmZ9VcqiNTzg" name="getPlayers">
+      <modelElement href="DungeonQuest.uml#__IfE4FtZEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_p-KHAV6MEeOmZ9VcqiNTzg" label="+"/>
+      <outParameters xmi:id="_p-KHAl6MEeOmZ9VcqiNTzg">
+        <modelElement href="DungeonQuest.uml#__IfE4VtZEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_p-KHA16MEeOmZ9VcqiNTzg" name="Array">
+          <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_p-KuEF6MEeOmZ9VcqiNTzg" name="getBoard">
+      <modelElement href="DungeonQuest.uml#_MSgPIFtaEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_p-KuEV6MEeOmZ9VcqiNTzg" label="+"/>
+      <outParameters xmi:id="_p-KuEl6MEeOmZ9VcqiNTzg">
+        <modelElement href="DungeonQuest.uml#_MSgPIVtaEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_p-KuE16MEeOmZ9VcqiNTzg" name="GameBoard">
+          <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_p-LVIF6MEeOmZ9VcqiNTzg" name="getCurrentTurn">
+      <modelElement href="DungeonQuest.uml#_8w7XoFtZEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_p-LVIV6MEeOmZ9VcqiNTzg" label="+"/>
+      <outParameters xmi:id="_p-LVIl6MEeOmZ9VcqiNTzg">
+        <modelElement href="DungeonQuest.uml#_8w7XoVtZEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_p-LVI16MEeOmZ9VcqiNTzg" name="PlayerInfo">
+          <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P3xXgF6NEeOmZ9VcqiNTzg" name="nextTurn">
+      <modelElement href="DungeonQuest.uml#_fBgbUFnuEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_P3xXgV6NEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_QY7ukV6zEeOmZ9VcqiNTzg" name="removePlayer">
+      <modelElement href="DungeonQuest.uml#_QY7HgF6zEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_QY7ukl6zEeOmZ9VcqiNTzg" label="+"/>
+      <parameters xmi:id="_QY7uk16zEeOmZ9VcqiNTzg" name="player">
+        <modelElement href="DungeonQuest.uml#_QY7ukF6zEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_RphMsF6zEeOmZ9VcqiNTzg" name="PlayerInfo">
+          <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Hg16EGEEEeOgk8BjAaYrqQ" name="combatState">
+      <modelElement href="DungeonQuest.uml#_Hg1TAGEEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_Hg16EWEEEeOgk8BjAaYrqQ" label="+"/>
+    </operations>
+    <operations xmi:id="_RaEMgGEFEeOgk8BjAaYrqQ" name="notify">
+      <modelElement href="DungeonQuest.uml#_RaDlcGEFEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_RaEMgWEFEeOgk8BjAaYrqQ" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sQDjQFnNEeOEJOtzZXoAfg" name="TrapCard" generalizations="_vHwn0F69EeOmZ9VcqiNTzg">
+    <modelElement href="DungeonQuest.uml#_sQC8MFnNEeOEJOtzZXoAfg"/>
+    <visualProperties xmi:id="_sQDjQVnNEeOEJOtzZXoAfg" position="1908.0,264.0" size="243.0,136.0"/>
+    <visibility xmi:id="_sQDjQlnNEeOEJOtzZXoAfg" label="+"/>
+    <attributes xmi:id="_7AcC0FnXEeOEJOtzZXoAfg" name="testValue">
+      <modelElement href="DungeonQuest.uml#_7Aa0sFnXEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_7AcC0VnXEeOEJOtzZXoAfg" label="-"/>
+      <cardinality xmi:id="_7AcC0lnXEeOEJOtzZXoAfg" label="1" max="1" min="1"/>
+      <type xmi:id="_7AcC01nXEeOEJOtzZXoAfg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_W2SIUFnYEeOEJOtzZXoAfg" name="attributeTested">
+      <modelElement href="DungeonQuest.uml#_W2RhQFnYEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_W2SIUVnYEeOEJOtzZXoAfg" label="-"/>
+      <cardinality xmi:id="_W2SIUlnYEeOEJOtzZXoAfg" label="1" max="1" min="1"/>
+      <type xmi:id="_W2SIU1nYEeOEJOtzZXoAfg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fDUuMGBaEeORY4I6G9PfUA" name="getTestValue">
+      <modelElement href="DungeonQuest.uml#_fDTgEGBaEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_fDUuMWBaEeORY4I6G9PfUA" label="+"/>
+      <outParameters xmi:id="_fDUuMmBaEeORY4I6G9PfUA">
+        <modelElement href="DungeonQuest.uml#_fDTgEWBaEeORY4I6G9PfUA"/>
+        <type xmi:id="_fDUuM2BaEeORY4I6G9PfUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_hR8h4GBaEeORY4I6G9PfUA" name="getAttributeTested">
+      <modelElement href="DungeonQuest.uml#_hR760GBaEeORY4I6G9PfUA"/>
+      <visibility xmi:id="_hR8h4WBaEeORY4I6G9PfUA" label="+"/>
+      <outParameters xmi:id="_hR8h4mBaEeORY4I6G9PfUA">
+        <modelElement href="DungeonQuest.uml#_hR760WBaEeORY4I6G9PfUA"/>
+        <type xmi:id="_hR8h42BaEeORY4I6G9PfUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9mjzoGHyEeOo6sOu_oBQYA" name="trapped">
+      <modelElement href="DungeonQuest.uml#_9me7IGHyEeOo6sOu_oBQYA"/>
+      <visibility xmi:id="_9mjzoWHyEeOo6sOu_oBQYA" label="+"/>
+      <outParameters xmi:id="_9mjzomHyEeOo6sOu_oBQYA">
+        <modelElement href="DungeonQuest.uml#_9me7IWHyEeOo6sOu_oBQYA"/>
+        <type xmi:id="_9mjzo2HyEeOo6sOu_oBQYA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9mjzpGHyEeOo6sOu_oBQYA" name="dieValue">
+        <modelElement href="DungeonQuest.uml#_9mhXYGHyEeOo6sOu_oBQYA"/>
+        <type xmi:id="_9mjzpWHyEeOo6sOu_oBQYA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mgG2UF6NEeOmZ9VcqiNTzg" name="PlayerAction" associationsIn="_bYc9sGEEEeOgk8BjAaYrqQ _Kh_hcGEFEeOgk8BjAaYrqQ" associationsOut="_1TeJ4F7CEeOmZ9VcqiNTzg _3bph4F7DEeOmZ9VcqiNTzg _sq44kF7EEeOmZ9VcqiNTzg _cfL8QGEEEeOgk8BjAaYrqQ">
+    <modelElement href="DungeonQuest.uml#_mgGPQF6NEeOmZ9VcqiNTzg"/>
+    <visualProperties xmi:id="_mgG2UV6NEeOmZ9VcqiNTzg" position="1080.0,-713.0" size="185.0,333.0"/>
+    <visibility xmi:id="_mgG2Ul6NEeOmZ9VcqiNTzg" label="+"/>
+    <attributes xmi:id="_1Tew8F7CEeOmZ9VcqiNTzg" name="cardFactory">
+      <modelElement href="DungeonQuest.uml#_1TcUtF7CEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_1Tew8V7CEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_1Tew8l7CEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Tew817CEeOmZ9VcqiNTzg" name="CardFactory">
+        <modelElement href="DungeonQuest.uml#_7hOCYF6-EeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3bqwAF7DEeOmZ9VcqiNTzg" name="gameBoard">
+      <modelElement href="DungeonQuest.uml#_3bnstF7DEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_3bqwAV7DEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_3bqwAl7DEeOmZ9VcqiNTzg" label="1" max="1" min="1"/>
+      <type xmi:id="_3brXEF7DEeOmZ9VcqiNTzg" name="GameBoard">
+        <modelElement href="DungeonQuest.uml#_-EEQQFn1EeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sq6GsF7EEeOmZ9VcqiNTzg" name="combat">
+      <modelElement href="DungeonQuest.uml#_sq0nIV7EEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_sq6GsV7EEeOmZ9VcqiNTzg" label="+"/>
+      <cardinality xmi:id="_sq6Gsl7EEeOmZ9VcqiNTzg" label="*" max="-1"/>
+      <type xmi:id="_sq6Gs17EEeOmZ9VcqiNTzg" name="Combat">
+        <modelElement href="DungeonQuest.uml#__esq8FnkEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bYeL0GEEEeOgk8BjAaYrqQ" name="manager">
+      <modelElement href="DungeonQuest.uml#_bYVo8WEEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_bYeL0WEEEeOgk8BjAaYrqQ" label="+"/>
+      <cardinality xmi:id="_bYeL0mEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bYeL02EEEeOgk8BjAaYrqQ" name="Manager">
+        <modelElement href="DungeonQuest.uml#_NrXRsF6KEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cfNxcGEEEeOgk8BjAaYrqQ" name="playerInfo">
+      <modelElement href="DungeonQuest.uml#_cfI482EEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_cfNxcWEEEeOgk8BjAaYrqQ" label="+"/>
+      <cardinality xmi:id="_cfNxcmEEEeOgk8BjAaYrqQ" label="1" max="1" min="1"/>
+      <type xmi:id="_cfNxc2EEEeOgk8BjAaYrqQ" name="PlayerInfo">
+        <modelElement href="DungeonQuest.uml#_bFBVcFnfEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KiAIgGEFEeOgk8BjAaYrqQ" name="tokenFactory">
+      <modelElement href="DungeonQuest.uml#_Kh8eIWEFEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_KiAIgWEFEeOgk8BjAaYrqQ" label="+"/>
+      <cardinality xmi:id="_KiAIgmEFEeOgk8BjAaYrqQ" label="*" max="-1"/>
+      <type xmi:id="_KiAIg2EFEeOgk8BjAaYrqQ" name="TokenFactory">
+        <modelElement href="DungeonQuest.uml#_489JIF6uEeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vNv-MGH2EeOo6sOu_oBQYA" name="drawnCard">
+      <modelElement href="DungeonQuest.uml#_vNth8GH2EeOo6sOu_oBQYA"/>
+      <visibility xmi:id="_vNv-MWH2EeOo6sOu_oBQYA" label="+"/>
+      <cardinality xmi:id="_vNv-MmH2EeOo6sOu_oBQYA" label="1" max="1" min="1"/>
+      <type xmi:id="_vNv-M2H2EeOo6sOu_oBQYA" name="Card">
+        <modelElement href="DungeonQuest.uml#_WIE3IF69EeOmZ9VcqiNTzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xH26cGH2EeOo6sOu_oBQYA" name="die">
+      <modelElement href="DungeonQuest.uml#_xH1sUGH2EeOo6sOu_oBQYA"/>
+      <visibility xmi:id="_xH26cWH2EeOo6sOu_oBQYA" label="+"/>
+      <cardinality xmi:id="_xH26cmH2EeOo6sOu_oBQYA" label="1" max="1" min="1"/>
+      <type xmi:id="_xH26c2H2EeOo6sOu_oBQYA" name="Die">
+        <modelElement href="DungeonQuest.uml#_PVDHUFnfEeOEJOtzZXoAfg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GKaaAF6QEeOmZ9VcqiNTzg" name="chooseHero">
+      <modelElement href="DungeonQuest.uml#_TqRV8FnxEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_GKaaAV6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_IOWnsF6QEeOmZ9VcqiNTzg" name="search">
+      <modelElement href="DungeonQuest.uml#_EU-14FoQEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_IOWnsV6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_JX8F8F6QEeOmZ9VcqiNTzg" name="move">
+      <modelElement href="DungeonQuest.uml#__A338FoPEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_JX8F8V6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_KPPhYF6QEeOmZ9VcqiNTzg" name="drawCard">
+      <modelElement href="DungeonQuest.uml#_42drUFnnEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_KPPhYV6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_PG7pEF6QEeOmZ9VcqiNTzg" name="enterCatacombs">
+      <modelElement href="DungeonQuest.uml#_vWprgFnzEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_PG7pEV6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_PG7pE16QEeOmZ9VcqiNTzg" name="exitCatacombs">
+      <modelElement href="DungeonQuest.uml#_1nTKMFnzEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_PG7pFF6QEeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_inQ_sF6REeOmZ9VcqiNTzg" name="death">
+      <modelElement href="DungeonQuest.uml#_inQYoF6REeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_inQ_sV6REeOmZ9VcqiNTzg" label="+"/>
+    </operations>
+    <operations xmi:id="_PuUR0GEEEeOgk8BjAaYrqQ" name="getPlayerNo">
+      <modelElement href="DungeonQuest.uml#_GSwpoFnuEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_PuUR0WEEEeOgk8BjAaYrqQ" label="+"/>
+      <outParameters xmi:id="_PuUR0mEEEeOgk8BjAaYrqQ">
+        <modelElement href="DungeonQuest.uml#_GSwpoVnuEeOEJOtzZXoAfg"/>
+        <type xmi:id="_PuUR02EEEeOgk8BjAaYrqQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_QX3lIGEEEeOgk8BjAaYrqQ" name="addPlayerToken">
+      <modelElement href="DungeonQuest.uml#_zgTQMFntEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_QX3lIWEEEeOgk8BjAaYrqQ" label="+"/>
+      <parameters xmi:id="_QX3lImEEEeOgk8BjAaYrqQ" name="token">
+        <modelElement href="DungeonQuest.uml#_zgT3QVntEeOEJOtzZXoAfg"/>
+        <type xmi:id="_QX3lI2EEEeOgk8BjAaYrqQ" name="Token">
+          <modelElement href="DungeonQuest.uml#_p3wEkF6uEeOmZ9VcqiNTzg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RJIqAGEEEeOgk8BjAaYrqQ" name="removePlayerToken">
+      <modelElement href="DungeonQuest.uml#_3yEnYFntEeOEJOtzZXoAfg"/>
+      <visibility xmi:id="_RJIqAWEEEeOgk8BjAaYrqQ" label="+"/>
+      <parameters xmi:id="_RJIqAmEEEeOgk8BjAaYrqQ" name="token">
+        <modelElement href="DungeonQuest.uml#_3yEnYlntEeOEJOtzZXoAfg"/>
+        <type xmi:id="_RJIqA2EEEeOgk8BjAaYrqQ" name="Token">
+          <modelElement href="DungeonQuest.uml#_p3wEkF6uEeOmZ9VcqiNTzg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RzjgAGEEEeOgk8BjAaYrqQ" name="getLocation">
+      <modelElement href="DungeonQuest.uml#_sWjz4F6vEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_RzjgAWEEEeOgk8BjAaYrqQ" label="+"/>
+      <outParameters xmi:id="_RzjgAmEEEeOgk8BjAaYrqQ">
+        <modelElement href="DungeonQuest.uml#_sWjz4V6vEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_RzjgA2EEEeOgk8BjAaYrqQ" name="Array">
+          <modelElement href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SeViYGEEEeOgk8BjAaYrqQ" name="setLocation">
+      <modelElement href="DungeonQuest.uml#_0-0qMF6vEeOmZ9VcqiNTzg"/>
+      <visibility xmi:id="_SeViYWEEEeOgk8BjAaYrqQ" label="+"/>
+      <parameters xmi:id="_SeViYmEEEeOgk8BjAaYrqQ" name="x">
+        <modelElement href="DungeonQuest.uml#_0-0qMV6vEeOmZ9VcqiNTzg"/>
+      </parameters>
+      <parameters xmi:id="_SeViY2EEEeOgk8BjAaYrqQ" name="y">
+        <modelElement href="DungeonQuest.uml#_0-0qMl6vEeOmZ9VcqiNTzg"/>
+        <type xmi:id="_SeViZGEEEeOgk8BjAaYrqQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SeViZWEEEeOgk8BjAaYrqQ" name="int">
+        <modelElement href="DungeonQuest.uml#_0-0qM16vEeOmZ9VcqiNTzg"/>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aX3qcGEEEeOgk8BjAaYrqQ" name="encounterMonster">
+      <modelElement href="DungeonQuest.uml#_aX3DYGEEEeOgk8BjAaYrqQ"/>
+      <visibility xmi:id="_aX3qcWEEEeOgk8BjAaYrqQ" label="+"/>
     </operations>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
