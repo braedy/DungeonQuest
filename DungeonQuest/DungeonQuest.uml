@@ -46,6 +46,7 @@
       <ownedOperation xmi:id="_Y2z7AFnrEeOEJOtzZXoAfg" name="getCardInfo">
         <ownedParameter xmi:id="_Y2z7AVnrEeOEJOtzZXoAfg" direction="return"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_97lHwGH6EeOo6sOu_oBQYA" name="endTurn"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xAjIsFnLEeOEJOtzZXoAfg" name="HeroCard">
       <ownedRule xmi:id="_-TC5gFnLEeOEJOtzZXoAfg" name="constraint1">
@@ -209,9 +210,7 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_9me7IGHyEeOo6sOu_oBQYA" name="trapped">
-        <ownedParameter xmi:id="_9me7IWHyEeOo6sOu_oBQYA" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedParameter>
+        <ownedParameter xmi:id="_9me7IWHyEeOo6sOu_oBQYA" direction="return"/>
         <ownedParameter xmi:id="_9mhXYGHyEeOo6sOu_oBQYA" name="dieValue">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
@@ -223,9 +222,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_aW4psGBZEeORY4I6G9PfUA" name="isOpen">
-        <ownedParameter xmi:id="_aW4psWBZEeORY4I6G9PfUA" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </ownedParameter>
+        <ownedParameter xmi:id="_aW4psWBZEeORY4I6G9PfUA" direction="return"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_4LZ68FnNEeOEJOtzZXoAfg" name="CryptCard">
@@ -795,6 +792,10 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_vNth8GH2EeOo6sOu_oBQYA" name="drawnCard" type="_WIE3IF69EeOmZ9VcqiNTzg"/>
       <ownedAttribute xmi:id="_xH1sUGH2EeOo6sOu_oBQYA" name="die" type="_PVDHUFnfEeOEJOtzZXoAfg"/>
+      <ownedAttribute xmi:id="_HiR8QGH7EeOo6sOu_oBQYA" name="card" type="_WIE3IF69EeOmZ9VcqiNTzg" association="_HiRVMGH7EeOo6sOu_oBQYA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HiVmoGH7EeOo6sOu_oBQYA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HiWNsGH7EeOo6sOu_oBQYA" value="*"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_TqRV8FnxEeOEJOtzZXoAfg" name="chooseHero"/>
       <ownedOperation xmi:id="_EU-14FoQEeOEJOtzZXoAfg" name="search"/>
       <ownedOperation xmi:id="__A338FoPEeOEJOtzZXoAfg" name="move"/>
@@ -826,6 +827,7 @@
         <ownedParameter xmi:id="_0-0qM16vEeOmZ9VcqiNTzg" name="int"/>
       </ownedOperation>
       <ownedOperation xmi:id="_aX3DYGEEEeOgk8BjAaYrqQ" name="encounterMonster"/>
+      <ownedOperation xmi:id="_VumRAGH7EeOo6sOu_oBQYA" name="endTurn"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_uc0jUF6PEeOmZ9VcqiNTzg" name="" memberEnd="_uc1KYF6PEeOmZ9VcqiNTzg _uc1KY16PEeOmZ9VcqiNTzg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_QQ2zoF6SEeOmZ9VcqiNTzg" name="ServerViewer">
@@ -902,6 +904,10 @@
       <ownedAttribute xmi:id="_gMcXsF7AEeOmZ9VcqiNTzg" name="cardFactory" type="_7hOCYF6-EeOmZ9VcqiNTzg" association="_gMbwoF7AEeOmZ9VcqiNTzg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gMcXsV7AEeOmZ9VcqiNTzg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gMcXsl7AEeOmZ9VcqiNTzg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HiWNsWH7EeOo6sOu_oBQYA" name="playerAction" type="_mgGPQF6NEeOmZ9VcqiNTzg" association="_HiRVMGH7EeOo6sOu_oBQYA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HiWNsmH7EeOo6sOu_oBQYA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HiW0wGH7EeOo6sOu_oBQYA" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_r2j80F69EeOmZ9VcqiNTzg" client="_WIE3IF69EeOmZ9VcqiNTzg" supplier="_D_CocFnLEeOEJOtzZXoAfg" contract="_D_CocFnLEeOEJOtzZXoAfg"/>
     </packagedElement>
@@ -1042,6 +1048,7 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_Kh8eIGEFEeOgk8BjAaYrqQ" name="" memberEnd="_Kh8eIWEFEeOgk8BjAaYrqQ _Kh9FMmEFEeOgk8BjAaYrqQ"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_ZwYhwGEGEeOgk8BjAaYrqQ" name="drawCombatCard"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_f9fkQGEGEeOgk8BjAaYrqQ" name="getCardDrawn"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HiRVMGH7EeOo6sOu_oBQYA" name="" memberEnd="_HiR8QGH7EeOo6sOu_oBQYA _HiWNsWH7EeOo6sOu_oBQYA"/>
     <profileApplication xmi:id="_Gt2bQFnPEeOEJOtzZXoAfg">
       <eAnnotations xmi:id="_Gt4QcFnPEeOEJOtzZXoAfg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
