@@ -22,8 +22,8 @@ public class GameBoard {
     */
    private ChamberFactory chamberFactory;
    
-   public void setChamberFactory(ChamberFactory value) {
-      this.chamberFactory = value;
+   public void setChamberFactory() {
+      chamberFactory = new ChamberFactory();
    }
    
    public ChamberFactory getChamberFactory() {
@@ -37,15 +37,7 @@ public class GameBoard {
     *           gameBoard        &lt;       manager
     * </pre>
     */
-   private Manager manager;
    
-   public void setManager(Manager value) {
-      this.manager = value;
-   }
-   
-   public Manager getManager() {
-      return this.manager;
-   }
    
    /**
     * <pre>
