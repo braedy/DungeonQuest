@@ -1,37 +1,35 @@
+import null.Array;
 import Array;
+import org.apache.commons.lang.ArrayUtils;
 import java.util.Set;
 import java.util.HashSet;
 
 public class Manager {
-private GameBoard board;
+private static GameBoard board;
 
-private void setBoard(GameBoard value) {
-   this.board = value;
-}
-
-private GameBoard getBoard() {
-   return this.board;
-}
-
-private Array players;
+private PlayerInfo[] players;
 
 private void setPlayers(Array value) {
    this.players = value;
 }
 
-private Array getPlayers() {
+private PlayerInfo[] getPlayers() {
    return this.players;
 }
-
 private PlayerInfo currentTurn;
 
 private void setCurrentTurn(PlayerInfo value) {
-   this.currentTurn = value;
+this.currentTurn = value;
 }
 
 private PlayerInfo getCurrentTurn() {
    return this.currentTurn;
 }
+
+
+
+
+
 
 /**
  * <pre>
@@ -126,38 +124,40 @@ public void endGame() {
 }
 
 public void newPlayer(String gamerTag) {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   PlayerAction playerAction = new PlayerAction();
+   playerAction.setPlayerInfo(new PlayerInfo(gamerTag));
+   playerAction.chooseHero();
+   PlayerInfo player = playerAction.getPlayerInfo();
+   ArrayUtils.add(players, player);
 }
 
-public Array getPlayers() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+public PlayerInfo[] getPlayers() {
+   return players;
 }
 
 public GameBoard getBoard() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   return board;
 }
 
 public PlayerInfo getCurrentTurn() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   return currentTurn;
 }
 
 public void nextTurn() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+	if (java.util.Arrays.binarySearch(players, currentTurn) = players.length-1){
+			currentTurn = players[0];
+	}
+	else{
+		   currentTurn = players[java.util.Arrays.binarySearch(players, currentTurn)];
+	}
 }
 
 public void removePlayer(PlayerInfo player) {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   players = ArrayUtils.removeElement(players, player);
 }
 
 public void combatState() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   new combatState();
 }
 
 public void notify() {

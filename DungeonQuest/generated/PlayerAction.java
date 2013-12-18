@@ -1,8 +1,28 @@
+import null.Array;
 import java.util.Set;
 import java.util.HashSet;
+import org.apache.commons.lang.ArrayUtils;
 import Array;
 
 public class PlayerAction {
+/**
+    * <pre>
+    *           1..1     1..1
+    * PlayerAction ------------------------- PlayerInfo
+    *           playerAction        &gt;       playerInfo
+    * </pre>
+    */
+   private PlayerInfo playerInfo;
+   
+   public void setPlayerInfo(PlayerInfo value) {
+      this.playerInfo = value;
+   }
+   
+   public PlayerInfo getPlayerInfo() {
+      return this.playerInfo;
+   }
+   
+	
 /**
  * <pre>
  *           0..*     1..1
@@ -72,23 +92,6 @@ public Manager getManager() {
 
 /**
  * <pre>
- *           1..1     1..1
- * PlayerAction ------------------------- PlayerInfo
- *           playerAction        &gt;       playerInfo
- * </pre>
- */
-private PlayerInfo playerInfo;
-
-public void setPlayerInfo(PlayerInfo value) {
-   this.playerInfo = value;
-}
-
-public PlayerInfo getPlayerInfo() {
-   return this.playerInfo;
-}
-
-/**
- * <pre>
  *           0..*     0..*
  * PlayerAction ------------------------- TokenFactory
  *           playerAction        &lt;       tokenFactory
@@ -101,6 +104,12 @@ public Set<TokenFactory> getTokenFactory() {
 this.tokenFactory = new HashSet<TokenFactory>();
    }
    return this.tokenFactory;
+}
+
+public PlayerAction() {
+	die = new Die();
+	cardFactory = new CardFactory();
+	
 }
 
 private Card drawnCard;
@@ -140,8 +149,8 @@ this.card = new HashSet<Card>();
 }
 
 public void chooseHero() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+	playerInfo.hero = drawCard(HeroCard card);
+	playerInfo.hero.setRune(drawCard(RuneCard card)));
 }
 
 public void search() {
@@ -150,63 +159,71 @@ public void search() {
 }
 
 public void move() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   if (Gameboard.getCurrentChamber().getClass().getName().compareTo("TrapChamber")){
+	   drawnCard = drawCard(TrapCard card);
+	   die.rollDie();
+	   drawnCard.trapped(die.getDieValue())   
+   }
+   //Gameboard.getCurrentChamber()  && move interaction check for door/portcullis
+   else throw new UnsupportedOperationException("not implemented");
 }
 
-public void drawCard() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+public void drawCard(Card card) {
+	// to be reconfigured in next iteration i.e. remove hard code entirely
+   switch(card.getClass().getName()){
+   case "DungeonCard": drawnCard = cardFactory.createDungeonCard();
+   				return drawnCard;
+   case "TrapCard": drawnCard = cardFactory.createTrapCard();
+   				return drawnCard;
+   case "HeroCard": drawnCard = cardFactory.createHeroCard();
+   				return drawnCard;
+   case "RuneCard": drawnCard = cardFactory.createRuneCard();
+   				return drawnCard;
+   case "TreasureCard": drawnCard = cardFactory.createTreasureCard();
+   				return drawnCard;
+   // etc.
+   };
 }
 
 public void enterCatacombs() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   playerInfo.inCatacombs = true;
 }
 
 public void exitCatacombs() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   playerInfo.inCatabombs = false;
 }
 
 public void death() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   playerInfo.dead = true;
 }
 
 public int getPlayerNo() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   return playerInfo.playerNo;
 }
 
 public void addPlayerToken(Token token) {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   playerInfo.hero.updateActiveTokens(token);
 }
 
 public void removePlayerToken(Token token) {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   playerInfo.hero.updateActiveTokens(token);
 }
 
-public Array getLocation() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+public int[][] getLocation() {
+   return playerInfo.boardLocation;
 }
 
-public void setLocation(String/*No type specified*/ x, int y, String/*No type specified*/ int) {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+public void setLocation(int x, int y) {
+   playerInfo.boardLocation = [x][y];
 }
 
 public void encounterMonster() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+   Manager.combatState();
 }
 
 public void endTurn() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
+	Manager.nextTurn();
 }
 
 }
+

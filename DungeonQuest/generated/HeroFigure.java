@@ -1,18 +1,18 @@
 
 public class HeroFigure extends Token {
-private PlayerInfo hero;
-
-private void setHero(PlayerInfo value) {
-   this.hero = value;
-}
-
-private PlayerInfo getHero() {
-   return this.hero;
-}
-
-public PlayerInfo getHero() {
-   // TODO implement this operation
-   throw new UnsupportedOperationException("not implemented");
-}
-
-}
+   private Player hero;
+   
+   private void setHero(Player value) {
+      this.hero = value;
+   }
+   
+   private Player getHero() {
+      return this.hero;
+   }
+   
+   public Player getHero() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   }
