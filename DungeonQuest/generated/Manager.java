@@ -20,6 +20,7 @@ private PlayerInfo currentTurn;
 
 private void setCurrentTurn(PlayerInfo value) {
 this.currentTurn = value;
+
 }
 
 private PlayerInfo getCurrentTurn() {

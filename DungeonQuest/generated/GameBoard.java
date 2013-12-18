@@ -96,13 +96,13 @@ public class GameBoard {
    
    public void addChamber() {
 	   // to be reconfigured in next iteration i.e. remove hard code entirely
-	   switch(card.getClass().getName()){
-	   case 1: currentChamber = chamberFactory.createDungeonChamber();
-	   				return currentChamber;
-	   case 2: currentChamber = chamberFactory.createTrapChamber();
-	   				return currentChamber;
-	   case 3: currentChamber = chamberFactory.createTreasureChamber();
-	   				return currentChamber;
+//	   switch(card.getClass().getName()){
+//	   case 1: currentChamber = chamberFactory.createDungeonChamber();
+//	   				return currentChamber;
+//	   case 2: currentChamber = chamberFactory.createTrapChamber();
+//	   				return currentChamber;
+//	   case 3: currentChamber = chamberFactory.createTreasureChamber();
+//	   				return currentChamber;
 	   // etc.
 	   };
    }
@@ -116,7 +116,7 @@ public class GameBoard {
    }
    
    public void removeBoardTokens(Token token) {
-      currentChamber.setActiveToken(null);
+      currentChamber.setActiveToken(token);
    }
    
    }

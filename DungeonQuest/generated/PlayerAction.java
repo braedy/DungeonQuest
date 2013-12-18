@@ -14,8 +14,8 @@ public class PlayerAction {
     */
    private PlayerInfo playerInfo;
    
-   public void setPlayerInfo(PlayerInfo value) {
-      this.playerInfo = value;
+   public void setPlayerInfo() {
+      playerInfo = Manager.getCurrentTurn();
    }
    
    public PlayerInfo getPlayerInfo() {
