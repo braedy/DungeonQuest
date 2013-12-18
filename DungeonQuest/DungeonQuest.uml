@@ -6,7 +6,7 @@
         <contents xmi:type="uml:InterfaceRealization" xmi:id="_cR3QIFnsEeOEJOtzZXoAfg" client="_3Zb6YFnsEeOEJOtzZXoAfg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_MpzpsGW_EeO2teopRjn58w" source="codegen">
-        <details xmi:id="_MpzpsWW_EeO2teopRjn58w" key="AssociatedSourceCode" value="/DungeonQuest/generated/CardInterface.java;2846165640/1;/DungeonQuest/generated/HeroCard.java;138372689/1;/DungeonQuest/generated/RuneCard.java;3206376861/1;/DungeonQuest/generated/DungeonCard.java;1995751049/1;/DungeonQuest/generated/DragonCard.java;2266987567/1;/DungeonQuest/generated/TreasureCard.java;2287554545/1;/DungeonQuest/generated/TrapCard.java;2460978301/1;/DungeonQuest/generated/DoorCard.java;1815617158/1;/DungeonQuest/generated/CryptCard.java;3149580984/1;/DungeonQuest/generated/CorpseCard.java;3129873316/1;/DungeonQuest/generated/SearchCard.java;2551914115/1;/DungeonQuest/generated/CatacombCard.java;4251978642/1;/DungeonQuest/generated/CombatCard.java;3506806544/1;/DungeonQuest/generated/PowerCard.java;1397640542/1;/DungeonQuest/generated/Die.java;2312202754/1;/DungeonQuest/generated/PlayerInfo.java;897041578/1;/DungeonQuest/generated/Combat.java;2699309074/1;/DungeonQuest/generated/TokenInterface.java;1576674720/1;/DungeonQuest/generated/WoundToken.java;4128157822/1;/DungeonQuest/generated/DeterminationToken.java;1431327845/1;/DungeonQuest/generated/MonsterToken.java;1565979458/1;/DungeonQuest/generated/CatacombEntrance.java;4152066568/1;/DungeonQuest/generated/TravelMarker.java;456420112/1;/DungeonQuest/generated/Timer.java;3649948328/1;/DungeonQuest/generated/SunTrack.java;1736646761/1;/DungeonQuest/generated/GameBoard.java;2124585304/1;/DungeonQuest/generated/HeroFigure.java;3142345876/1;/DungeonQuest/generated/DungeonChamber.java;3348934707/1;/DungeonQuest/generated/TrapChamber.java;2661241898/1;/DungeonQuest/generated/TowerRoom.java;1836096952/1;/DungeonQuest/generated/TreasureChamber.java;3377141588/1;/DungeonQuest/generated/ChamberInterface.java;2509562596/1;/DungeonQuest/generated/Controller.java;997193332/1;/DungeonQuest/generated/Viewer.java;2112747066/1;/DungeonQuest/generated/ChamberFactory.java;2664993525/1;/DungeonQuest/generated/Manager.java;1040844689/1;/DungeonQuest/generated/PlayerAction.java;2630789680/1;/DungeonQuest/generated/ServerViewer.java;3303749915/1;/DungeonQuest/generated/Chamber.java;684244055/1;/DungeonQuest/generated/Token.java;4054858307/1;/DungeonQuest/generated/TokenFactory.java;1442389916/1;/DungeonQuest/generated/Constraints.java;1403780781/1;/DungeonQuest/generated/Card.java;493209930/1;/DungeonQuest/generated/CardFactory.java;2305816436/1;/DungeonQuest/generated/Server.java;4004670541/1;/DungeonQuest/generated/Client.java;1015467144/1;/DungeonQuest/generated/NetworkInterface.java;3911584709/1;"/>
+        <details xmi:id="_MpzpsWW_EeO2teopRjn58w" key="AssociatedSourceCode" value="/DungeonQuest/generated/CardInterface.java;2846165640/1;/DungeonQuest/generated/HeroCard.java;138372689/1;/DungeonQuest/generated/RuneCard.java;3206376861/1;/DungeonQuest/generated/DungeonCard.java;1995751049/1;/DungeonQuest/generated/DragonCard.java;2266987567/1;/DungeonQuest/generated/TreasureCard.java;2287554545/1;/DungeonQuest/generated/TrapCard.java;2460978301/1;/DungeonQuest/generated/DoorCard.java;1815617158/1;/DungeonQuest/generated/CryptCard.java;3149580984/1;/DungeonQuest/generated/CorpseCard.java;3129873316/1;/DungeonQuest/generated/SearchCard.java;2551914115/1;/DungeonQuest/generated/CatacombCard.java;4251978642/1;/DungeonQuest/generated/CombatCard.java;3506806544/1;/DungeonQuest/generated/PowerCard.java;1397640542/1;/DungeonQuest/generated/Die.java;2312202754/1;/DungeonQuest/generated/PlayerInfo.java;897041578/1;/DungeonQuest/generated/Combat.java;2699309074/1;/DungeonQuest/generated/TokenInterface.java;1576674720/1;/DungeonQuest/generated/WoundToken.java;4128157822/1;/DungeonQuest/generated/DeterminationToken.java;1431327845/1;/DungeonQuest/generated/MonsterToken.java;1565979458/1;/DungeonQuest/generated/CatacombEntrance.java;4152066568/1;/DungeonQuest/generated/TravelMarker.java;456420112/1;/DungeonQuest/generated/Timer.java;3649948328/1;/DungeonQuest/generated/SunTrack.java;1736646761/1;/DungeonQuest/generated/GameBoard.java;3243150933/1;/DungeonQuest/generated/HeroFigure.java;3142345876/1;/DungeonQuest/generated/DungeonChamber.java;3348934707/1;/DungeonQuest/generated/TrapChamber.java;2661241898/1;/DungeonQuest/generated/TowerRoom.java;1836096952/1;/DungeonQuest/generated/TreasureChamber.java;3377141588/1;/DungeonQuest/generated/ChamberInterface.java;2509562596/1;/DungeonQuest/generated/Controller.java;997193332/1;/DungeonQuest/generated/Viewer.java;2112747066/1;/DungeonQuest/generated/ChamberFactory.java;2664993525/1;/DungeonQuest/generated/Manager.java;1040844689/1;/DungeonQuest/generated/PlayerAction.java;2630789680/1;/DungeonQuest/generated/ServerViewer.java;3303749915/1;/DungeonQuest/generated/Chamber.java;684244055/1;/DungeonQuest/generated/Token.java;4054858307/1;/DungeonQuest/generated/TokenFactory.java;1442389916/1;/DungeonQuest/generated/Constraints.java;1403780781/1;/DungeonQuest/generated/Card.java;493209930/1;/DungeonQuest/generated/CardFactory.java;2305816436/1;/DungeonQuest/generated/Server.java;4004670541/1;/DungeonQuest/generated/Client.java;1015467144/1;/DungeonQuest/generated/NetworkInterface.java;3911584709/1;"/>
         <details xmi:id="_YH0xUGfREeOIgrnfxEaAhA" key="codegenDirectory" value="/DungeonQuest/generated"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_XeNoEGfbEeOxabL2pKRMAA" source="preferences">
@@ -543,7 +543,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uc1KYV6PEeOmZ9VcqiNTzg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uc1KYl6PEeOmZ9VcqiNTzg" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_hpBLwV6yEeOmZ9VcqiNTzg" name="tokenFactory" type="_489JIF6uEeOmZ9VcqiNTzg" association="_hpBLwF6yEeOmZ9VcqiNTzg">
+      <ownedAttribute xmi:id="_hpBLwV6yEeOmZ9VcqiNTzg" name="tokenFactory" type="_489JIF6uEeOmZ9VcqiNTzg" isReadOnly="true">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hpBy0F6yEeOmZ9VcqiNTzg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hpBy0V6yEeOmZ9VcqiNTzg" value="1"/>
       </ownedAttribute>
@@ -600,6 +600,12 @@
         <body>currentChamber.setActiveToken(null);&#xD;
 </body>
       </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vJe60GfsEeOxabL2pKRMAA" name="setTokenFactory" specification="_vJb3gGfsEeOxabL2pKRMAA">
+        <ownedParameter xmi:id="_vJe60WfsEeOxabL2pKRMAA" name="value" type="_489JIF6uEeOmZ9VcqiNTzg"/>
+        <language>java</language>
+        <body>tokenFactory = new TokenFactory();&#xD;
+</body>
+      </ownedBehavior>
       <ownedOperation xmi:id="_v80cMFoKEeOEJOtzZXoAfg" name="init" method="_AmXsoGfmEeOxabL2pKRMAA"/>
       <ownedOperation xmi:id="_ivtFMFoLEeOEJOtzZXoAfg" name="addChamber" method="_AmXsoWfmEeOxabL2pKRMAA"/>
       <ownedOperation xmi:id="_rme4oFoLEeOEJOtzZXoAfg" name="getCurrentChamber" method="_AmYTsGfmEeOxabL2pKRMAA">
@@ -616,6 +622,9 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmVQYmfmEeOxabL2pKRMAA" value="*"/>
         </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vJb3gGfsEeOxabL2pKRMAA" name="setTokenFactory" method="_vJe60GfsEeOxabL2pKRMAA">
+        <ownedParameter xmi:id="_vJb3gWfsEeOxabL2pKRMAA" name="value" type="_489JIF6uEeOmZ9VcqiNTzg"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_GDL9wFoIEeOEJOtzZXoAfg" name="HeroFigure">
@@ -889,7 +898,6 @@ ArrayUtils.add(players, player);
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kh9FMGEFEeOgk8BjAaYrqQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kh9FMWEFEeOgk8BjAaYrqQ" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_vNth8GH2EeOo6sOu_oBQYA" name="drawnCard" type="_WIE3IF69EeOmZ9VcqiNTzg" association="_YIxMgGfREeOIgrnfxEaAhA"/>
       <ownedAttribute xmi:id="_xH1sUGH2EeOo6sOu_oBQYA" name="die" type="_PVDHUFnfEeOEJOtzZXoAfg" association="_YIxzkWfREeOIgrnfxEaAhA"/>
       <ownedAttribute xmi:id="_HiR8QGH7EeOo6sOu_oBQYA" name="card" type="_WIE3IF69EeOmZ9VcqiNTzg" association="_HiRVMGH7EeOo6sOu_oBQYA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HiVmoGH7EeOo6sOu_oBQYA"/>
@@ -1086,7 +1094,7 @@ throw new UnsupportedOperationException(&quot;not implemented&quot;);
       <interfaceRealization xmi:id="_w9BWwF6xEeOmZ9VcqiNTzg" client="_p3wEkF6uEeOmZ9VcqiNTzg" supplier="_z09jgFnrEeOEJOtzZXoAfg" contract="_z09jgFnrEeOEJOtzZXoAfg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_489JIF6uEeOmZ9VcqiNTzg" name="TokenFactory">
-      <ownedAttribute xmi:id="_hpBy0l6yEeOmZ9VcqiNTzg" name="gameBoard" type="_-EEQQFn1EeOEJOtzZXoAfg" association="_hpBLwF6yEeOmZ9VcqiNTzg">
+      <ownedAttribute xmi:id="_hpBy0l6yEeOmZ9VcqiNTzg" name="gameBoard" type="_-EEQQFn1EeOEJOtzZXoAfg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hpBy016yEeOmZ9VcqiNTzg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hpBy1F6yEeOmZ9VcqiNTzg" value="1"/>
       </ownedAttribute>
@@ -1116,7 +1124,6 @@ throw new UnsupportedOperationException(&quot;not implemented&quot;);
     <packagedElement xmi:type="uml:Association" xmi:id="_oLsggF6wEeOmZ9VcqiNTzg" name="" memberEnd="_oLsggV6wEeOmZ9VcqiNTzg _oLtHkl6wEeOmZ9VcqiNTzg"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_WavK4F6xEeOmZ9VcqiNTzg" name="currentChamber"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_4A5pMF6xEeOmZ9VcqiNTzg" name="" memberEnd="_4A5pMV6xEeOmZ9VcqiNTzg _4A6QQV6xEeOmZ9VcqiNTzg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_hpBLwF6yEeOmZ9VcqiNTzg" name="" memberEnd="_hpBLwV6yEeOmZ9VcqiNTzg _hpBy0l6yEeOmZ9VcqiNTzg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_C8pdsF61EeOmZ9VcqiNTzg" name="Constraints" isAbstract="true">
       <ownedAttribute xmi:id="_ddbP4V7EEeOmZ9VcqiNTzg" name="manager" type="_NrXRsF6KEeOmZ9VcqiNTzg" association="_ddbP4F7EEeOmZ9VcqiNTzg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ddb28F7EEeOmZ9VcqiNTzg" value="1"/>
@@ -1280,9 +1287,6 @@ throw new UnsupportedOperationException(&quot;not implemented&quot;);
     <packagedElement xmi:type="uml:Class" xmi:id="_YIh78GfREeOIgrnfxEaAhA" name="Array"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_YIoCkGfREeOIgrnfxEaAhA" name="null">
       <packagedElement xmi:type="uml:Class" xmi:id="_YIopoGfREeOIgrnfxEaAhA" name="Array"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_YIxMgGfREeOIgrnfxEaAhA" name="" memberEnd="_vNth8GH2EeOo6sOu_oBQYA _YIxzkGfREeOIgrnfxEaAhA">
-      <ownedEnd xmi:id="_YIxzkGfREeOIgrnfxEaAhA" name="" type="_mgGPQF6NEeOmZ9VcqiNTzg" association="_YIxMgGfREeOIgrnfxEaAhA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_YIxzkWfREeOIgrnfxEaAhA" name="" memberEnd="_xH1sUGH2EeOo6sOu_oBQYA _YIyaoGfREeOIgrnfxEaAhA">
       <ownedEnd xmi:id="_YIyaoGfREeOIgrnfxEaAhA" name="" type="_mgGPQF6NEeOmZ9VcqiNTzg" association="_YIxzkWfREeOIgrnfxEaAhA"/>
